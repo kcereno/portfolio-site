@@ -12,14 +12,17 @@ function App() {
       {/* Home Section */}
       <section id="home" className="home-section">
         <Container>
-          <Row className="py-5">
+          <Row className="py-4">
             <Col className="profile col-lg-4 col-12 text-white">
-              <Container>
-                <div className="avatar">
-                  <h2>Profile Pic</h2>
-                </div>
-                <div className="name">
-                  <h3>Karl Anthony Cereno</h3>
+              <Container className="d-flex flex-column align-items-center">
+                <img
+                  className="profile-img rounded-circle py-3"
+                  src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80"
+                  alt="Karl Anthony Cereno"
+                />
+
+                <div className="details text-center">
+                  <h2>Karl Anthony Cereno</h2>
                   <p>Front End Web Developer</p>
                 </div>
                 <div>
@@ -30,10 +33,21 @@ function App() {
             <Col className="bio text-white">
               <Container>
                 <div className="bio">
-                <h2>Bio</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis tenetur error dolorem quam eum dolorum, non in porro rerum recusandae vero voluptate rem. Quo explicabo ad distinctio quae. Voluptate, qui.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis tenetur error dolorem quam eum dolorum, non in porro rerum recusandae vero voluptate rem. Quo explicabo ad distinctio quae. Voluptate, qui.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis tenetur error dolorem quam eum dolorum, non in porro rerum recusandae vero voluptate rem. Quo explicabo ad distinctio quae. Voluptate, qui.</p>
+                  <h2>Bio</h2>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Debitis tenetur error dolorem quam eum dolorum, non in porro
+                    rerum recusandae vero voluptate rem. Quo explicabo ad
+                    distinctio quae. Voluptate, qui.Lorem ipsum dolor sit, amet
+                    consectetur adipisicing elit. Debitis tenetur error dolorem
+                    quam eum dolorum, non in porro rerum recusandae vero
+                    voluptate rem. Quo explicabo ad distinctio quae. Voluptate,
+                    qui.Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Debitis tenetur error dolorem quam eum dolorum, non in
+                    porro rerum recusandae vero voluptate rem. Quo explicabo ad
+                    distinctio quae. Voluptate, qui.
+                  </p>
                 </div>
-          
               </Container>
             </Col>
           </Row>
