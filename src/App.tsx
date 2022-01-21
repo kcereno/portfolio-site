@@ -5,10 +5,17 @@ import NavigationBar from "./Components/Navbar/NavigationBar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import {
+  faCss3,
   faGithub,
+  faHtml5,
   faInstagram,
+  faJs,
   faLinkedin,
+  faNode,
+  faReact,
 } from "@fortawesome/free-brands-svg-icons";
+import SkillEntry from "./Components/SkillEntry/SkillEntry";
+import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   return (
@@ -19,7 +26,7 @@ function App() {
       <section id="home" className="home-section">
         <Container>
           <Row className="py-4">
-            <Col className="profile col-lg-4 col-12 text-white">
+            <Col md={4} className="profile  text-white">
               <Container className="d-flex flex-column align-items-center">
                 <img
                   className="profile-img rounded-circle py-3"
@@ -73,7 +80,28 @@ function App() {
           </Row>
         </Container>
       </section>
+
       {/* Skill Section */}
+      <section id="skills" className="skills-section text-white text-center">
+        <Container className="py-3">
+          <div>
+            <h2 className="display-4 py-3">Skills</h2>
+          </div>
+          <div className="skill-icon-group">
+            <Row className="py-3">
+              <SkillEntry icon={faHtml5} skillName={"HTML"} />
+              <SkillEntry icon={faCss3} skillName={"CSS"} />
+              <SkillEntry icon={faJs} skillName={"Javascript"} />
+            </Row>
+
+            <Row className="py-3">
+              <SkillEntry icon={faReact} skillName={"React"} />
+              <SkillEntry icon={faNode} skillName={"Node.JS"} />
+              <SkillEntry icon={faDatabase} skillName={"MongoDB"} />
+            </Row>
+          </div>
+        </Container>
+      </section>
       {/* Projects Section */}
       {/* Contact Section */}
       {/* Footer */}
