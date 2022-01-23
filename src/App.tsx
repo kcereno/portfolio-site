@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import "./App.scss";
 import NavigationBar from "./Components/Navbar/NavigationBar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -23,9 +23,9 @@ function App() {
       <NavigationBar />
 
       {/* Home Section */}
-      <section id="home" className="home-section">
+      <section id="home" className="py-5">
         <Container>
-          <Row className="py-4">
+          <Row>
             <Col md={4} className="profile  text-white">
               <Container className="d-flex flex-column align-items-center">
                 <img
@@ -82,10 +82,10 @@ function App() {
       </section>
 
       {/* Skill Section */}
-      <section id="skills" className="skills-section text-white text-center">
-        <Container className="py-3">
+      <section id="skills" className="text-white text-center py-5">
+        <Container>
           <div>
-            <h2 className="display-4 py-3">Skills</h2>
+            <h2 className="display-4">Skills</h2>
           </div>
           <div className="skill-icon-group">
             <Row className="py-3">
@@ -99,8 +99,51 @@ function App() {
           </div>
         </Container>
       </section>
+
       {/* Projects Section */}
+      <section id="projects" className="text-white py-5">
+        <Container>
+          <Row>
+            <Col lg={5}>
+              <h2 className="display-5 text-center">Projects</h2>
+            </Col>
+            <Col>
+              <h2>Todo: Figure out how to display projects</h2>
+            </Col>
+          </Row>
+        </Container>
+      </section>
       {/* Contact Section */}
+
+      <section id="contact" className="text-white py-5">
+        <Container>
+          <Row>
+            <Col lg={5}>
+              <h2 className="display-5 text-center">Contact</h2>
+            </Col>
+            <Col>
+              <div>
+                <Form>
+                  <Form.Group className="mb-3" controlId="contactName">
+                    <Form.Control type="text" placeholder="Name" />
+                  </Form.Group>
+                  <Form.Group className="mb-3" controlId="contactEmail">
+                    <Form.Control type="email" placeholder="Email" />
+                  </Form.Group>
+                  <Form.Group className="mb-3" controlId="contactMessage">
+                    <Form.Control
+                      as="textarea"
+                      placeholder="Message"
+                      rows={3}
+                    />
+                  </Form.Group>
+                  <Button variant="outline-light">Send</Button>
+                </Form>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
       {/* Footer */}
     </div>
   );
