@@ -14,7 +14,7 @@ import {
   faNode,
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
-import SkillEntry from "./Components/SkillEntry/SkillEntry";
+import Skill from "./Components/Skill/Skill";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
@@ -89,15 +89,12 @@ function App() {
           </div>
           <div className="skill-icon-group">
             <Row className="py-3">
-              <SkillEntry icon={faHtml5} skillName={"HTML"} />
-              <SkillEntry icon={faCss3} skillName={"CSS"} />
-              <SkillEntry icon={faJs} skillName={"Javascript"} />
-            </Row>
-
-            <Row className="py-3">
-              <SkillEntry icon={faReact} skillName={"React"} />
-              <SkillEntry icon={faNode} skillName={"Node.JS"} />
-              <SkillEntry icon={faDatabase} skillName={"MongoDB"} />
+              <Skill icon={faHtml5} skillName={"HTML"} />
+              <Skill icon={faCss3} skillName={"CSS"} />
+              <Skill icon={faJs} skillName={"Javascript"} />
+              <Skill icon={faReact} skillName={"React"} />
+              <Skill icon={faNode} skillName={"Node.JS"} />
+              <Skill icon={faDatabase} skillName={"MongoDB"} />
             </Row>
           </div>
         </Container>
