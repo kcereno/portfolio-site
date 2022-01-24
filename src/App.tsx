@@ -44,7 +44,7 @@ function App() {
                 </div>
                 <div className="icon-group">
                   <a
-                    href="https://www.google.com/"
+                    href="mailto:karlcereno@gmail.com"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -55,7 +55,7 @@ function App() {
                     />
                   </a>
                   <a
-                    href="https://www.google.com/"
+                    href="https://www.instagram.com/_karlosPeligroso/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -66,7 +66,7 @@ function App() {
                     />
                   </a>
                   <a
-                    href="https://www.google.com/"
+                    href="https://github.com/kcereno"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -77,7 +77,7 @@ function App() {
                     />
                   </a>
                   <a
-                    href="https://www.google.com/"
+                    href="https://www.linkedin.com/in/karlanthonycereno/"
                     target="_blank"
                     rel="noreferrer"
                   >
