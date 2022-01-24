@@ -16,7 +16,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import Skill from "./Components/Skill/Skill";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
-import profilePicture from "./assets/pictures/profile1.png"
+import profilePicture from "./assets/pictures/profile1.png";
 
 function App() {
   return (
@@ -24,10 +24,10 @@ function App() {
       <NavigationBar />
 
       {/* Home Section */}
-      <section id="home" className="py-5">
+      <section id="home" className="py-5 text-white">
         <Container>
           <Row>
-            <Col md={4} className="profile  text-white">
+            <Col md={4} className="profile  ">
               <Container className="d-flex flex-column align-items-center">
                 <img
                   className="profile-img  py-3"
@@ -86,9 +86,9 @@ function App() {
                 </div>
               </Container>
             </Col>
-            <Col className="text-white">
+            <Col className="d-flex align-items-center">
               <Container>
-                <div className="bio">
+                <div>
                   <h2 className="display-4 py-3">Hello There...</h2>
                   <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -141,7 +141,7 @@ function App() {
       <section id="projects" className="text-white py-5">
         <Container>
           <Row>
-            <Col lg={5}>
+            <Col lg={4}>
               <h2 className="display-5 text-center">Projects</h2>
             </Col>
             <Col>
@@ -155,7 +155,7 @@ function App() {
       <section id="contact" className="text-white py-5">
         <Container>
           <Row>
-            <Col lg={5}>
+            <Col lg={4}>
               <h2 className="display-5 text-center">Contact</h2>
             </Col>
             <Col>
