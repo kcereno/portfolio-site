@@ -4,7 +4,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import profilePicture from '../../assets/pictures/profile1.png'
 import { faInstagram, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-export default function Home() {
+export default function HomeSection() {
 
   return(
     <section id="home" className="py-5 text-white">
