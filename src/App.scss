@@ -1,5 +1,20 @@
 $primary-backgound-color: #272935;
 $secondary-backround-color: #23252f;
+$primary-pink: #ff2957;
+$secondary-pink: #ff5277;
+
+a {
+  color: $primary-pink;
+}
+
+a:hover {
+  color: $secondary-pink;
+  cursor: pointer;
+}
+
+button {
+  color: $primary-pink;
+}
 
 #home {
   background-color: $primary-backgound-color;
@@ -22,4 +37,9 @@ $secondary-backround-color: #23252f;
 
 #contact {
   background-color: $secondary-backround-color;
+}
+
+.button {
+  color: $primary-pink;
+  border-color: $primary-pink;
 }

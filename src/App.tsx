@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import "./App.scss";
-import NavigationBar from "./Components/Navbar/NavigationBar";
+import NavigationBar from "./Components/NavigationBar/NavigationBar"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import {
@@ -38,22 +38,50 @@ function App() {
                   <p>Front End Web Developer</p>
                 </div>
                 <div className="icon-group">
-                  <FontAwesomeIcon
-                    className="mx-1"
-                    icon={faEnvelope}
-                    size="2x"
-                  />
-                  <FontAwesomeIcon
-                    className="mx-1"
-                    icon={faInstagram}
-                    size="2x"
-                  />
-                  <FontAwesomeIcon className="mx-1" icon={faGithub} size="2x" />
-                  <FontAwesomeIcon
-                    className="mx-1"
-                    icon={faLinkedin}
-                    size="2x"
-                  />
+                  <a
+                    href="https://www.google.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FontAwesomeIcon
+                      className="mx-1 social-icon"
+                      icon={faEnvelope}
+                      size="2x"
+                    />
+                  </a>
+                  <a
+                    href="https://www.google.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FontAwesomeIcon
+                      className="mx-1"
+                      icon={faInstagram}
+                      size="2x"
+                    />
+                  </a>
+                  <a
+                    href="https://www.google.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FontAwesomeIcon
+                      className="mx-1"
+                      icon={faGithub}
+                      size="2x"
+                    />
+                  </a>
+                  <a
+                    href="https://www.google.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FontAwesomeIcon
+                      className="mx-1"
+                      icon={faLinkedin}
+                      size="2x"
+                    />
+                  </a>
                 </div>
               </Container>
             </Col>
@@ -90,9 +118,17 @@ function App() {
           <div className="skill-icon-group">
             <Row className="py-3">
               <Skill icon={faHtml5} skillName={"HTML"} />
-              <Skill icon={faCss3} skillName={"CSS"} />
-              <Skill icon={faJs} skillName={"Javascript"} />
-              <Skill icon={faReact} skillName={"React"} />
+              <Skill
+                icon={faCss3}
+                skillName={"CSS"}
+                subSkill={"Bootstrap and MaterialUI"}
+              />
+              <Skill
+                icon={faJs}
+                skillName={"Javascript"}
+                subSkill={"Typescript"}
+              />
+              <Skill icon={faReact} skillName={"React"} subSkill={"Next.js"} />
               <Skill icon={faNode} skillName={"Node.JS"} />
               <Skill icon={faDatabase} skillName={"MongoDB"} />
             </Row>
@@ -137,13 +173,15 @@ function App() {
                       rows={3}
                     />
                   </Form.Group>
-                  <Button variant="outline-light">Send</Button>
+                  <Button className="button" variant="outline-light">Send</Button>
                 </Form>
               </div>
             </Col>
           </Row>
         </Container>
       </section>
+
+
       {/* Footer */}
     </div>
   );
