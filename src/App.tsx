@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import "./App.scss";
-import NavigationBar from "./Components/NavigationBar/NavigationBar"
+import NavigationBar from "./Components/NavigationBar/NavigationBar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import {
@@ -16,6 +16,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import Skill from "./Components/Skill/Skill";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
+import profilePicture from "./assets/pictures/profile1.png"
 
 function App() {
   return (
@@ -29,8 +30,8 @@ function App() {
             <Col md={4} className="profile  text-white">
               <Container className="d-flex flex-column align-items-center">
                 <img
-                  className="profile-img rounded-circle py-3"
-                  src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80"
+                  className="profile-img  py-3"
+                  src={profilePicture}
                   alt="Karl Anthony Cereno"
                 />
                 <div className="details text-center">
@@ -173,14 +174,15 @@ function App() {
                       rows={3}
                     />
                   </Form.Group>
-                  <Button className="button" variant="outline-light">Send</Button>
+                  <Button className="button" variant="outline-light">
+                    Send
+                  </Button>
                 </Form>
               </div>
             </Col>
           </Row>
         </Container>
       </section>
-
 
       {/* Footer */}
     </div>
