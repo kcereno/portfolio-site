@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import "./App.scss";
-import NavigationBar from "./Components/NavigationBar/NavigationBar";
+import NavigationBar from "./Sections/NavigationBar/NavigationBar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import {
@@ -19,6 +19,7 @@ import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 import profilePicture from "./assets/pictures/profile1.png";
 import Project from "./Components/Project/Project";
 import barbellBuddyScreencap from "./assets/pictures/barbellbuddyscreencap.jpg";
+import Home from "./Sections/Home/Home";
 
 function App() {
   const currentYear = new Date().getFullYear();
@@ -26,8 +27,9 @@ function App() {
   return (
     <div className="App">
       <NavigationBar />
+      <Home />
 
-      {/* Home Section */}
+      {/* Home Section
       <section id="home" className="py-5 text-white">
         <Container>
           <Row>
@@ -112,7 +114,7 @@ function App() {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
 
       {/* Skill Section */}
       <section id="skills" className="text-white text-center py-5">
