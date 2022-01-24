@@ -21,6 +21,8 @@ import Project from "./Components/Project/Project";
 import barbellBuddyScreencap from "./assets/pictures/barbellbuddyscreencap.jpg";
 
 function App() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="App">
       <NavigationBar />
@@ -218,6 +220,13 @@ function App() {
       </section>
 
       {/* Footer */}
+      <section id="footer" className="text-center text-white py-5">
+        <div>
+          <Container>
+            <p>@ Karl Annthony Cereno {currentYear}</p>
+          </Container>
+        </div>
+      </section>
     </div>
   );
 }
