@@ -17,6 +17,8 @@ import {
 import Skill from "./Components/Skill/Skill";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 import profilePicture from "./assets/pictures/profile1.png";
+import Project from "./Components/Project/Project";
+import barbellBuddyScreencap from "./assets/pictures/barbellbuddyscreencap.jpg";
 
 function App() {
   return (
@@ -144,8 +146,39 @@ function App() {
             <Col lg={4}>
               <h2 className="display-5 text-center">Projects</h2>
             </Col>
-            <Col>
-              <h2>Todo: Figure out how to display projects</h2>
+            <Col lg={8} className="d-flex justify-content-around flex-wrap">
+              <Project
+                photoSrc={barbellBuddyScreencap}
+                title={"Barbell Buddy"}
+                description={
+                  "An app to calculate what plates to load on bar based on target weight and how much weight is currently on bar"
+                }
+                madeWith={"React"}
+              />
+              <Project
+                photoSrc={barbellBuddyScreencap}
+                title={"Barbell Buddy"}
+                description={
+                  "An app to calculate what plates to load on bar based on target weight and how much weight is currently on bar"
+                }
+                madeWith={"React"}
+              />
+              <Project
+                photoSrc={barbellBuddyScreencap}
+                title={"Barbell Buddy"}
+                description={
+                  "An app to calculate what plates to load on bar based on target weight and how much weight is currently on bar"
+                }
+                madeWith={"React"}
+              />
+              <Project
+                photoSrc={barbellBuddyScreencap}
+                title={"Barbell Buddy"}
+                description={
+                  "An app to calculate what plates to load on bar based on target weight and how much weight is currently on bar"
+                }
+                madeWith={"React"}
+              />
             </Col>
           </Row>
         </Container>

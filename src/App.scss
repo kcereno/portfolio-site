@@ -43,3 +43,9 @@ button {
   color: $primary-pink;
   border-color: $primary-pink;
 }
+
+.button:hover{
+  color: $secondary-pink;
+  border-color: $secondary-pink;
+  background-color: transparent;
+}
