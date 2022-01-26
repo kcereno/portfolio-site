@@ -2,11 +2,11 @@ import { Card } from "react-bootstrap";
 import styles from "./Project.module.css";
 
 export default function Project(props: any) {
-  const { siteLink, photoSrc, title, description, madeWith } = props;
+  const { url, photoSrc, title, description, madeWith } = props;
 
   return (
     <Card className={styles.projectCard}>
-      <a href={siteLink}>
+      <a href={url} target="_blank" rel="noreferrer noopener">
         <Card.Img variant="top" src={photoSrc} />
       </a>
       <Card.Body>
