@@ -1,14 +1,13 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import styles from "./NavigationBar.module.scss";
 
 export default function NavigationBar() {
   return (
     <React.Fragment>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
         <Container>
   
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" className="m-right" />
           <Navbar.Collapse
             id="responsive-navbar-nav"
             className="justify-content-end"
