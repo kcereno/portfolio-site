@@ -76,7 +76,7 @@ export default function HomeSection() {
                   My name is Karl and I am a web developer based in NYC and I
                   make <span style={{ color: "#ff2957" }}>modern</span> and
                   <span style={{ color: "#ff2957" }}> responsive</span> websites written
-                  with elegant, easy to read and maintanable code.
+                  with elegant, easy to read and maintainable code.
                 </h3>
               </div>
             </Container>
