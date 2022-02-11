@@ -76,7 +76,7 @@ export default function HomeSection() {
                   and web apps written in{" "}
                   <span style={{ color: "#ff2957" }}>elegant</span>,{" "}
                   <span style={{ color: "#ff2957" }}>easy to read</span>, and{" "}
-                  <span style={{ color: "#ff2957" }}>maintanable </span>
+                  <span style={{ color: "#ff2957" }}>maintainable </span>
                   code.
                 </h3>
               </div>

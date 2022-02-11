@@ -14,6 +14,7 @@ export default function NavigationBar() {
           >
             <Nav className="m-auto">
               <Nav.Link href="#home">Home</Nav.Link>
+  
               <Nav.Link href="#skills">Skills</Nav.Link>
               <Nav.Link href="#projects">Projects</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
