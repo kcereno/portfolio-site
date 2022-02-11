@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import profilePicture from "../../assets/pictures/profile1.png";
+import profilePicture from "../../assets/pictures/profile2.png";
 import {
   faInstagram,
   faGithub,
@@ -14,16 +14,13 @@ export default function HomeSection() {
     <section id="home" className="py-5 text-white">
       <Container>
         <Row>
-          <Col md={4} className="profile  ">
+          <Col md={4} className="profile my-auto ">
             <Container className="d-flex flex-column align-items-center">
               <img
-                className="profile-img  py-3"
+                className="profile-img py-3"
                 src={profilePicture}
                 alt="Karl Anthony Cereno"
               />
-              <div className="details text-center mb-2">
-                <h2 className={styles.main}>Karl Anthony Cereno</h2>
-              </div>
               <div className="icon-group">
                 <a
                   href="mailto:karlcereno@gmail.com"
@@ -71,12 +68,16 @@ export default function HomeSection() {
           <Col className="d-flex align-items-center">
             <Container>
               <div>
-                <h2 className="display-4 py-3">Nice To Meet You...</h2>
-                <h3>
-                  My name is Karl and I am a web developer based in NYC and I
-                  make <span style={{ color: "#ff2957" }}>modern</span> and
-                  <span style={{ color: "#ff2957" }}> responsive</span> websites written
-                  with elegant, easy to read and maintainable code.
+                <h2 className={styles.header}>Hey there, I'm Karl.</h2>
+                <h3 className={styles.subheader}>
+                  I'm a web developer from NYC. I make{" "}
+                  <span style={{ color: "#ff2957" }}>modern</span> and
+                  <span style={{ color: "#ff2957" }}> responsive</span> websites
+                  and web apps written in{" "}
+                  <span style={{ color: "#ff2957" }}>elegant</span>,{" "}
+                  <span style={{ color: "#ff2957" }}>easy to read</span>, and{" "}
+                  <span style={{ color: "#ff2957" }}>maintanable </span>
+                  code.
                 </h3>
               </div>
             </Container>
