@@ -6,7 +6,7 @@ export default function Footer() {
     <section id="footer" className="text-center text-white py-4">
       <div>
         <Container>
-          <p>@ Karl Anthony Cereno {currentYear}</p>
+          <p>@ Karl Cereno {currentYear}</p>
         </Container>
       </div>
     </section>
