@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Container, Col, Form, Button, Row } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
+import styles from "./ContactSection.module.css";
 
 export default function ContactSection() {
   const [toSend, setToSend] = useState({
@@ -46,11 +47,11 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="text-white py-5">
+    <section id="contact" className="py-5">
       <Container>
         <Row>
           <Col lg={4}>
-            <h2 className="display-5 text-center">Contact</h2>
+            <h2 className={styles.header}>Contact</h2>
           </Col>
           <Col>
             <div>

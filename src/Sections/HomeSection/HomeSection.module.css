@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playfair+Display:wght@500&display=swap');
 
-
-
 .header {
   font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
@@ -13,11 +11,22 @@
 }
 
 
+.text_container {
+  width: 50%;
+}
 
 @media (max-width:1024px) {
-  .header {
+  .text_container {
+    width: 60%
   }
 }
+
+@media (max-width:768px) {
+  .text_container {
+    width: 90%
+  }
+}
+
 
 
 

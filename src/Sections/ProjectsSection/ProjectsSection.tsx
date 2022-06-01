@@ -2,13 +2,15 @@ import { Container, Row, Col } from "react-bootstrap";
 import Project from "../../Components/Project/Project";
 import barbellBuddyScreencap from "../../assets/pictures/barbellbuddyscreencap.jpg"
 import neonPomoScreencap from '../../assets/pictures/neonPomoScreencap.jpg'
+import styles from './ProjectSection.module.css'
+
 export default function ProjectsSection() {
   return (
-    <section id="projects" className="text-white py-5">
+    <section id="projects" className="py-5">
       <Container>
         <Row>
           <Col lg={4}>
-            <h2 className="display-5 text-center">Projects</h2>
+            <h2 className={styles.header}>My Projects</h2>
           </Col>
           <Col lg={8} className="d-flex justify-content-around flex-wrap">
             <Project

@@ -7,6 +7,7 @@ import ProjectsSection from "./Sections/ProjectsSection/ProjectsSection";
 import ContactSection from "./Sections/ContactSection/ContactSection";
 import Footer from "./Sections/Footer/Footer";
 
+
 function App() {
   return (
     <div className="App">
