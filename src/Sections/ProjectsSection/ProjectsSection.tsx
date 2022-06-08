@@ -1,8 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Project from "../../Components/Project/Project";
-import barbellBuddyScreencap from "../../assets/pictures/barbellbuddyscreencap.jpg"
-import neonPomoScreencap from '../../assets/pictures/neonPomoScreencap.jpg'
-import styles from './ProjectSection.module.css'
+import barbellCalcScreencap from "../../assets/pictures/mui-barbell-calc.jpg";
+import neonPomoScreencap from "../../assets/pictures/neonPomoScreencap.jpg";
+import styles from "./ProjectSection.module.css";
 
 export default function ProjectsSection() {
   return (
@@ -14,21 +14,22 @@ export default function ProjectsSection() {
           </Col>
           <Col lg={8} className="d-flex justify-content-around flex-wrap">
             <Project
-              photoSrc={barbellBuddyScreencap}
-              url={"https://barbell-calculator.vercel.app/"}
-              title={"Barbell Buddy"}
+              photoSrc={barbellCalcScreencap}
+              url={"https://mui-barbell-calc.vercel.app/"}
+              title={"Barbell Calculator"}
               description={
-                "An app to calculate what plates to load on bar based on target weight and how much weight is currently on bar"
+                "Weightlifting app used to calculate the loadout for a desired weight. User has the option to specify bar weight and their available plate increments."
               }
-              madeWith={"React"}
+              madeWith={"React, Typescript, MaterialUI"}
             />
-               <Project
+            <Project
               photoSrc={neonPomoScreencap}
               url={"https://kcereno.github.io/pomodoro-timer/"}
               title={"Neon Pomo"}
               description={
-                "A neon themed pomodoro timer app. The colors change depending on what mode its on."}
-              madeWith={"React"}
+                "A neon themed pomodoro timer app. The colors change depending on what mode its on."
+              }
+              madeWith={"React, CSS"}
             />
           </Col>
         </Row>

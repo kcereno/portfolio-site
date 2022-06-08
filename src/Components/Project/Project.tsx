@@ -7,7 +7,11 @@ export default function Project(props: any) {
   return (
     <Card className={styles.projectCard}>
       <a href={url} target="_blank" rel="noreferrer noopener">
-        <Card.Img variant="top" src={photoSrc} />
+        <Card.Img
+          variant="top"
+          src={photoSrc}
+
+        />
       </a>
       <Card.Body>
         <Card.Title>{title}</Card.Title>
