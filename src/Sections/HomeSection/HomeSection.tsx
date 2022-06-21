@@ -18,19 +18,6 @@ export default function HomeSection() {
           <h3 className={styles.subheader}>
             I'm a Front End Web Developer based in NYC
           </h3>
-          <div>
-            <p>
-              Prior to web development, I worked and thrived in many different
-              industries such as retail, fitness and healthcare. It wasn't until
-              I played an iPhone game call Human Resource Machine where I
-              discovered coding. I was hooked immediately. Coding fulfilled my
-              natural desire to create and problem solve.
-            </p>
-            <p>
-              Fast forward to today, I taught myself how to build modern and
-              responsive website and apps suitable for any purpose.
-            </p>
-          </div>
         </div>
 
         <div id="icons" className="icon-group mt-1">

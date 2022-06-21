@@ -17,7 +17,7 @@ export default function SkillSection() {
         <div>
           <h2 className={styles.header}>I've worked with</h2>
         </div>
-        <div className="skill-icon-group">
+        <div className="skill-icon-group" style={{ width: "50vw", margin:'auto' }}>
           <Row className="py-3">
             <Skill icon={faHtml5} skillName={"HTML"} />
             <Skill
@@ -31,8 +31,12 @@ export default function SkillSection() {
               subSkill={"Typescript"}
             />
             <Skill icon={faReact} skillName={"React"} />
-            <Skill icon={faNode} skillName={"Node.JS"}  subSkill={"Express"}/>
-            <Skill icon={faDatabase} skillName={"MongoDB"} subSkill={"Mongoose"} />
+            <Skill icon={faNode} skillName={"Node.JS"} subSkill={"Express"} />
+            <Skill
+              icon={faDatabase}
+              skillName={"MongoDB"}
+              subSkill={"Mongoose"}
+            />
           </Row>
         </div>
       </Container>
