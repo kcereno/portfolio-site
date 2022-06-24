@@ -16,7 +16,7 @@ export default function HomeSection() {
         <div className={styles.text_container}>
           <h2 className={styles.header}>Hi, I'm Karl.</h2>
           <h3 className={styles.subheader}>
-            I'm a Front End Web Developer based in NYC
+            I'm a Frontend Web Developer based in NYC
           </h3>
         </div>
 

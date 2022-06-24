@@ -15,7 +15,7 @@ export default function SkillSection() {
     <section id="skills" className=" text-center py-5">
       <Container>
         <div>
-          <h2 className={styles.header}>I've worked with</h2>
+          <h2 className={styles.header}>I work with</h2>
         </div>
         <div className="skill-icon-group" style={{ width: "50vw", margin:'auto' }}>
           <Row className="py-3">
