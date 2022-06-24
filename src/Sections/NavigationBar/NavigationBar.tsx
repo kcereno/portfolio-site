@@ -6,7 +6,6 @@ export default function NavigationBar() {
     <React.Fragment>
       <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
         <Container>
-  
           <Navbar.Toggle aria-controls="responsive-navbar-nav" className="m-right" />
           <Navbar.Collapse
             id="responsive-navbar-nav"
@@ -14,7 +13,6 @@ export default function NavigationBar() {
           >
             <Nav className="m-auto">
               <Nav.Link href="#home">Home</Nav.Link>
-  
               <Nav.Link href="#skills">Skills</Nav.Link>
               <Nav.Link href="#projects">Projects</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>

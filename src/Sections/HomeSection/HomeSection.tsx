@@ -14,7 +14,7 @@ export default function HomeSection() {
     <section id="home" className="py-2 ">
       <Container className="py-5 d-flex align-items-center flex-column text-center">
         <div className={styles.text_container}>
-          <h2 className={styles.header}>Hello, I'm Karl.</h2>
+          <h2 className={styles.header}>Hi, I'm Karl.</h2>
           <h3 className={styles.subheader}>
             I'm a Front End Web Developer based in NYC
           </h3>
