@@ -1,0 +1,9 @@
+@use "./variables" as *;
+
+@function spacing-size($size) {
+  @return map-get($spacing-sizes, $size);
+}
+
+@function font-size($val) {
+  @return map-get($font-sizes, $val);
+}

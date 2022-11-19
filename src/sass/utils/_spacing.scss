@@ -1,0 +1,82 @@
+@use "../abstracts/index" as *;
+
+@each $size, $value in $spacing-sizes {
+  .p {
+    &-#{$size} {
+      padding: $value;
+    }
+    &t {
+      &-#{$size} {
+        padding-top: $value;
+      }
+    }
+    &b {
+      &-#{$size} {
+        padding-bottom: $value;
+      }
+    }
+    &l {
+      &-#{$size} {
+        padding-left: $value;
+      }
+    }
+    &r {
+      &-#{$size} {
+        padding-right: $value;
+      }
+    }
+    &x {
+      &-#{$size} {
+        padding-left: $value;
+        padding-right: $value;
+      }
+    }
+    &y {
+      &-#{$size} {
+        padding-top: $value;
+        padding-bottom: $value;
+      }
+    }
+  }
+
+  .m {
+    &-auto {
+      margin: auto;
+    }
+    &-#{$size} {
+      margin: $value;
+    }
+    &t {
+      &-#{$size} {
+        margin-top: $value;
+      }
+    }
+    &b {
+      &-#{$size} {
+        margin-bottom: $value;
+      }
+    }
+    &l {
+      &-#{$size} {
+        margin-left: $value;
+      }
+    }
+    &r {
+      &-#{$size} {
+        margin-right: $value;
+      }
+    }
+    &x {
+      &-#{$size} {
+        margin-left: $value;
+        margin-right: $value;
+      }
+    }
+    &y {
+      &-#{$size} {
+        margin-top: $value;
+        margin-bottom: $value;
+      }
+    }
+  }
+}
