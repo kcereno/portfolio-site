@@ -1,10 +1,18 @@
 import './App.scss';
+import { MdOutlineModeNight, MdOutlineLightMode } from 'react-icons/md';
+import { useState } from 'react';
 
 function App() {
+  const [darkMode, setDarkMode] = useState(true);
+
+  const handleDarkModeToggle = () => {
+    setDarkMode((prevValue) => !prevValue);
+  };
+
   return (
     <div className="App">
       {/* Navigation */}
-      <div className="nav pt-sm mb-xl">
+      <div className="nav pt-sm mb-xl mx-sm">
         <div />
         <div className="nav-links ">
           <a className="nav-link" href="/">
@@ -20,7 +28,19 @@ function App() {
             Contact
           </a>
         </div>
-        <div className="pr-sm">Light/Dark Button</div>
+        <div className="theme-icon-container">
+          {darkMode ? (
+            <MdOutlineModeNight
+              className="theme-icon"
+              onClick={handleDarkModeToggle}
+            />
+          ) : (
+            <MdOutlineLightMode
+              className="theme-icon"
+              onClick={handleDarkModeToggle}
+            />
+          )}
+        </div>
       </div>
 
       <div className="about mb-lg">

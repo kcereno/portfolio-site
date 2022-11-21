@@ -8,6 +8,7 @@
  a:link, a:visited {
     color: $color-gray-1;
     text-decoration: none;
+
   }
 }
 
@@ -26,5 +27,24 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   
 }
+
+.theme-icon-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:$color-gray-8;
+  border-radius: 100px;
+  height: 5rem;
+  width: 5rem;
+
+}
+
+.theme-icon{
+height: font-size(lg);
+width: font-size(lg);
+
+}
+
