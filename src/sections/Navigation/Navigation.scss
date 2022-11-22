@@ -9,7 +9,7 @@
 .nav-links {
   background-color: $color-gray-8;
   display: inline-block;
-  padding: spacing-size(xs);
+  padding: ss(xs);
   border-radius: 100px;
   font-size: 1.4rem;
 
@@ -28,7 +28,7 @@
 }
 
 .nav-link {
-  margin-inline: spacing-size(xxs);
+  margin-inline: ss(xxs);
 }
 
 .theme-icon-container {
@@ -42,8 +42,7 @@
 }
 
 .theme-icon {
-  height: 2.5rem;
-  width: 2.5rem;
+  @include icon-size(2.5rem);
 
   transition: all 0.3s;
 

@@ -8,7 +8,7 @@ interface Props {
 
 function Navigation({ darkMode, toggleDarkMode }: Props) {
   return (
-    <div className="nav pt-sm mb-xl mx-sm">
+    <div className="nav pt-sm mb-xl ">
       <div>{/* Used to help align other elems in flexbox */}</div>
       <div className="nav-links ">
         <a className="nav-link" href="/">
@@ -24,7 +24,7 @@ function Navigation({ darkMode, toggleDarkMode }: Props) {
           Contact
         </a>
       </div>
-      <div className="theme-icon-container">
+      <div className="theme-icon-container mx-md">
         {darkMode ? (
           <MdOutlineModeNight className="theme-icon" onClick={toggleDarkMode} />
         ) : (

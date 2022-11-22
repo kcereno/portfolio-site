@@ -12,9 +12,12 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <Navigation darkMode={darkMode} toggleDarkMode={handleDarkModeToggle} />
-      <Hero />
+    <div className="app">
+      <div className="wrapper">
+        <Navigation darkMode={darkMode} toggleDarkMode={handleDarkModeToggle} />
+        <Hero />
+      </div>
+
       {/* Content */}
       {/* <div className="content">
         <div className="about">

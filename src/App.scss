@@ -1,7 +1,13 @@
 @use './sass/index' as *;
 @use './sass/abstracts/index' as *;
 
-.App {
-  background-color: $color-gray-10;
+.app {
+  background-color: black;
   color: $color-gray-1;
+}
+
+.wrapper {
+  background-color: $color-gray-10;
+  margin-inline: ss(xxl);
+  border-inline: 1px solid $color-gray-8;
 }

@@ -1,20 +1,19 @@
 @use '/src/sass/abstracts/index' as *;
 
 .profile-pic {
-  height: 6rem;
-  width: 6rem;
+  @include icon-size(6rem);
   background-color: white;
   border-radius: 50%;
 }
 
 .name {
-  font-size: font-size(xl);
+  font-size: fs(xl);
 }
 
 .subheading {
   max-width: 40%;
   line-height: 3.2rem;
-  font-size: font-size(sm);
+  font-size: fs(sm);
 }
 
 .social-icons {
@@ -22,7 +21,6 @@
 }
 
 .social-icon {
-  height: font-size(sm);
-  width: font-size(sm);
-  margin-right: spacing-size(md);
+  @include icon-size(1.8rem);
+  margin-right: ss(md);
 }

@@ -1,1 +1,6 @@
-@use "./variables" as *;
+@use './variables' as *;
+
+@mixin icon-size($size) {
+  height: $size;
+  width: $size;
+}
