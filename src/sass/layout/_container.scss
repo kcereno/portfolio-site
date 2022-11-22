@@ -1,6 +1,5 @@
-.container{
-  width: 100%;
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 0 1rem;
+@use '../abstracts/_index.scss' as *;
+
+.container {
+  margin-inline: spacing-size(xl);
 }
