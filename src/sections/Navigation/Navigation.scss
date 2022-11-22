@@ -17,6 +17,13 @@
   a:visited {
     color: $color-gray-1;
     text-decoration: none;
+    cursor: pointer;
+
+    transition: all 0.3s;
+  }
+
+  a:hover {
+    color: $color-gray-5;
   }
 }
 
@@ -37,8 +44,11 @@
 .theme-icon {
   height: font-size(lg);
   width: font-size(lg);
-}
-.theme-icon {
-  height: font-size(lg);
-  width: font-size(lg);
+
+  transition: all 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    color: $color-gray-5;
+  }
 }
