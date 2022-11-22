@@ -1,7 +1,7 @@
 import './App.scss';
 
 import { useState } from 'react';
-import Navigation from './sections/Navigation';
+import Navigation from './sections/Navigation/Navigation';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);

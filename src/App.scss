@@ -1,50 +1,7 @@
-@use "./sass/index" as *;
-@use "./sass/abstracts/index" as *;
+@use './sass/index' as *;
+@use './sass/abstracts/index' as *;
 
 .App {
   background-color: $color-gray-10;
   color: $color-gray-1;
-
- a:link, a:visited {
-    color: $color-gray-1;
-    text-decoration: none;
-
-  }
 }
-
-.nav-links{
-  background-color: $color-gray-8;
-  display: inline-block;
-  padding: spacing-size(xs);
-  border-radius: 100px;
-}
-
-.nav-link{
-  margin-inline: spacing-size(xxs);
-  
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
-}
-
-.theme-icon-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color:$color-gray-8;
-  border-radius: 100px;
-  height: 5rem;
-  width: 5rem;
-
-}
-
-.theme-icon{
-height: font-size(lg);
-width: font-size(lg);
-
-}
-

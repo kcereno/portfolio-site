@@ -1,4 +1,5 @@
 import { MdOutlineModeNight, MdOutlineLightMode } from 'react-icons/md';
+import './Navigation.scss';
 
 interface Props {
   darkMode: boolean;
@@ -8,7 +9,7 @@ interface Props {
 function Navigation({ darkMode, toggleDarkMode }: Props) {
   return (
     <div className="nav pt-sm mb-xl mx-sm">
-      <div />
+      <div>{/* Used to help align other elems in flexbox */}</div>
       <div className="nav-links ">
         <a className="nav-link" href="/">
           Home
