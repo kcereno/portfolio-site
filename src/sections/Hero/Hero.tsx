@@ -8,7 +8,7 @@ import {
 
 function Hero() {
   return (
-    <section id="hero" className="about mb-lg container">
+    <section id="hero" className="about mb-md container">
       <div className="profile-pic mb-xs">{/* Profile pic goes here */}</div>
       <div className="name mb-xs">Karl Cereno</div>
       <div className="subheading mb-sm">
