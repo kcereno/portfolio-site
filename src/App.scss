@@ -11,3 +11,20 @@
   margin-inline: ss(xxl);
   border-inline: 1px solid $color-gray-8;
 }
+
+// Content Section CSS
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: ss(sm);
+}
+
+.skills-container {
+  border: 1px solid $color-gray-8;
+  border-radius: 25px;
+}
+
+hr {
+  color: $color-gray-8;
+}
