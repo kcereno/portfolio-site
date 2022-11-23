@@ -34,9 +34,12 @@ function App() {
               nisi ut aliquip ex ea commodo consequat.
             </p>
             <div className="contact-container">
-              <button type="submit">Contact</button>
+              <button className="button-8" type="button">
+                <span className="text">Contact</span>
+              </button>
             </div>
           </div>
+          {/* Grid 2 */}
           <div className="skills-container mb-lg">
             <div className="p-sm">
               <div className="skills">
@@ -60,8 +63,8 @@ function App() {
         </section>
       </div>
 
-      {/* <div className="projects">Project Section. Take from RAM</div>
-      <div className="contact">Contact Form.</div>
+      <div className="projects">Project Section. Take from RAM</div>
+      {/* <div className="contact">Contact Form.</div>
       <div className="footer">Simple footer. Just name and date</div> */}
     </div>
   );
