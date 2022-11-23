@@ -4,11 +4,13 @@
 .app {
   background-color: black;
   color: $color-gray-1;
+  display: flex;
+  justify-content: center;
 }
 
 .wrapper {
   background-color: $color-gray-10;
-  margin-inline: ss(xxl);
+  width: 70%;
   border-inline: 1px solid $color-gray-8;
 }
 
