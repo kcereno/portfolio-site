@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Navigation from './sections/Navigation/Navigation';
 import Hero from './sections/Hero/Hero';
 import About from './sections/About/About';
-import SkillsAndCerts from './sections/SkillAndCerts/SkillsAndCerts';
+import Skills from './sections/Skills/Skills';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -19,7 +19,7 @@ function App() {
         <Hero />
         <section id="content" className="container content-wrapper">
           <About />
-          <SkillsAndCerts />
+          <Skills />
         </section>
         <div className="projects">Project Section. Take from RAM</div>
       </div>

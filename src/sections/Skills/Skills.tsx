@@ -1,7 +1,7 @@
-import { TbCertificate, TbBulb } from 'react-icons/tb';
-import './SkillsAndCerts.scss';
+import { TbBulb } from 'react-icons/tb';
+import './Skills.scss';
 
-function SkillsAndCerts() {
+function Skills() {
   return (
     <div className="skills-container">
       <div className="p-sm">
@@ -28,17 +28,9 @@ function SkillsAndCerts() {
             <li>Bootstrap</li>
           </ul>
         </div>
-        <hr className="my-xs" />
-        <div className="certs">
-          <div className="">
-            <TbCertificate className="skill-cert-icon" />
-            <span className="skill-cert-heading">Certificates</span>
-          </div>
-          <div className="certs-list">List of certifications</div>
-        </div>
       </div>
     </div>
   );
 }
 
-export default SkillsAndCerts;
+export default Skills;
