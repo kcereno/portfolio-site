@@ -3,7 +3,7 @@ import './Skills.scss';
 
 function Skills() {
   return (
-    <div className="skills-container">
+    <section className="skills-container" id="skills">
       <div className="p-sm">
         <div className="skills">
           <div className="mb-xs">
@@ -29,7 +29,7 @@ function Skills() {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -17,11 +17,13 @@ function App() {
       <div className="wrapper">
         <Navigation darkMode={darkMode} toggleDarkMode={handleDarkModeToggle} />
         <Hero />
-        <section id="content" className="container content-wrapper">
+        <div id="content" className="container content-wrapper mb-lg">
           <About />
           <Skills />
+        </div>
+        <section id="projects">
+          <h1>Projects</h1>
         </section>
-        <div className="projects">Project Section. Take from RAM</div>
       </div>
 
       {/* <div className="contact">Contact Form.</div>

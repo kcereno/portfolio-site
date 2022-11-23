@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <div className="about">
+    <section id="about">
       <h2 className="mb-xs">A little about me</h2>
       <p className="mb-xs">
         I am Frontend Developer from NYC. Lorem ipsum dolor sit amet,
@@ -20,7 +20,7 @@ function About() {
           <span className="text">Contact</span>
         </button>
       </div>
-    </div>
+    </section>
   );
 }
 
