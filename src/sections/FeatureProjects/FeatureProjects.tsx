@@ -1,3 +1,5 @@
+import './FeatureProjects.scss';
+
 function FeatureProjects() {
   return (
     <section id="featured-projects">
@@ -15,10 +17,10 @@ function FeatureProjects() {
               sed saepe possimus ipsam natus nisi a, veniam quas doloremque.
             </p>
             <div className="btn-group">
-              <button type="button" className="button-8">
+              <button type="button" className="button-8 feature-project-btn">
                 Live Site
               </button>
-              <button type="button" className="button-8">
+              <button type="button" className="button-8 feature-project-btn">
                 GitHub
               </button>
             </div>
@@ -33,10 +35,10 @@ function FeatureProjects() {
               sed saepe possimus ipsam natus nisi a, veniam quas doloremque.
             </p>
             <div className="btn-group">
-              <button type="button" className="button-8">
+              <button type="button" className="button-8 feature-project-btn">
                 Live Site
               </button>
-              <button type="button" className="button-8">
+              <button type="button" className="button-8 feature-project-btn">
                 GitHub
               </button>
             </div>
@@ -56,11 +58,11 @@ function FeatureProjects() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. In culpa
               sed saepe possimus ipsam natus nisi a, veniam quas doloremque.
             </p>
-            <div className="btn-group">
-              <button type="button" className="button-8">
+            <div className="feature-project-btns">
+              <button type="button" className="button-8 feature-project-btn">
                 Live Site
               </button>
-              <button type="button" className="button-8">
+              <button type="button" className="button-8 feature-project-btn">
                 GitHub
               </button>
             </div>
