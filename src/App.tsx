@@ -4,6 +4,7 @@ import Navigation from './sections/Navigation/Navigation';
 import Hero from './sections/Hero/Hero';
 import About from './sections/About/About';
 import Skills from './sections/Skills/Skills';
+import FeatureProjects from './sections/FeatureProjects/FeatureProjects';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -21,9 +22,8 @@ function App() {
           <About />
           <Skills />
         </div>
-        <section id="projects">
-          <h1>Projects</h1>
-        </section>
+        <hr className="my-lg" />
+        <FeatureProjects />
       </div>
 
       {/* <div className="contact">Contact Form.</div>

@@ -1,4 +1,4 @@
-import { TbBulb } from 'react-icons/tb';
+// import { TbBulb } from 'react-icons/tb';
 import './Skills.scss';
 
 function Skills() {
@@ -7,8 +7,8 @@ function Skills() {
       <div className="p-sm">
         <div className="skills">
           <div className="mb-xs">
-            <TbBulb className="skill-cert-icon" />
-            <span className="skill-cert-heading">Skills</span>
+            {/* <TbBulb className="skill-cert-icon" /> */}
+            <span className="skill-cert-heading">I work with</span>
           </div>
 
           <ul className="skill-pills">

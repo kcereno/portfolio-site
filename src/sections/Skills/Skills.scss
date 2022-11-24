@@ -31,3 +31,27 @@ hr {
     border-radius: 1.6rem;
   }
 }
+
+.feature-project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: ss(sm);
+}
+
+.feature-project-img {
+  justify-self: end;
+}
+
+.feature-project-description {
+  align-self: center;
+
+  &:nth-child(1) {
+    text-align: end;
+    & .btn-group {
+      justify-self: end;
+    }
+  }
+}
+
+.btn-group {
+}
