@@ -5,6 +5,7 @@ import Hero from './sections/Hero/Hero';
 import About from './sections/About/About';
 import Skills from './sections/Skills/Skills';
 import FeatureProjects from './sections/FeatureProjects/FeatureProjects';
+import OtherProjects from './sections/OtherProjects/OtherProjects';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -24,6 +25,7 @@ function App() {
         </div>
         <hr className="my-lg" />
         <FeatureProjects />
+        <OtherProjects />
       </div>
 
       {/* <div className="contact">Contact Form.</div>

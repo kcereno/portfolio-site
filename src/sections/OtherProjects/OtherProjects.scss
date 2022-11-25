@@ -1,0 +1,12 @@
+@use '/src/sass/abstracts/index' as *;
+
+.project-grid {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: ss(xs);
+}
+
+.center-x {
+  display: flex;
+  justify-content: center;
+}

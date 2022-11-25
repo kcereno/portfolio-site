@@ -1,0 +1,22 @@
+@use '/src/sass/abstracts/index' as *;
+
+.project-card {
+  background-color: $color-gray-8;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.other-project {
+  background-color: $color-gray-8;
+}
+
+.tech-stack {
+  display: flex;
+  gap: ss(xxs);
+  font-size: fs(xs);
+  color: $color-gray-6;
+}
+
+.project-card-btn {
+  font-size: fs(sm);
+}
