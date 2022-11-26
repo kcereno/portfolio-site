@@ -1,12 +1,16 @@
 @use '/src/sass/index' as *;
 
 .nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.nav-links-cell {
+  justify-self: center;
 }
 
 .nav-links {
+  justify-self: center;
   background-color: $color-gray-8;
   display: inline-block;
   padding: ss(xs);
@@ -31,6 +35,10 @@
   margin-inline: ss(xxs);
 }
 
+.theme-icon-cell {
+  justify-self: end;
+}
+
 .theme-icon-container {
   display: flex;
   justify-content: center;
@@ -43,6 +51,7 @@
 
 .theme-icon {
   @include icon-size(2.5rem);
+  justify-self: end;
 
   transition: all 0.3s;
 
