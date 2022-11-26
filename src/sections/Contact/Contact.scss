@@ -3,6 +3,8 @@
 .contact-container {
   border: 1px solid $color-gray-8;
   display: inline-block;
+  background-color: $color-gray-8;
+  border-radius: 4px;
 }
 
 .contact-form {

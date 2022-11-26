@@ -7,6 +7,7 @@ import Skills from './sections/Skills/Skills';
 import FeatureProjects from './sections/FeatureProjects/FeatureProjects';
 import OtherProjects from './sections/OtherProjects/OtherProjects';
 import Contact from './sections/Contact/Contact';
+import Footer from './sections/Footer/Footer';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -30,10 +31,8 @@ function App() {
           <OtherProjects />
           <Contact />
         </main>
+        <Footer />
       </div>
-
-      {/* <div className="contact">Contact Form.</div>
-      <div className="footer">Simple footer. Just name and date</div> */}
     </div>
   );
 }
