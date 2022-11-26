@@ -4,11 +4,11 @@ import './Skills.scss';
 function Skills() {
   return (
     <section className="skills-container" id="skills">
-      <div className="p-sm">
+      <div className="p-md">
         <div className="skills">
           <div className="mb-xs">
             {/* <TbBulb className="skill-cert-icon" /> */}
-            <span className="skill-cert-heading">I work with</span>
+            <span className="skill-cert-heading">My tools</span>
           </div>
 
           <ul className="skill-pills">

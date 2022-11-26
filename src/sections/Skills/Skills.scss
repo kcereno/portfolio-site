@@ -3,10 +3,8 @@
 .skills-container {
   border: 1px solid $color-gray-8;
   border-radius: 25px;
-}
-
-hr {
-  color: $color-gray-8;
+  display: inline-block;
+  height: auto;
 }
 
 .skill-cert-icon {
@@ -15,12 +13,11 @@ hr {
 }
 
 .skill-cert-heading {
-  font-size: fs(md);
+  font-size: fs(lg);
 }
 
 .skill-pills {
   display: flex;
-
   flex-wrap: wrap;
   gap: ss(xxs);
 
