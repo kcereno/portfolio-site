@@ -9,12 +9,13 @@ import {
 function Hero() {
   return (
     <section id="hero" className="about mb-md container">
-      <div className="profile-pic mb-xs">{/* Profile pic goes here */}</div>
-      <div className="name mb-xs">Karl Cereno</div>
-      <div className="subheading mb-sm">
+      <div className="hero-name mb-xxs">Karl Cereno</div>
+      <div className="hero-subheading mb-md">
         <p>
-          I make pretty things on the internet that solve problems and makes
-          peoples lives easier.
+          I make pretty things on the internet with a focus on
+          <span> clean design </span>
+          and
+          <span> intuitive UI</span>
         </p>
       </div>
       <div className="social-icons pb-sm">

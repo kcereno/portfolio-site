@@ -14,3 +14,16 @@ body {
   font-size: fs(sm);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+a:link,
+a:visited {
+  color: $color-gray-1;
+  text-decoration: none;
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+
+a:hover {
+  color: $color-gray-5;
+}

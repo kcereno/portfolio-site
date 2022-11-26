@@ -5,34 +5,21 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-.nav-links-cell {
+.nav-links-cell,
+.theme-icon-cell {
   justify-self: center;
+  align-self: center;
 }
 
 .nav-links {
-  justify-self: center;
   background-color: $color-gray-8;
-  display: inline-block;
-  padding: ss(xs);
+  padding: ss(xxs);
   border-radius: 100px;
-  font-size: 1.4rem;
-
-  a:link,
-  a:visited {
-    color: $color-gray-1;
-    text-decoration: none;
-    cursor: pointer;
-
-    transition: all 0.3s;
-  }
-
-  a:hover {
-    color: $color-gray-5;
-  }
 }
 
 .nav-link {
   margin-inline: ss(xxs);
+  font-size: 1.4rem;
 }
 
 .theme-icon-cell {
@@ -45,15 +32,14 @@
   align-items: center;
   background-color: $color-gray-8;
   border-radius: 100px;
-  height: 4.8rem;
-  width: 4.8rem;
+  @include icon-size(3.4rem);
 }
 
 .theme-icon {
   @include icon-size(2.5rem);
   justify-self: end;
-
   transition: all 0.3s;
+  padding: 0.3rem;
 
   &:hover {
     cursor: pointer;

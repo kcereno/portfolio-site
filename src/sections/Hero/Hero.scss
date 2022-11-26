@@ -6,14 +6,20 @@
   border-radius: 50%;
 }
 
-.name {
-  font-size: fs(xl);
+.hero-name {
+  font-size: fs(xxxl);
+  font-family: $primary-font;
 }
 
-.subheading {
-  max-width: 70%;
+.hero-subheading {
+  max-width: 35ch;
   line-height: 3.2rem;
-  font-size: fs(sm);
+  font-size: fs(lg);
+  font-family: $secondary-font;
+
+  span {
+    color: $color-gray-5;
+  }
 }
 
 .social-icons {
@@ -21,6 +27,6 @@
 }
 
 .social-icon {
-  @include icon-size(1.8rem);
+  @include icon-size(2.2rem);
   margin-right: ss(md);
 }

@@ -4,9 +4,9 @@ import Navigation from './sections/Navigation/Navigation';
 import Hero from './sections/Hero/Hero';
 import About from './sections/About/About';
 import Skills from './sections/Skills/Skills';
-import FeatureProjects from './sections/FeatureProjects/FeatureProjects';
-import OtherProjects from './sections/OtherProjects/OtherProjects';
-import Contact from './sections/Contact/Contact';
+// import FeatureProjects from './sections/FeatureProjects/FeatureProjects';
+// import OtherProjects from './sections/OtherProjects/OtherProjects';
+// import Contact from './sections/Contact/Contact';
 import Footer from './sections/Footer/Footer';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="app">
-      <div className="wrapper">
+      <div className="app-container ">
         <Navigation darkMode={darkMode} toggleDarkMode={handleDarkModeToggle} />
         <main>
           <Hero />
@@ -26,10 +26,10 @@ function App() {
             <About />
             <Skills />
           </div>
-          <hr className="my-lg" />
+          {/* <hr className="my-lg" />
           <FeatureProjects />
           <OtherProjects />
-          <Contact />
+          <Contact /> */}
         </main>
         <Footer />
       </div>
