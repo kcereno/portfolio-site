@@ -6,6 +6,7 @@ import About from './sections/About/About';
 import Skills from './sections/Skills/Skills';
 import FeatureProjects from './sections/FeatureProjects/FeatureProjects';
 import OtherProjects from './sections/OtherProjects/OtherProjects';
+import Contact from './sections/Contact/Contact';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -18,14 +19,17 @@ function App() {
     <div className="app">
       <div className="wrapper">
         <Navigation darkMode={darkMode} toggleDarkMode={handleDarkModeToggle} />
-        <Hero />
-        <div id="content" className="container content-wrapper mb-lg">
-          <About />
-          <Skills />
-        </div>
-        <hr className="my-lg" />
-        <FeatureProjects />
-        <OtherProjects />
+        <main>
+          <Hero />
+          <div id="content" className="container content-wrapper mb-lg">
+            <About />
+            <Skills />
+          </div>
+          <hr className="my-lg" />
+          <FeatureProjects />
+          <OtherProjects />
+          <Contact />
+        </main>
       </div>
 
       {/* <div className="contact">Contact Form.</div>

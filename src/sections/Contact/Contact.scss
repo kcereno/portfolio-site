@@ -1,0 +1,28 @@
+@use '/src/sass/abstracts/index' as *;
+
+.contact-container {
+  border: 1px solid $color-gray-8;
+  display: inline-block;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: ss(md);
+
+  & input,
+  textarea {
+    margin-top: ss(xxs);
+    display: block;
+    width: 40vw;
+    padding: ss(xxs);
+    border-radius: 4px;
+    border: 1px solid $color-gray-8;
+    font-size: fs(sm);
+    color: $color-gray-6;
+  }
+
+  & button {
+    display: inline;
+  }
+}
