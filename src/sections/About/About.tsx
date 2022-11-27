@@ -3,7 +3,7 @@ import './About.scss';
 function About() {
   return (
     <section id="about">
-      <h2 className="mb-xs about-heading">A little about me</h2>
+      <h2 className="mb-xs subheading">A little about me</h2>
       <p className="mb-xs">
         I am Frontend Developer from NYC. Lorem ipsum dolor sit amet,
         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore

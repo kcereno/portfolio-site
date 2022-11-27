@@ -19,6 +19,14 @@ p {
   line-height: 3.2rem;
 }
 
+hr {
+  border: 1px solid $color-gray-8;
+}
+
+a {
+  font-family: $secondary-font;
+}
+
 a:link,
 a:visited {
   color: $color-gray-1;

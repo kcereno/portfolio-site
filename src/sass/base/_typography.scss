@@ -1,5 +1,7 @@
 @use '../abstracts/index' as *;
 
-a {
-  font-family: $secondary-font;
+.subheading {
+  font-size: fs(lg);
+  font-weight: 900;
+  letter-spacing: 0.1rem;
 }

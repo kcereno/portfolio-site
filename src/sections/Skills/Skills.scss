@@ -3,17 +3,13 @@
 .skills-container {
   border: 1px solid $color-gray-8;
   border-radius: 25px;
-  display: inline-block;
-  height: auto;
+  display: flex;
+  align-items: center;
 }
 
 .skill-cert-icon {
   @include icon-size(fs(md));
   margin-right: ss(xxs);
-}
-
-.skill-cert-heading {
-  font-size: fs(lg);
 }
 
 .skill-pills {

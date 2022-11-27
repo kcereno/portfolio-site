@@ -22,13 +22,17 @@ function App() {
         <Navigation darkMode={darkMode} toggleDarkMode={handleDarkModeToggle} />
         <main>
           <Hero />
-          <div id="content" className="container content-wrapper mb-lg">
-            <About />
-            <Skills />
+          <div id="content" className="container content-wrapper ">
+            <div>
+              <About />
+            </div>
+            <div>
+              <Skills />
+            </div>
           </div>
-          {/* <hr className="my-lg" />
-          <FeatureProjects />
-          <OtherProjects />
+          <hr className="my-xl" />
+          {/* <FeatureProjects /> */}
+          {/* <OtherProjects />
           <Contact /> */}
         </main>
         <Footer />
