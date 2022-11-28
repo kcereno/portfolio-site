@@ -15,10 +15,8 @@
   border-inline: 1px solid $color-gray-8;
 }
 
-// Content Section CSS
-
 .about-box {
-  width: 60%;
+  flex-basis: 60%;
 }
 
 .content-wrapper {
