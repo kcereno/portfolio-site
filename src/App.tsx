@@ -18,15 +18,15 @@ function App() {
 
   return (
     <div className="app">
-      <div className="app-container ">
+      <div className="app-container mx-md ">
         <Navigation darkMode={darkMode} toggleDarkMode={handleDarkModeToggle} />
         <main>
           <Hero />
-          <div id="content" className="container content-wrapper ">
-            <div>
+          <div className="container content-wrapper">
+            <div className="about-box">
               <About />
             </div>
-            <div>
+            <div className="skills-box">
               <Skills />
             </div>
           </div>

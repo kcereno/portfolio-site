@@ -1,26 +1,13 @@
 @use '/src/sass/abstracts/index' as *;
 
-.skills-container {
-  border: 1px solid $color-gray-8;
-  border-radius: 25px;
-  display: flex;
+.skill-icon-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
   align-items: center;
-}
+  gap: ss(md);
 
-.skill-cert-icon {
-  @include icon-size(fs(md));
-  margin-right: ss(xxs);
-}
-
-.skill-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: ss(xxs);
-
-  li {
-    list-style: none;
-    background-color: $color-gray-8;
-    padding: 1rem 2rem;
-    border-radius: 1.6rem;
+  img {
+    @include icon-size(6rem);
   }
 }
