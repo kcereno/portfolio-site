@@ -1,1 +1,7 @@
 @use '/src/sass/abstracts/index' as *;
+
+#about {
+  @media screen and (max-width: 990px) {
+    margin-bottom: ss(md);
+  }
+}

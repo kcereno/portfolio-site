@@ -5,9 +5,13 @@
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
   align-items: center;
-  gap: ss(md);
+  gap: ss(sm);
 
   img {
     @include icon-size(6rem);
+  }
+
+  @media screen and (max-width: 990px) {
+    grid-template-columns: repeat(6, 1fr);
   }
 }
