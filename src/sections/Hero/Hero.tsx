@@ -9,15 +9,12 @@ import {
 function Hero() {
   return (
     <section id="hero" className="about mb-lg container">
-      <div className="hero-name mb-xxs">Karl Cereno</div>
-      <div className="hero-subheading mb-md">
-        <p>
-          I make pretty things on the internet with a focus on
-          <span> clean design </span>
-          and
-          <span> intuitive UI</span>
-        </p>
-      </div>
+      <h3 className="hero-intro  mb-sm">Hello, My name is</h3>
+      <h1 className="hero-name mb-xxs">Karl Cereno</h1>
+      <h2 className="hero-job mb-sm">Frontend Web Developer</h2>
+
+      <p className="mb-md hero-text">I make pretty things on the internet</p>
+
       <div className="social-icons pb-sm">
         <GrLinkedinOption className="social-icon" />
         <GrGithub className="social-icon" />

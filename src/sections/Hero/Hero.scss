@@ -1,32 +1,43 @@
 @use '/src/sass/abstracts/index' as *;
 
-.profile-pic {
-  @include icon-size(6rem);
-  background-color: white;
-  border-radius: 50%;
-}
+.hero {
+  &-intro {
+    color: palevioletred;
+    font-size: fs(lg);
+    letter-spacing: 0.3rem;
+    font-weight: 900;
+  }
 
-.hero-name {
-  font-size: fs(xxxl);
-  font-family: $primary-font;
-}
+  &-name {
+    font-size: fs(xxxl);
+    font-family: $primary-font;
+  }
 
-.hero-subheading {
-  max-width: 70ch;
-  line-height: 3.2rem;
-  font-size: fs(lg);
-  font-family: $secondary-font;
-
-  span {
+  &-job {
+    font-size: fs(xxxl);
     color: $color-gray-5;
+  }
+
+  &-text {
+    max-width: 70ch;
+    line-height: 3.2rem;
+    font-size: fs(xl);
+    font-family: $secondary-font;
+    color: $color-gray-7;
+
+    span {
+      color: $color-gray-5;
+    }
   }
 }
 
-.social-icons {
-  display: flex;
-}
+.social {
+  &-icons {
+    display: flex;
+  }
 
-.social-icon {
-  @include icon-size(2.2rem);
-  margin-right: ss(md);
+  &-icon {
+    @include icon-size(2.2rem);
+    margin-right: ss(md);
+  }
 }
