@@ -2,9 +2,9 @@
 
 .hero {
   &-intro {
-    color: palevioletred;
+    color: #f01d7f;
     font-size: fs(lg);
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
     font-weight: 900;
   }
 
@@ -24,6 +24,7 @@
     font-size: fs(xl);
     font-family: $secondary-font;
     color: $color-gray-7;
+    font-weight: 300;
 
     span {
       color: $color-gray-5;
@@ -31,13 +32,15 @@
   }
 }
 
-.social {
-  &-icons {
-    display: flex;
-  }
+.social-icons {
+  display: flex;
+}
 
-  &-icon {
-    @include icon-size(2.2rem);
-    margin-right: ss(md);
+.social-icon {
+  @include icon-size(2.2rem);
+  margin-right: ss(md);
+
+  &:hover {
+    color: #f01d7f;
   }
 }
