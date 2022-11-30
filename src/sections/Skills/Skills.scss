@@ -11,7 +11,7 @@
     @include icon-size(6rem);
   }
 
-  @media screen and (max-width: 990px) {
+  @include media(small-desktop) {
     grid-template-columns: repeat(6, 1fr);
   }
 }

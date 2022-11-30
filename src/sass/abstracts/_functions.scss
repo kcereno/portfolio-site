@@ -7,3 +7,13 @@
 @function fs($val) {
   @return map-get($font-sizes, $val);
 }
+
+@mixin media($type) {
+  @each $key, $val in $breakpoints {
+    @if $type == $key {
+      @media only screen and (max-width: $val) {
+        @content;
+      }
+    }
+  }
+}

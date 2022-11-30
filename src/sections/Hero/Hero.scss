@@ -3,9 +3,10 @@
 .hero {
   &-intro {
     color: #f01d7f;
-    font-size: fs(lg);
+    font-size: 2.2rem;
     letter-spacing: 0.2rem;
     font-weight: 900;
+    text-transform: uppercase;
   }
 
   &-name {

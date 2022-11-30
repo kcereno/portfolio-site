@@ -23,8 +23,7 @@
   display: flex;
   gap: ss(sm);
   // justify-content: center;
-
-  @media screen and (max-width: 990px) {
+  @include media(small-desktop) {
     flex-direction: column;
   }
 }

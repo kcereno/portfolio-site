@@ -38,3 +38,8 @@ $font-sizes: (
 // Typography
 $primary-font: 'Archivo Black', sans-serif;
 $secondary-font: 'Roboto', sans-serif;
+
+// Breakpoints
+$breakpoints: (
+  small-desktop: 990px,
+);

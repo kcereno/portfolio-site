@@ -16,7 +16,7 @@ function Skills() {
   return (
     <section id="skills">
       <div className="skills bordered p-sm">
-        <h2 className="subheading mb-xs">My Tools</h2>
+        <h2 className="subheading mb-sm">My Tools</h2>
         <div className="skill-icon-container">
           <img src={html} alt="" />
           <img src={css} alt="" />
