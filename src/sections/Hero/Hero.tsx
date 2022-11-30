@@ -14,7 +14,7 @@ function Hero() {
       <h2 className="hero-job mb-sm">Frontend Web Developer</h2>
 
       <p className="mb-md hero-text">
-        I make pretty things on the internet among other things
+        I make pretty things on the internet and other things
       </p>
 
       <div className="social-icons pb-sm">
