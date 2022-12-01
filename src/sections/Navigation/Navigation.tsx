@@ -26,6 +26,8 @@ function Navigation({ darkMode, toggleDarkMode }: Props) {
           </a>
         </div>
       </div>
+
+      {/* Theme Icon */}
       <div className="theme-icon-cell">
         <div className="theme-icon-container mx-md">
           {darkMode ? (
