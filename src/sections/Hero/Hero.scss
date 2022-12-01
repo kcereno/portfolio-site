@@ -7,16 +7,22 @@
     letter-spacing: 0.2rem;
     font-weight: 900;
     text-transform: uppercase;
+    font-family: $secondary-font;
+  }
+
+  &-name,
+  &-job {
+    font-size: fs(xxxl);
   }
 
   &-name {
-    font-size: fs(xxxl);
     font-family: $primary-font;
   }
 
   &-job {
-    font-size: fs(xxxl);
     color: $color-gray-5;
+    font-family: $secondary-font;
+    font-weight: 700;
   }
 
   &-text {
