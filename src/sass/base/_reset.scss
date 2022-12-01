@@ -1,41 +1,36 @@
 @use '../abstracts/index' as *;
 
+* *::before,
+*::after {
+  box-sizing: border-box;
+}
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  font: inherit;
 }
 
 html {
   font-size: 62.5%;
+  color-scheme: dark light;
+}
+
+@media only screen and (max-width: 425px) {
+  html {
+    /* Font size now 9px per 1 rem */
+    font-size: 56.25%;
+  }
 }
 
 body {
-  font-size: fs(sm);
-  font-family: $secondary-font;
+  min-height: 100vh;
 }
 
-p {
-  line-height: 3.2rem;
-}
-
-hr {
-  border: 1px solid $color-gray-8;
-}
-
-a {
-  font-family: $secondary-font;
-}
-
-a:link,
-a:visited {
-  color: $color-gray-1;
-  text-decoration: none;
-  cursor: pointer;
-
-  transition: all 0.3s;
-}
-
-a:hover {
-  color: $color-gray-5;
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
 }

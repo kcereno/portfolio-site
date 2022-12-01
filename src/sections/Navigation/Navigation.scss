@@ -20,6 +20,20 @@
 .nav-link {
   margin-inline: ss(xxs);
   font-size: 1.4rem;
+  font-family: $secondary-font;
+
+  &:link,
+  &:visited {
+    color: $color-gray-1;
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: all 0.3s;
+  }
+
+  &:hover {
+    color: $color-gray-5;
+  }
 }
 
 .theme-icon-cell {
