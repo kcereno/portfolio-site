@@ -3,50 +3,31 @@
 .nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-}
 
-.nav-links-cell,
-.theme-icon-cell {
-  justify-self: center;
-  align-self: center;
-}
-
-.nav-links {
-  background-color: $color-gray-8;
-  padding: ss(xxs);
-  border-radius: 100px;
-}
-
-.nav-link {
-  margin-inline: ss(xxs);
-  font-size: 1.4rem;
-  font-family: $secondary-font;
-
-  &:link,
-  &:visited {
-    color: $color-gray-1;
-    text-decoration: none;
-    cursor: pointer;
-
-    transition: all 0.3s;
+  &-links {
+    background-color: $color-gray-8;
+    padding: ss(xxs);
+    border-radius: 100px;
   }
 
-  &:hover {
-    color: $color-gray-5;
+  &-link {
+    margin-inline: ss(xxs);
+    font-size: 1.4rem;
+    font-family: $secondary-font;
+
+    &:link,
+    &:visited {
+      color: $color-gray-1;
+      text-decoration: none;
+      cursor: pointer;
+
+      transition: all 0.3s;
+    }
+
+    &:hover {
+      color: $color-gray-5;
+    }
   }
-}
-
-.theme-icon-cell {
-  justify-self: end;
-}
-
-.theme-icon-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: $color-gray-8;
-  border-radius: 100px;
-  @include icon-size(3.4rem);
 }
 
 .theme-icon {
@@ -59,4 +40,23 @@
     cursor: pointer;
     color: $color-gray-5;
   }
+
+  &-cell {
+    justify-self: end;
+  }
+
+  &-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-gray-8;
+    border-radius: 100px;
+    @include icon-size(3.4rem);
+  }
+}
+
+.nav-links-cell,
+.theme-icon-cell {
+  justify-self: center;
+  align-self: center;
 }
