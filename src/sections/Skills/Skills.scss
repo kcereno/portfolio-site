@@ -13,5 +13,10 @@
 
   @include media(small-desktop) {
     grid-template-columns: repeat(6, 1fr);
+    column-gap: ss(lg);
+
+    img {
+      @include icon-size(7.5rem);
+    }
   }
 }

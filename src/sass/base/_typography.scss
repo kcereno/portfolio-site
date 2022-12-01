@@ -1,7 +1,20 @@
 @use '../abstracts/index' as *;
 
+p {
+  font-size: fs(sm);
+  line-height: 2.4rem;
+  font-family: $secondary-font;
+}
+
 .subheading {
   font-size: fs(lg);
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+}
+
+.section-title {
+  font-size: fs(lg);
+  font-family: $secondary-font;
   font-weight: 900;
   letter-spacing: 0.1rem;
 }

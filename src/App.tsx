@@ -22,11 +22,11 @@ function App() {
         <Navigation darkMode={darkMode} toggleDarkMode={handleDarkModeToggle} />
         <main>
           <Hero />
-          <div className="container content-wrapper">
-            <div className="about-box">
+          <div className="container about-skill-container">
+            <div className="about-cell">
               <About />
             </div>
-            <div className="skills-box">
+            <div className="skills-cell">
               <Skills />
             </div>
           </div>

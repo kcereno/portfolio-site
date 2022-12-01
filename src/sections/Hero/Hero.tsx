@@ -8,7 +8,7 @@ import {
 
 function Hero() {
   return (
-    <section id="hero" className="about mb-lg container fade-in-fwd">
+    <section id="hero" className="mb-md container fade-in-fwd">
       <h3 className="hero-intro  mb-sm">Hello, My name is</h3>
       <h1 className="hero-name mb-xxs">Karl Cereno</h1>
       <h2 className="hero-job mb-sm">Frontend Web Developer</h2>
