@@ -39,15 +39,17 @@
   }
 }
 
-.social-icons {
-  display: flex;
-}
+.social {
+  &-icons {
+    display: flex;
+  }
 
-.social-icon {
-  @include icon-size(2.2rem);
-  margin-right: ss(md);
+  &-icon {
+    @include icon-size(2.2rem);
+    margin-right: ss(md);
 
-  &:hover {
-    color: #f01d7f;
+    &:hover {
+      color: #f01d7f;
+    }
   }
 }
