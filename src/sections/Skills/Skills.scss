@@ -9,6 +9,7 @@
 
   img {
     @include icon-size(6rem);
+    align-self: center;
   }
 
   @include media(small-desktop) {
