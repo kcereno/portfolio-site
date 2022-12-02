@@ -11,25 +11,36 @@ import github from '../../assets/images/tech-icons/github.svg';
 import sass from '../../assets/images/tech-icons/sass.svg';
 import ts from '../../assets/images/tech-icons/typescript.svg';
 import mongo from '../../assets/images/tech-icons/mongodb.svg';
+import SkillIcon from '../../components/SkillIcon/SkillIcon';
 
 function Skills() {
+  const skills = [
+    { icon: html, tooltip: 'HTML' },
+    { icon: css, tooltip: 'CSS' },
+    { icon: js, tooltip: 'JavaScript' },
+    { icon: ts, tooltip: 'TypeScript' },
+    { icon: react, tooltip: 'React' },
+    { icon: node, tooltip: 'Node.js' },
+    { icon: express, tooltip: 'Express.js' },
+    { icon: mongo, tooltip: 'MongoDB' },
+    { icon: bootstrap, tooltip: 'Bootstrap' },
+    { icon: mui, tooltip: 'Material UI' },
+    { icon: sass, tooltip: 'Sass' },
+    { icon: github, tooltip: 'GitHub' },
+  ];
+
   return (
     <section id="skills">
       <div className="skills bordered p-sm">
         <h2 className="section-title mb-sm">I work with</h2>
         <div className="skill-icon-container">
-          <img src={html} alt="" />
-          <img src={css} alt="" />
-          <img src={js} alt="" />
-          <img src={ts} alt="" />
-          <img src={mui} alt="" />
-          <img src={bootstrap} alt="" />
-          <img src={sass} alt="" />
-          <img src={react} alt="" />
-          <img src={node} alt="" />
-          <img src={express} alt="" />
-          <img src={github} alt="" />
-          <img src={mongo} alt="" />
+          {skills.map((skill) => (
+            <SkillIcon
+              key={skill.tooltip}
+              icon={skill.icon}
+              tooltip={skill.tooltip}
+            />
+          ))}
         </div>
 
         {/* <h3 className="skill-type">Basics</h3>
