@@ -1,0 +1,27 @@
+@use '/src/sass/abstracts/index' as *;
+
+.featured-project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: ss(md);
+
+  align-items: center;
+
+  &-img-cell-reverse {
+    order: 2;
+  }
+
+  &-description-reverse {
+    justify-content: end;
+    text-align: end;
+  }
+
+  &-title {
+    font-size: fs(lg);
+  }
+
+  &-description {
+    font-size: fs(sm);
+    color: $color-gray-5;
+  }
+}

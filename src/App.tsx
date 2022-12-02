@@ -4,7 +4,7 @@ import Navigation from './sections/Navigation/Navigation';
 import Hero from './sections/Hero/Hero';
 import About from './sections/About/About';
 import Skills from './sections/Skills/Skills';
-// import FeatureProjects from './sections/FeatureProjects/FeatureProjects';
+import FeaturedProjects from './sections/FeaturedProjects/FeaturedProjects';
 // import OtherProjects from './sections/OtherProjects/OtherProjects';
 // import Contact from './sections/Contact/Contact';
 import Footer from './sections/Footer/Footer';
@@ -31,7 +31,7 @@ function App() {
             </div>
           </div>
           <hr className="my-xl" />
-          {/* <FeatureProjects /> */}
+          <FeaturedProjects />
           {/* <OtherProjects />
           <Contact /> */}
         </main>
