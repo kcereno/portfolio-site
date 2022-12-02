@@ -8,3 +8,9 @@
   border: 1px solid $color-gray-8;
   border-radius: 25px;
 }
+
+@include media(small-desktop) {
+  .container {
+    margin-inline: ss(md);
+  }
+}
