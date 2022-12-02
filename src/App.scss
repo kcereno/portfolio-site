@@ -15,18 +15,13 @@
   border-inline: 1px solid $color-gray-8;
 }
 
-// About Skills Sections
-.about-skill-container {
+// About and Skills
+.about-skills-container {
   display: flex;
   gap: ss(sm);
-  align-items: center;
-  justify-items: center;
-  @include media(small-desktop) {
-    flex-direction: column;
-  }
 }
 
-.about-cell {
+.about-wrapper {
   flex-basis: 60%;
   align-self: center;
 }
@@ -34,5 +29,10 @@
 hr {
   width: 90%;
   margin: 0 auto;
-  border: 1px solid $color-gray-8;
+}
+
+@include media(small-desktop) {
+  .about-skills-container {
+    flex-direction: column;
+  }
 }

@@ -13,8 +13,13 @@
   }
 
   @include media(small-desktop) {
+  }
+}
+
+@include media(small-desktop) {
+  .skill-icon-container {
     grid-template-columns: repeat(6, 1fr);
-    column-gap: ss(lg);
+    max-width: 100vh;
 
     img {
       @include icon-size(7.5rem);
