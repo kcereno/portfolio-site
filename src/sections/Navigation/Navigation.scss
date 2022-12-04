@@ -1,22 +1,7 @@
 @use '/src/sass/index' as *;
 
 .nav {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-
-  &-links {
-    background-color: $color-gray-8;
-    padding: ss(xxs);
-    border-radius: 100px;
-
-    &-cell {
-      justify-self: center;
-      align-self: center;
-    }
-  }
-
   &-link {
-    margin-inline: ss(xxs);
     font-size: 1.4rem;
     font-family: $secondary-font;
 

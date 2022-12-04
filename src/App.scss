@@ -1,29 +1,10 @@
 @use './sass/index' as *;
 @use './sass/abstracts/index' as *;
 
-.app {
-  background-color: #151515;
-  color: $color-gray-1;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.app-container {
-  background-color: $color-gray-10;
-  max-width: 1200px;
+.app-content {
+  // background-color: $color-gray-10;
+  width: 120rem;
   border-inline: 1px solid $color-gray-8;
-}
-
-// About and Skills
-.about-skills-container {
-  display: flex;
-  gap: ss(sm);
-}
-
-.about-wrapper {
-  flex-basis: 60%;
-  align-self: center;
 }
 
 hr {
