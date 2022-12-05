@@ -1,10 +1,16 @@
 @use './sass/index' as *;
 @use './sass/abstracts/index' as *;
 
-.app-content {
-  // background-color: $color-gray-10;
-  width: 120rem;
-  border-inline: 1px solid $color-gray-8;
+.app {
+  &-container {
+    width: 120rem;
+    border-inline: 1px solid $color-gray-8;
+    margin-inline: ss(md);
+  }
+
+  &-content {
+    margin-inline: ss(lg);
+  }
 }
 
 hr {
@@ -15,5 +21,16 @@ hr {
 @include media(small-desktop) {
   .about-skills-container {
     flex-direction: column;
+  }
+}
+
+@include media(tablet) {
+  .app {
+    &-container {
+      margin-inline: ss(sm);
+    }
+    &-content {
+      margin-inline: ss(md);
+    }
   }
 }

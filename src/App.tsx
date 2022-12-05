@@ -4,7 +4,7 @@ import Navigation from './sections/Navigation/Navigation';
 import Hero from './sections/Hero/Hero';
 import About from './sections/About/About';
 import Skills from './sections/Skills/Skills';
-// import FeatureProjects from './sections/FeaturedProjects/FeaturedProjects';
+import FeatureProjects from './sections/FeaturedProjects/FeaturedProjects';
 // import OtherProjects from './sections/OtherProjects/OtherProjects';
 // import Contact from './sections/Contact/Contact';
 // import Footer from './sections/Footer/Footer';
@@ -18,11 +18,11 @@ function App() {
 
   return (
     <div className="bg-zinc-900 flex-center-x">
-      <div className="app-content mx-md bg-gray-900 ">
+      <div className="app-container bg-gray-900 ">
         <Navigation darkMode={darkMode} toggleDarkMode={handleDarkModeToggle} />
-        <main className="mx-lg">
+        <main className="app-content">
           <Hero />
-          <div className="about-skills-container flex gap-10">
+          <div className="about-skills-container gap-10 mb-xl flex ">
             <div className="basis-3/5 self-center">
               <About />
             </div>
@@ -30,8 +30,9 @@ function App() {
               <Skills />
             </div>
           </div>
-          {/* <hr className="my-xl" />
-          <FeatureProjects /> */}
+          <FeatureProjects />
+          {/* <OtherProjects /> */}
+          {/* <Contact /> */}
         </main>
         {/* <Footer /> */}
       </div>
