@@ -1,18 +1,27 @@
 @use '/src/sass/abstracts/index' as *;
 
 .project-card {
-  background-color: $color-gray-8;
-  border-radius: 4px;
-  width: 300px;
+  background-color: $color-gray-9;
+  border-radius: 8px;
 }
 
-.other-project {
-  background-color: $color-gray-8;
+.project-card {
+  &-title {
+    font-weight: 700;
+  }
+
+  &-title,
+  &-content {
+    font-size: fs(sm);
+  }
 }
 
 .tech-stack {
   display: flex;
   gap: ss(xxs);
+}
+
+.tech {
   font-size: fs(xs);
   color: $color-gray-6;
 }

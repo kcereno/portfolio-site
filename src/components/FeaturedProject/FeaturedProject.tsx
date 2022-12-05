@@ -26,10 +26,10 @@ function FeaturedProject({ title, description, reverse = false }: Props) {
         <h1 className="mb-xs featured-project-title">{title}</h1>
         <p className="mb-sm featured-project-description">{description}</p>
         <div className="btn-group">
-          <button type="button" className="button-8 feature-project-btn">
+          <button type="button" className="button-8">
             Visit Site
           </button>
-          <button type="button" className="button-8 feature-project-btn">
+          <button type="button" className="button-8">
             Checkout GitHub
           </button>
         </div>

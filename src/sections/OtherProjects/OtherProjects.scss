@@ -6,7 +6,8 @@
   gap: ss(xs);
 }
 
-.center-x {
-  display: flex;
-  justify-content: center;
+@include media(tablet) {
+  .project-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }

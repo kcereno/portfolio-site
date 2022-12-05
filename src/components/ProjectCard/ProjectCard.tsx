@@ -10,14 +10,14 @@ function ProjectCard({ title, description, techStack }: Props) {
   return (
     <div className="project-card">
       <div className="project-card-content m-md">
-        <h1 className="mb-sm">{title}</h1>
-        <p className="mb-xs">{description}</p>
+        <h3 className="mb-sm project-card-title">{title}</h3>
+        <p className="mb-xs project-card-description">{description}</p>
         <div className="tech-stack mb-sm">
           {techStack.map((tech) => (
-            <p>{tech}</p>
+            <p className="tech">{tech}</p>
           ))}
         </div>
-        <div className="project-card-btns">
+        <div className="project-card-btns ">
           <button className="button-8 project-card-btn" type="button">
             Live Site
           </button>

@@ -4,9 +4,11 @@ import './OtherProjects.scss';
 function OtherProjects() {
   return (
     <section id="other-projects">
-      <div className="container center-x">
-        <div>
-          <h1 className="text-center mb-md">Some Other Cool Stuff I Made</h1>
+      <div className="mb-xl">
+        <h1 className="text-center mb-md section-title">
+          Some Other Cool Stuff I Made
+        </h1>
+        <div className="flex-center-x">
           <div className="project-grid">
             <ProjectCard
               title="Project 1"
