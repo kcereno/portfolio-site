@@ -16,7 +16,7 @@ function About() {
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </p>
-        <div className="contact-container">
+        <div>
           <button className="button-8" type="button">
             <span className="text">Contact</span>
           </button>
