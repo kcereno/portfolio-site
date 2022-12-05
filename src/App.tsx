@@ -6,8 +6,8 @@ import About from './sections/About/About';
 import Skills from './sections/Skills/Skills';
 import FeatureProjects from './sections/FeaturedProjects/FeaturedProjects';
 import OtherProjects from './sections/OtherProjects/OtherProjects';
-// import Contact from './sections/Contact/Contact';
-// import Footer from './sections/Footer/Footer';
+import Contact from './sections/Contact/Contact';
+import Footer from './sections/Footer/Footer';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -32,9 +32,9 @@ function App() {
           </div>
           <FeatureProjects />
           <OtherProjects />
-          {/* <Contact /> */}
+          <Contact />
         </main>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </div>
   );

@@ -2,10 +2,10 @@ import './Contact.scss';
 
 function Contact() {
   return (
-    <section id="contact" className="my-xl flex-center-x">
-      <div className="contact-container">
-        <div className="contact-content m-xl">
-          <h1 className="mb-md text-center">Reach Out!</h1>
+    <section id="contact" className="my-xl">
+      <div className="contact-container ">
+        <div className="contact-content m-md">
+          <h1 className="mb-md text-center section-title">Reach Out!</h1>
           <form className="contact-form">
             <label htmlFor="fullName">
               Full Name
