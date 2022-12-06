@@ -4,21 +4,13 @@ import './FeaturedProject.scss';
 interface Props {
   title: string;
   description: string;
-  reverse?: boolean;
+  techStack: string[];
 }
 
-function FeaturedProject({ title, description, reverse = false }: Props) {
-  let imgContainerClass;
-  let descriptionContainerClass;
-
-  if (reverse) {
-    imgContainerClass = 'featured-project-img-cell-reverse';
-    descriptionContainerClass = 'featured-project-description-reverse';
-  }
-
+function FeaturedProject({ title, description, techStack }: Props) {
   return (
-    <div className="featured-project my-md">
-      <div className={`${imgContainerClass}`}>
+    <div className="featured-project-container my-md">
+      <div className="featured-project-img-cell">
         <img
           className="feautured-project-img"
           src="https://via.placeholder.com/540x320"
@@ -26,15 +18,20 @@ function FeaturedProject({ title, description, reverse = false }: Props) {
         />
       </div>
 
-      <div className={`${descriptionContainerClass}`}>
-        <h1 className="mb-xs featured-project-title">{title}</h1>
+      <div className="featured-project-description-cell">
+        <h1 className="mb-xxs featured-project-title">{title}</h1>
         <p className="mb-sm featured-project-description">{description}</p>
+        <ul className="flex gap-2 mb-md featured-project-tech-stack ">
+          {techStack.map((tech) => (
+            <li>{tech}</li>
+          ))}
+        </ul>
         <div className="btn-group">
           <button type="button" className="button-8 mr-xxs">
-            Visit Site
+            View Site
           </button>
           <button type="button" className="button-8">
-            Checkout GitHub
+            Visit Github
           </button>
         </div>
       </div>

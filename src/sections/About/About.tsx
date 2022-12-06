@@ -4,8 +4,8 @@ function About() {
   return (
     <section id="about" className="about">
       <div className="about-container ">
-        <h2 className="mb-xs section-title">A little about me</h2>
-        <div className="about-text-box">
+        <h2 className="mb-sm section-title">A little about me</h2>
+        <div className="about-text-box mb-md">
           <p className="mb-xs">
             I am Frontend Developer from NYC. Lorem ipsum dolor sit amet,
             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -18,7 +18,6 @@ function About() {
             aliquip ex ea commodo consequat.
           </p>
         </div>
-
         <div>
           <button className="button-8" type="button">
             <span className="text">Contact</span>

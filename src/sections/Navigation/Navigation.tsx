@@ -8,7 +8,7 @@ interface Props {
 
 function Navigation({ darkMode, toggleDarkMode }: Props) {
   return (
-    <div className="nav grid grid-cols-3 pt-md mb-xl ">
+    <div className="nav grid grid-cols-3 pt-md mb-xxl ">
       <div>{/* Used to help alignment purposes */}</div>
       <div className="nav-links-cell flex-center-x">
         <div className="nav-links inline-block bg-gray-700 p-xxs rounded-full ">

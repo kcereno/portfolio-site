@@ -22,7 +22,7 @@ function App() {
         <Navigation darkMode={darkMode} toggleDarkMode={handleDarkModeToggle} />
         <main className="app-content">
           <Hero />
-          <div className="about-skills-container gap-10 mb-xl flex ">
+          <div className="about-skills-container gap-10 flex mb-xxl">
             <div className="basis-3/5 self-center">
               <About />
             </div>

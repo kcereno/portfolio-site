@@ -1,1 +1,19 @@
 @use '/src/sass/abstracts/index' as *;
+
+.featured-projects-container {
+  .featured-project-container:nth-child(even) {
+    .featured-project {
+      &-img-cell {
+        order: 2;
+      }
+
+      &-description-cell {
+        justify-content: end;
+        text-align: end;
+      }
+      &-tech-stack {
+        justify-content: end;
+      }
+    }
+  }
+}

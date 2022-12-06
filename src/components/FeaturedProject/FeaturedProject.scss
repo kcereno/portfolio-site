@@ -1,25 +1,18 @@
 @use '/src/sass/abstracts/index' as *;
 
 .featured-project {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: ss(md);
-  justify-items: center;
-  align-items: center;
+  &-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: ss(md);
+    justify-items: center;
+    align-items: center;
+  }
 
   &-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-
-  &-img-cell-reverse {
-    order: 2;
-  }
-
-  &-description-reverse {
-    justify-content: end;
-    text-align: end;
   }
 
   &-title {
@@ -29,6 +22,11 @@
   &-description {
     font-size: fs(sm);
     color: $color-gray-5;
+  }
+
+  &-tech-stack {
+    font-size: fs(xs);
+    color: $color-gray-7;
   }
 }
 
