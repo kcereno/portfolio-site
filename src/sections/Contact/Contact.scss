@@ -2,7 +2,8 @@
 
 .contact-container {
   border: 1px solid $color-gray-8;
-
+  width: 80%;
+  min-width: 60%;
   border-radius: 8px;
 }
 
@@ -31,5 +32,11 @@
 
   & button {
     display: inline;
+  }
+}
+
+@include media(tablet) {
+  .contact-container {
+    width: 100%;
   }
 }
