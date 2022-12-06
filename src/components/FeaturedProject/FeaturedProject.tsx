@@ -19,14 +19,18 @@ function FeaturedProject({ title, description, reverse = false }: Props) {
   return (
     <div className="featured-project my-md">
       <div className={`${imgContainerClass}`}>
-        <img src="https://via.placeholder.com/540x320" alt="" />
+        <img
+          className="feautured-project-img"
+          src="https://via.placeholder.com/540x320"
+          alt=""
+        />
       </div>
 
       <div className={`${descriptionContainerClass}`}>
         <h1 className="mb-xs featured-project-title">{title}</h1>
         <p className="mb-sm featured-project-description">{description}</p>
         <div className="btn-group">
-          <button type="button" className="button-8">
+          <button type="button" className="button-8 mr-xxs">
             Visit Site
           </button>
           <button type="button" className="button-8">

@@ -4,8 +4,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: ss(md);
-
+  justify-items: center;
   align-items: center;
+
+  &-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
   &-img-cell-reverse {
     order: 2;
@@ -23,5 +29,21 @@
   &-description {
     font-size: fs(sm);
     color: $color-gray-5;
+  }
+}
+
+@include media(tablet) {
+  .featured-project {
+    grid-template-columns: 1fr;
+    gap: ss(sm);
+
+    &-img-cell-reverse {
+      order: 0;
+    }
+
+    &-description-reverse {
+      justify-content: start;
+      text-align: start;
+    }
   }
 }
