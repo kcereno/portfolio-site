@@ -52,3 +52,11 @@ hr {
     margin-bottom: ss(xl);
   }
 }
+
+@include media(small-mobile) {
+  .app {
+    &-content {
+      margin-inline: ss(xs);
+    }
+  }
+}

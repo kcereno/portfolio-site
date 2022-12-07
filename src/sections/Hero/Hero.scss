@@ -9,16 +9,17 @@
     text-transform: uppercase;
     font-family: $secondary-font;
     font-size: fs(md);
+    margin-bottom: ss(xs);
   }
 
   &-name,
   &-job {
     font-size: fs(xxxl);
+    line-height: 5rem;
   }
 
   &-name {
     font-family: $primary-font;
-    margin-bottom: -2rem;
   }
 
   &-job {
@@ -62,6 +63,10 @@
       font-size: fs(sm);
     }
 
+    &-name {
+      margin-bottom: -1.5rem;
+    }
+
     &-name,
     &-job {
       font-size: fs(xxl);
@@ -73,10 +78,37 @@
   }
 }
 
-@include media(medium-mobile) {
+// @include media(medium-mobile) {
+//   .hero {
+//     &-name {
+//       margin-bottom: -1.5rem;
+//     }
+//   }
+// }
+
+// @media (max-width: 582px) {
+//   .hero {
+//     &-intro {
+//       font-size: fs(xs);
+//     }
+
+//     &-job,
+//     &-name {
+//       font-size: fs(xl);
+//     }
+//     &-text {
+//       font-size: fs(md);
+//     }
+//   }
+// }
+
+@media screen and (max-width: 447px) {
   .hero {
     &-name {
-      margin-bottom: -1.5rem;
+      margin-bottom: 0rem;
+    }
+    &-job {
+      line-height: fs(xl);
     }
   }
 }
