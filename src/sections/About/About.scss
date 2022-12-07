@@ -7,3 +7,15 @@
     }
   }
 }
+
+@include media(small-desktop) {
+  .about-container {
+    margin-top: ss(sm);
+  }
+}
+
+@include media(tablet) {
+  .about-container {
+    margin-bottom: ss(md);
+  }
+}

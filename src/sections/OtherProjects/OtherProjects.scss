@@ -6,7 +6,7 @@
   gap: ss(xs);
 }
 
-@include media(tablet) {
+@media (max-width: 930px) {
   .project-grid {
     grid-template-columns: 1fr 1fr;
   }

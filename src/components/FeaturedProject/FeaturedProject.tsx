@@ -9,7 +9,7 @@ interface Props {
 
 function FeaturedProject({ title, description, techStack }: Props) {
   return (
-    <div className="featured-project-container my-md">
+    <div className="featured-project-container my-lg">
       <div className="featured-project-img-cell">
         <img
           className="feautured-project-img"

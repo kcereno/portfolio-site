@@ -4,7 +4,7 @@ import './FeaturedProjects.scss';
 function FeatureProjects() {
   return (
     <section id="featured-projects">
-      <div>
+      <div className="mb-xxl">
         <h1 className="text-center section-title mb-md">
           Some Noteworthy Projects
         </h1>

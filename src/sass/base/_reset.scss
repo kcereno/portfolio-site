@@ -15,7 +15,7 @@ html {
   font-size: 62.5%;
   color-scheme: dark light;
 
-  @include media(large-mobile) {
+  @include media(tablet) {
     font-size: 56.25%;
   }
 }

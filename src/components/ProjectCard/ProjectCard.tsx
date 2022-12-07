@@ -17,13 +17,15 @@ function ProjectCard({ title, description, techStack }: Props) {
             <p className="tech">{tech}</p>
           ))}
         </div>
-        <div className="project-card-btns ">
-          <button className="button-8 project-card-btn" type="button">
-            Live Site
-          </button>
-          <button className="button-8 project-card-btn" type="button">
-            GitHub
-          </button>
+        <div className="flex-center-x">
+          <div className="project-card-btns ">
+            <button className="button-8 project-card-btn" type="button">
+              Live Site
+            </button>
+            <button className="button-8 project-card-btn" type="button">
+              GitHub
+            </button>
+          </div>
         </div>
       </div>
     </div>

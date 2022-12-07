@@ -39,6 +39,7 @@
 
 @include media(large-mobile) {
   .skill-icon-container {
+    gap: ss(xs);
     img {
       @include icon-size(6rem);
     }
