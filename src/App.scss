@@ -18,6 +18,10 @@ hr {
   margin: 0 auto;
 }
 
+.about-skills-container {
+  margin-bottom: ss(xxl);
+}
+
 @include media(small-desktop) {
   .about-skills-container {
     flex-direction: column;
@@ -33,10 +37,6 @@ hr {
       margin-inline: ss(md);
     }
   }
-
-  // .about-skills-container {
-  //   margin-bottom: ss(md);
-  // }
 }
 
 @include media(large-mobile) {
@@ -44,5 +44,11 @@ hr {
     &-container {
       margin-inline: 0;
     }
+  }
+}
+
+@include media(medium-mobile) {
+  .about-skills-container {
+    margin-bottom: ss(xl);
   }
 }

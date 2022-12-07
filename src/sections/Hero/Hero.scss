@@ -55,3 +55,28 @@
     }
   }
 }
+
+@include media(large-mobile) {
+  .hero {
+    &-intro {
+      font-size: fs(sm);
+    }
+
+    &-name,
+    &-job {
+      font-size: fs(xxl);
+    }
+
+    &-text {
+      font-size: fs(lg);
+    }
+  }
+}
+
+@include media(medium-mobile) {
+  .hero {
+    &-name {
+      margin-bottom: -1.5rem;
+    }
+  }
+}

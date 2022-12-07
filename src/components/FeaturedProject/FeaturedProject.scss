@@ -34,14 +34,21 @@
   .featured-project {
     grid-template-columns: 1fr;
     gap: ss(sm);
+  }
+}
 
-    &-img-cell-reverse {
-      order: 0;
+@include media(large-mobile) {
+  .featured-project {
+    &-container {
+      grid-template-columns: 1fr;
+      gap: ss(sm);
     }
+  }
+}
 
-    &-description-reverse {
-      justify-content: start;
-      text-align: start;
-    }
+@include media(medium-mobile) {
+  .featured-project-container {
+    margin-top: ss(md);
+    margin-bottom: ss(md);
   }
 }
