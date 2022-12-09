@@ -2,61 +2,51 @@
 @use './sass/abstracts/index' as *;
 
 .app {
-  &-container {
+  &__container {
     width: 120rem;
     border-inline: 1px solid $color-gray-8;
     margin-inline: ss(md);
-  }
 
-  &-content {
-    margin-inline: ss(lg);
-  }
-}
-
-hr {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.about-skills-container {
-  margin-bottom: ss(xxl);
-}
-
-@include media(small-desktop) {
-  .about-skills-container {
-    flex-direction: column;
-  }
-}
-
-@include media(tablet) {
-  .app {
-    &-container {
+    @include media(tablet) {
       margin-inline: ss(sm);
     }
-    &-content {
-      margin-inline: ss(md);
-    }
-  }
-}
 
-@include media(large-mobile) {
-  .app {
-    &-container {
+    @include media(large-mobile) {
       margin-inline: 0;
     }
   }
-}
 
-@include media(medium-mobile) {
-  .about-skills-container {
-    margin-bottom: ss(xl);
+  &__content {
+    margin-inline: ss(lg);
+
+    @include media(tablet) {
+      margin-inline: ss(md);
+    }
+
+    @include media(small-mobile) {
+      margin-inline: ss(xs);
+    }
   }
 }
 
-@include media(small-mobile) {
-  .app {
-    &-content {
-      margin-inline: ss(xs);
+.about-skills {
+  &__container {
+    margin-bottom: ss(xxl);
+
+    @include media(small-desktop) {
+      flex-direction: column;
+    }
+
+    @include media(medium-mobile) {
+      margin-bottom: ss(xl);
+    }
+  }
+}
+
+.about {
+  &__cell {
+    @include media(small-desktop) {
+      margin-bottom: ss(lg);
     }
   }
 }

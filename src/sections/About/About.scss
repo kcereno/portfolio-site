@@ -3,7 +3,11 @@
 .about {
   &-text-box {
     p {
-      line-height: 1.6;
+      line-height: 1.8;
+
+      @include media(small-desktop) {
+        line-height: 2;
+      }
     }
   }
 }
