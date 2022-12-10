@@ -31,9 +31,9 @@ function Skills() {
 
   return (
     <section id="skills">
-      <div className="skills bordered p-sm">
+      <div className="skills__container bordered p-sm">
         <h2 className="section-title mb-sm">Some of my tools</h2>
-        <div className="skill-icon-container">
+        <div className="skill-icon__container">
           {skills.map((skill) => (
             <SkillIcon
               key={skill.tooltip}
