@@ -26,7 +26,7 @@ function App() {
             <div className="about__cell basis-3/5 self-center">
               <About />
             </div>
-            <div className="skills-wrapper">
+            <div className="skills__wrapper">
               <Skills />
             </div>
           </div>
