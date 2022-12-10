@@ -11,7 +11,7 @@
       margin-inline: ss(sm);
     }
 
-    @include media(large-mobile) {
+    @media (max-width: 585px) {
       margin-inline: 0;
     }
   }

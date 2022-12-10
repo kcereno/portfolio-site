@@ -1,7 +1,7 @@
 @use '/src/sass/abstracts/index' as *;
 
 .hero {
-  &-intro {
+  &__intro {
     color: #f01d7f;
     font-size: 2.2rem;
     letter-spacing: 0.2rem;
@@ -10,105 +10,61 @@
     font-family: $secondary-font;
     font-size: fs(md);
     margin-bottom: ss(xs);
+
+    @include media(large-mobile) {
+      font-size: fs(sm);
+    }
   }
 
-  &-name,
-  &-job {
+  &__name,
+  &__job {
     font-size: fs(xxxl);
     line-height: 5rem;
+
+    @include media(large-mobile) {
+      font-size: fs(xx);
+    }
   }
 
-  &-name {
+  &__name {
     font-family: $primary-font;
+
+    @include media(large-mobile) {
+      margin-bottom: -0.5rem;
+    }
+
+    @media screen and (max-width: 537px) {
+      margin-bottom: 0.2rem;
+    }
   }
 
-  &-job {
+  &__job {
     color: $color-gray-5;
     font-family: $secondary-font;
     font-weight: 700;
+
+    @media screen and (max-width: 537px) {
+      line-height: 4.2rem;
+    }
   }
 
-  &-text {
+  &__subheading {
     max-width: 70ch;
     line-height: 3.2rem;
     font-size: fs(xl);
     font-family: $secondary-font;
     color: $color-gray-7;
     font-weight: 300;
-
-    span {
-      color: $color-gray-5;
-    }
   }
 }
 
 .social {
-  &-icons {
-    display: flex;
-  }
-
   &-icon {
     @include icon-size(2.2rem);
     margin-right: ss(md);
 
     &:hover {
       color: #f01d7f;
-    }
-  }
-}
-
-@include media(large-mobile) {
-  .hero {
-    &-intro {
-      font-size: fs(sm);
-    }
-
-    &-name {
-      margin-bottom: -1.5rem;
-    }
-
-    &-name,
-    &-job {
-      font-size: fs(xxl);
-    }
-
-    &-text {
-      font-size: fs(lg);
-    }
-  }
-}
-
-// @include media(medium-mobile) {
-//   .hero {
-//     &-name {
-//       margin-bottom: -1.5rem;
-//     }
-//   }
-// }
-
-// @media (max-width: 582px) {
-//   .hero {
-//     &-intro {
-//       font-size: fs(xs);
-//     }
-
-//     &-job,
-//     &-name {
-//       font-size: fs(xl);
-//     }
-//     &-text {
-//       font-size: fs(md);
-//     }
-//   }
-// }
-
-@media screen and (max-width: 447px) {
-  .hero {
-    &-name {
-      margin-bottom: 0rem;
-    }
-    &-job {
-      line-height: fs(xl);
     }
   }
 }
