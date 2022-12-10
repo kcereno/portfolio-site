@@ -1,7 +1,17 @@
 @use '/src/sass/abstracts/index' as *;
 
 .about {
-  &-text-box {
+  &__container {
+    @include media(small-desktop) {
+      margin-top: ss(sm);
+    }
+
+    @include media(tablet) {
+      margin-bottom: ss(md);
+    }
+  }
+
+  &__text-box {
     p {
       line-height: 1.8;
 
@@ -9,17 +19,5 @@
         line-height: 2;
       }
     }
-  }
-}
-
-@include media(small-desktop) {
-  .about-container {
-    margin-top: ss(sm);
-  }
-}
-
-@include media(tablet) {
-  .about-container {
-    margin-bottom: ss(md);
   }
 }

@@ -2,10 +2,10 @@ import './About.scss';
 
 function About() {
   return (
-    <section id="about" className="about">
-      <div className="about-container ">
-        <h2 className="mb-sm section-title">A little about me</h2>
-        <div className="about-text-box mb-md">
+    <section id="about">
+      <div className="about__container">
+        <div className="about__text-box mb-md">
+          <h2 className="mb-sm section-title">A little about me</h2>
           <p className="mb-xs">
             I am Frontend Developer from NYC. Lorem ipsum dolor sit amet,
             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
