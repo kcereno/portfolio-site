@@ -9,19 +9,19 @@ interface Props {
 
 function FeaturedProject({ title, description, techStack }: Props) {
   return (
-    <div className="featured-project-container my-lg">
-      <div className="featured-project-img-cell">
+    <div className="featured-project__container my-lg">
+      <div className="featured-project__img-cell">
         <img
-          className="feautured-project-img"
+          className="feautured-project__img"
           src="https://via.placeholder.com/540x320"
           alt=""
         />
       </div>
 
-      <div className="featured-project-description-cell">
-        <h1 className="mb-xxs featured-project-title">{title}</h1>
-        <p className="mb-sm featured-project-description">{description}</p>
-        <ul className="flex gap-2 mb-md featured-project-tech-stack ">
+      <div className="featured-project__description-cell">
+        <h1 className="mb-xxs featured-project__title">{title}</h1>
+        <p className="mb-sm featured-project__description">{description}</p>
+        <ul className="flex gap-2 mb-md featured-project__tech-stack ">
           {techStack.map((tech) => (
             <li>{tech}</li>
           ))}

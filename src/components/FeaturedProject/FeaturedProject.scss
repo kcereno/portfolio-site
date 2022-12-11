@@ -1,54 +1,45 @@
 @use '/src/sass/abstracts/index' as *;
 
 .featured-project {
-  &-container {
+  &__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: ss(md);
     justify-items: center;
     align-items: center;
+
+    @include media(tablet) {
+      grid-template-columns: 1fr;
+      gap: ss(sm);
+      text-align: center;
+    }
+
+    @include media(medium-mobile) {
+      margin: ss(md) 0;
+    }
   }
 
-  &-img {
+  &__img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
-  &-title {
+  &__title {
     font-size: fs(lg);
   }
 
-  &-description {
+  &__description {
     font-size: fs(sm);
     color: $color-gray-5;
   }
 
-  &-tech-stack {
-    font-size: fs(xs);
+  &__tech-stack {
+    font-size: fs(sm);
     color: $color-gray-7;
-  }
-}
 
-@include media(tablet) {
-  .featured-project {
-    grid-template-columns: 1fr;
-    gap: ss(sm);
-  }
-}
-
-@include media(large-mobile) {
-  .featured-project {
-    &-container {
-      grid-template-columns: 1fr;
-      gap: ss(sm);
+    @include media(tablet) {
+      justify-content: center;
     }
-  }
-}
-
-@include media(medium-mobile) {
-  .featured-project-container {
-    margin-top: ss(md);
-    margin-bottom: ss(md);
   }
 }

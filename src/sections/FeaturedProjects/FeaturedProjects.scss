@@ -1,49 +1,39 @@
 @use '/src/sass/abstracts/index' as *;
 
 .featured-projects {
-  margin-bottom: ss(xxl);
-}
+  &__container {
+    margin-bottom: ss(xxl);
 
-.featured-projects-container {
-  .featured-project-container:nth-child(even) {
-    .featured-project {
-      &-img-cell {
-        order: 2;
-      }
-
-      &-description-cell {
-        justify-content: end;
-        text-align: end;
-      }
-      &-tech-stack {
-        justify-content: end;
-      }
+    @include media(medium-mobile) {
+      margin-bottom: ss(xl);
     }
-  }
-}
 
-@include media(large-mobile) {
-  .featured-projects-container {
-    .featured-project-container:nth-child(even) {
+    .featured-project__container:nth-child(even) {
       .featured-project {
-        &-img-cell {
-          order: 0;
+        &__img-cell {
+          order: 2;
+
+          @include media(tablet) {
+            order: 0;
+          }
         }
 
-        &-description-cell {
+        &__description-cell {
           justify-content: end;
           text-align: end;
+
+          @include media(tablet) {
+            text-align: center;
+          }
         }
-        &-tech-stack {
+        &__tech-stack {
           justify-content: end;
+
+          @include media(tablet) {
+            justify-content: center;
+          }
         }
       }
     }
-  }
-}
-
-@include media(medium-mobile) {
-  .featured-projects {
-    margin-bottom: ss(xl);
   }
 }
