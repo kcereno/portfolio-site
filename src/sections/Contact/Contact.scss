@@ -1,42 +1,38 @@
 @use '/src/sass/abstracts/index' as *;
 
-.contact-container {
-  border: 1px solid $color-gray-8;
-  width: 80%;
-  min-width: 60%;
-  border-radius: 8px;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: ss(md);
-
-  label {
-    font-size: fs(sm);
-    font-weight: 700;
-  }
-
-  & input,
-  textarea {
-    margin-top: ss(xxs);
-    display: block;
-    width: 100%;
-    padding: ss(xxs);
-    border-radius: 4px;
+.contact {
+  &__container {
     border: 1px solid $color-gray-8;
-    font-size: fs(sm);
-    background-color: white;
-    color: $color-gray-6;
+    width: 80%;
+    min-width: 60%;
+    border-radius: 8px;
+
+    @include media(tablet) {
+      width: 100%;
+    }
   }
 
-  & button {
-    display: inline;
-  }
-}
+  &__form {
+    label {
+      font-size: fs(sm);
+      font-weight: 700;
+    }
 
-@include media(tablet) {
-  .contact-container {
-    width: 100%;
+    & input,
+    textarea {
+      margin-top: ss(xxs);
+      display: block;
+      width: 100%;
+      padding: ss(xxs);
+      border-radius: 4px;
+      border: 1px solid $color-gray-8;
+      font-size: fs(sm);
+      background-color: white;
+      color: $color-gray-6;
+    }
+
+    & button {
+      display: inline;
+    }
   }
 }
