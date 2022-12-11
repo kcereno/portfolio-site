@@ -9,7 +9,7 @@ function OtherProjects() {
           Some Other Cool Stuff I Made
         </h1>
         <div className="flex-center-x">
-          <div className="project-grid">
+          <div className="other-projects__grid">
             <ProjectCard
               title="Project 1"
               description=" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nihil aut ab deserunt laborum odit esse, provident magni! Officia, vitae."

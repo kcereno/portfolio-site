@@ -1,19 +1,17 @@
 @use '/src/sass/abstracts/index' as *;
 
-.project-grid {
-  display: inline-grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: ss(xs);
-}
+.other-projects {
+  &__grid {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: ss(xs);
 
-@media (max-width: 930px) {
-  .project-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
+    @media (max-width: 930px) {
+      grid-template-columns: 1fr 1fr;
+    }
 
-@include media(medium-mobile) {
-  .project-grid {
-    grid-template-columns: 1fr;
+    @include media(medium-mobile) {
+      grid-template-columns: 1fr;
+    }
   }
 }
