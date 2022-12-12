@@ -1,6 +1,36 @@
 @use '/src/sass/index' as *;
 
 .nav {
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: ss(md);
+
+    @include media(large-mobile) {
+      grid-template-columns: 1fr;
+      padding-top: 0;
+    }
+  }
+
+  &__links-cell {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 9999px;
+
+    @include media(large-mobile) {
+      width: 100%;
+      justify-content: space-evenly;
+      border-radius: 0px;
+      height: 60px;
+    }
+  }
+
   &__link {
     font-size: 1.4rem;
     font-family: $secondary-font;
@@ -17,14 +47,36 @@
     &:hover {
       color: $color-gray-5;
     }
+
+    @include media(large-mobile) {
+      font-size: 1.8rem;
+    }
+  }
+
+  &__link-theme {
+    display: none;
+
+    @include media(large-mobile) {
+      display: block;
+    }
+  }
+
+  &__theme-icon {
+    @include icon-size(2rem);
   }
 }
 
 .theme-icon {
+  &__cell {
+    @include media(large-mobile) {
+      display: none;
+    }
+  }
   @include icon-size(2.1rem);
   justify-self: end;
   transition: all 0.3s;
   padding: 0.3rem;
+  display: inline;
 
   &:hover {
     cursor: pointer;

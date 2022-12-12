@@ -8,10 +8,10 @@ interface Props {
 
 function Navigation({ darkMode, toggleDarkMode }: Props) {
   return (
-    <div className="nav grid grid-cols-3 pt-md">
+    <div className="nav__container">
       <div>{/* Used to help alignment purposes */}</div>
-      <div className="flex-center-x">
-        <div className="nav__links inline-block bg-gray-700 p-xxs rounded-full ">
+      <div className="nav__links-cell">
+        <div className="nav__links  bg-gray-700 p-xxs">
           <a className="nav__link  mx-xxs" href="/">
             Home
           </a>
@@ -24,6 +24,19 @@ function Navigation({ darkMode, toggleDarkMode }: Props) {
           <a className="nav__link mx-xxs" href="/">
             Contact
           </a>
+          <div className="nav__link-theme">
+            {darkMode ? (
+              <MdOutlineModeNight
+                className="nav__theme-icon"
+                onClick={toggleDarkMode}
+              />
+            ) : (
+              <MdOutlineLightMode
+                className="nav__theme-icon"
+                onClick={toggleDarkMode}
+              />
+            )}
+          </div>
         </div>
       </div>
 
