@@ -1,25 +1,12 @@
 @use '../abstracts/index' as *;
 
-h1 {
-  font-family: $primary-font;
-  letter-spacing: 0.1rem;
-  // font-size: fs(2xl);
-}
-
 p {
   font-size: fs(sm);
-  line-height: 2.4rem;
   font-family: $secondary-font;
 }
 
-.subheading {
-  font-size: fs(lg);
-  font-weight: 900;
-  letter-spacing: 0.1rem;
-}
-
 .section-title {
-  font-size: fs(lg);
+  font-size: fs(md);
   font-family: $secondary-font;
   font-weight: 900;
   letter-spacing: 0.1rem;
