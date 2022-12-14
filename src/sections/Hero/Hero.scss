@@ -3,26 +3,26 @@
 .hero {
   &__intro {
     color: #f01d7f;
-    font-size: 2.2rem;
-    letter-spacing: 0.2rem;
-    font-weight: 900;
+    font-size: fs(lg);
+    letter-spacing: 0.3rem;
+
     text-transform: uppercase;
     font-family: $secondary-font;
-    font-size: fs(md);
+    font-weight: 900;
+
     margin-bottom: ss(xs);
 
     @include media(large-mobile) {
-      font-size: fs(sm);
+      font-size: fs(md);
     }
   }
 
   &__name,
   &__job {
-    font-size: fs(xxxl);
-    line-height: 5rem;
+    @include fs-lh(fs(4xl));
 
     @include media(large-mobile) {
-      font-size: fs(xx);
+      @include fs-lh(fs(3xl));
     }
   }
 
@@ -49,12 +49,14 @@
   }
 
   &__subheading {
+    @include fs-lh(fs(2xl));
     max-width: 70ch;
-    line-height: 3.2rem;
-    font-size: fs(xl);
     font-family: $secondary-font;
     color: $color-gray-7;
-    font-weight: 300;
+
+    @include media(large-mobile) {
+      @include fs-lh(fs(xl));
+    }
   }
 }
 

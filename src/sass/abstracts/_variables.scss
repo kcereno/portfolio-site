@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@400;500;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;700&display=swap');
 // Colors
 $color-gray-1: #f9fafb;
 $color-gray-2: #f3f4f6;
@@ -31,12 +30,13 @@ $font-sizes: (
   md: 2rem,
   lg: 2.4rem,
   xl: 3.2rem,
-  xxl: 4rem,
-  xxxl: 4.8rem,
+  2xl: 4rem,
+  3xl: 4.8rem,
+  4xl: 6.1rem,
 );
 
 // Typography
-$primary-font: 'Archivo Black', sans-serif;
+$primary-font: 'Raleway', sans-serif;
 $secondary-font: 'Roboto', sans-serif;
 
 // Breakpoints

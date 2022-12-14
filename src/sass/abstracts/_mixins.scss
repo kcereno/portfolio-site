@@ -4,3 +4,8 @@
   height: $size;
   width: $size;
 }
+
+@mixin fs-lh($size) {
+  font-size: $size;
+  line-height: $size;
+}
