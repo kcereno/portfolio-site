@@ -50,7 +50,7 @@
     @include fs-lh(fs(2xl));
     max-width: 70ch;
     font-family: $secondary-font;
-    color: $color-gray-7;
+    color: $color-gray-5;
 
     @include media(large-mobile) {
       @include fs-lh(fs(xl));

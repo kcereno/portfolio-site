@@ -32,7 +32,7 @@ function Skills() {
   return (
     <section id="skills">
       <div className="skills__container bordered p-sm">
-        <h2 className="section-title mb-sm">Some of the tools</h2>
+        <h2 className="section-title mb-sm text-center">Some Of The Tools</h2>
         <div className="skill-icon__container">
           {skills.map((skill) => (
             <SkillIcon

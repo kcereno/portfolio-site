@@ -5,7 +5,7 @@ function About() {
     <section id="about">
       <div className="about__container">
         <div className="about__text-box mb-md">
-          <h2 className="mb-sm section-title">A little about me</h2>
+          <h2 className="mb-sm section-title">A Little About Me</h2>
           <p className="mb-xs">
             I am Frontend Developer from NYC. Lorem ipsum dolor sit amet,
             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
