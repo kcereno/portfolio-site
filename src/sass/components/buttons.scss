@@ -41,3 +41,62 @@
   box-shadow: none;
   color: #2c5777;
 }
+
+.css-button-rounded--rose {
+  min-width: 130px;
+  height: auto;
+  color: #f9fafb;
+  padding: 5px 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #db2777;
+  background: #db2777 !important;
+  font-size: fs(lg);
+}
+.css-button-rounded--rose:hover {
+  background: transparent !important;
+  color: #db2777;
+}
+
+.button--cta {
+  // min-width: 130px;
+  width: 180px;
+  height: 60px;
+  color: #f9fafb;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  border: none;
+  background: #db2777 !important;
+  font-size: fs(lg);
+}
+.button--cta:hover {
+  border-radius: 5px;
+  padding-right: 50px;
+  padding-left: 8px;
+}
+.button--cta:hover:after {
+  opacity: 1;
+  right: 20px;
+}
+.button--cta:after {
+  content: '👋';
+  position: absolute;
+  opacity: 0;
+  font-size: 20px;
+  line-height: 40px;
+  top: 2;
+  right: -20px;
+  transition: 0.4s;
+}

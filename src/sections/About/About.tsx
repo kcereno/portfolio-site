@@ -19,8 +19,8 @@ function About() {
           </p>
         </div>
         <div>
-          <button className="button-8" type="button">
-            <span className="text">Contact</span>
+          <button className="button--cta" type="button">
+            <span className="text">Say Hello!</span>
           </button>
         </div>
       </div>
