@@ -30,8 +30,8 @@ function App() {
               <Skills />
             </div>
           </div>
-          {/* <FeatureProjects />
-          <OtherProjects /> */}
+          {/* <FeatureProjects /> */}
+          {/* <OtherProjects /> */}
           <Contact />
         </main>
         <Footer />

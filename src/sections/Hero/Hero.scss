@@ -2,7 +2,7 @@
 
 .hero {
   &__intro {
-    color: #f01d7f;
+    color: #db2777;
     font-size: fs(lg);
     letter-spacing: 0.3rem;
 
@@ -21,8 +21,6 @@
   &__job {
     @include fs-lh(fs(4xl));
     font-family: $primary-font;
-    font-weight: 500;
-
     font-weight: 600;
 
     @include media(large-mobile) {
@@ -66,7 +64,7 @@
     margin-right: ss(md);
 
     &:hover {
-      color: #f01d7f;
+      color: #db2777;
     }
   }
 }

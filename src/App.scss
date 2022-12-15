@@ -2,6 +2,8 @@
 @use './sass/abstracts/index' as *;
 
 .app {
+  color: $color-gray-1;
+
   &__container {
     width: 120rem;
     border-inline: 1px solid $color-gray-8;
