@@ -20,6 +20,9 @@ module.exports = {
       '3xl': '4.8rem',
       '4xl': '6.1rem',
     },
+    fontFamily: {
+      'display': 'Noe Display, Arial, sans-serif',
+    },
     spacing: {
       'xxs': '0.8rem',
       'xs': '1.6rem',
@@ -34,6 +37,10 @@ module.exports = {
         'pink': '#db2777',
       },
     },
+    lineHeight: {
+      'display': '6.1rem',
+      'display--sm': '4.8rem',
+  },
   },
   plugins: [],
 };

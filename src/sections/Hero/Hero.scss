@@ -1,26 +1,6 @@
 @use '/src/sass/abstracts/index' as *;
 
 .hero {
-  &__intro {
-    font-family: $secondary-font;
-    font-weight: 900;
-
-    @include media(large-mobile) {
-      font-size: fs(md);
-    }
-  }
-
-  &__name,
-  &__job {
-    @include fs-lh(fs(4xl));
-    font-family: $primary-font;
-    font-weight: 600;
-
-    @include media(large-mobile) {
-      @include fs-lh(fs(3xl));
-    }
-  }
-
   &__name {
     @include media(large-mobile) {
       margin-bottom: -0.5rem;
