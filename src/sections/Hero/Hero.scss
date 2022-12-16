@@ -2,15 +2,8 @@
 
 .hero {
   &__intro {
-    color: #db2777;
-    font-size: fs(lg);
-    letter-spacing: 0.3rem;
-
-    text-transform: uppercase;
     font-family: $secondary-font;
     font-weight: 900;
-
-    margin-bottom: ss(xs);
 
     @include media(large-mobile) {
       font-size: fs(md);

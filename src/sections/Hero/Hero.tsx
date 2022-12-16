@@ -9,8 +9,10 @@ import {
 function Hero() {
   return (
     <section id="hero">
-      <div className="mt-xl mb-md fade-in-fwd small-desktop:bg-red-600">
-        <h3 className="hero__intro">Hello, My name is</h3>
+      <div className="mb-md fade-in-fwd mt-lg small-desktop:mt-xl ">
+        <h3 className="hero__intro text-pink text-lg mb-xs tracking-widest uppercase">
+          Hello, My name is
+        </h3>
         <h1 className="hero__name">Karl Cereno</h1>
         <h2 className="hero__job mb-sm">Frontend Web Developer</h2>
 

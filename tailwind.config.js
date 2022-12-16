@@ -9,6 +9,17 @@ module.exports = {
       'medium-mobile': '500px',
       'small-mobile': '375px',
     },
+    fontSize:{
+      'xxs': '1rem',
+      'xs': '1.2rem',
+      'sm': '1.6rem',
+      'md': '2rem',
+      'lg': '2.4rem',
+      'xl': '3.2rem',
+      '2xl': '4rem',
+      '3xl': '4.8rem',
+      '4xl': '6.1rem',
+    },
     spacing: {
       'xxs': '0.8rem',
       'xs': '1.6rem',
@@ -18,7 +29,11 @@ module.exports = {
       'xl': '7.2rem',
       'xxl':' 12.8rem',
     },
-    extend: {},
+    extend: {
+      colors: {
+        'pink': '#db2777',
+      },
+    },
   },
   plugins: [],
 };
