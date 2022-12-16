@@ -11,17 +11,17 @@ function Navigation({ darkMode, toggleDarkMode }: Props) {
     <div className="nav__container">
       <div>{/* Used to help alignment purposes */}</div>
       <div className="nav__links-cell">
-        <div className="nav__links  bg-gray-700 p-xxs">
-          <a className="nav__link  mx-xxs" href="/">
+        <nav className="nav__links  bg-gray-700 p-xxs">
+          <a className="nav__link  mx-xxs" href="#hero">
             Home
           </a>
-          <a className="nav__link mx-xxs" href="/">
+          <a className="nav__link mx-xxs" href="#about">
             About
           </a>
-          <a className="nav__link mx-xxs" href="/">
+          <a className="nav__link mx-xxs" href="#projects">
             Projects
           </a>
-          <a className="nav__link mx-xxs" href="/">
+          <a className="nav__link mx-xxs" href="#contact">
             Contact
           </a>
           <div className="nav__link-theme">
@@ -37,7 +37,7 @@ function Navigation({ darkMode, toggleDarkMode }: Props) {
               />
             )}
           </div>
-        </div>
+        </nav>
       </div>
 
       {/* Theme Icon */}

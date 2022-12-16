@@ -80,6 +80,12 @@
   border: none;
   background: #db2777 !important;
   font-size: fs(lg);
+
+  @include media(large-mobile) {
+    font-size: fs(md);
+    width: 150px;
+    height: 50px;
+  }
 }
 .button--cta:hover {
   border-radius: 5px;
