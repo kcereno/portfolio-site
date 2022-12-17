@@ -20,15 +20,15 @@ function Hero() {
           Frontend Web Developer
         </h2>
 
-        <p className="hero__subheading max-w-prose mb-md text-lg ">
+        <p className="hero__subheading max-w-prose mb-md text-lg text-gray-500 ">
           I make pretty things on the internet
         </p>
 
         <div className="flex pb-sm">
-          <GrLinkedinOption className="social-icon hvr-grow" />
-          <GrGithub className="social-icon hvr-grow" />
-          <GrInstagram className="social-icon hvr-grow" />
-          <GrMail className="social-icon hvr-grow" />
+          <GrLinkedinOption className="h-[2.2rem] w-[2.2rem] hover:text-pink mr-md hvr-grow" />
+          <GrGithub className="h-[2.2rem] w-[2.2rem] hover:text-pink mr-md hvr-grow" />
+          <GrInstagram className="h-[2.2rem] w-[2.2rem] hover:text-pink mr-md hvr-grow" />
+          <GrMail className="h-[2.2rem] w-[2.2rem] hover:text-pink mr-md hvr-grow" />
         </div>
       </div>
     </section>
