@@ -3,11 +3,12 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     screens: {
-      'small-desktop': '990px',
-      'tablet': '800px',
-      'large-mobile': '560px',
-      'medium-mobile': '500px',
-      'small-mobile': '375px',
+
+      'small-desktop': {'max': '990px'},
+      'tablet': {'max': '800px'},
+      'large-mobile': {'max': '560px'},
+      'medium-mobile': {'max': '500px'},
+      'small-mobile': {'max': '375px'},
     },
     fontSize:{
       'xxs': '1rem',
@@ -44,8 +45,7 @@ module.exports = {
     },
     lineHeight: {
       'display': '6.1rem',
-   
-      'display--sm': '4.2rem',
+      'display--tablet': '4.8rem',
   },
   },
   plugins: [],

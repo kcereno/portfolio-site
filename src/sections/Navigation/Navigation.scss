@@ -1,15 +1,15 @@
 @use '/src/sass/index' as *;
 
 .nav {
-  &__container {
-    // grid-template-columns: repeat(3, 1fr);
-    padding-top: ss(md);
+  // &__container {
+  //   // grid-template-columns: repeat(3, 1fr);
+  //   padding-top: ss(md);
 
-    @include media(large-mobile) {
-      // grid-template-columns: 1fr;
-      // padding-top: 0;
-    }
-  }
+  //   @include media(large-mobile) {
+  //     // grid-template-columns: 1fr;
+  //     // padding-top: 0;
+  //   }
+  // }
 
   &__links-cell {
     display: flex;

@@ -9,18 +9,18 @@ import {
 function Hero() {
   return (
     <section id="hero">
-      <div className="mb-md fade-in-fwd mt-lg small-desktop:mt-xl ">
-        <h3 className="text-pink text-md small-desktop:text-md font-black mb-xs tracking-widest uppercase">
+      <div className="mb-xl pt-xl fade-in-fwd  ">
+        <h3 className="text-pink text-lg font-black mb-xs tracking-widest uppercase tablet:text-md">
           Hello, My name is
         </h3>
-        <h1 className="text-2xl medium-mobile:text-3xl leading-display--sm font-display font-semibold tracking-tight tablet:text-4xl tablet:leading-display">
+        <h1 className=" text-4xl leading-display font-display font-semibold tracking-tight tablet:text-3xl tablet:leading-display--tablet">
           Karl Cereno
         </h1>
-        <h2 className="text-2xl medium-mobile:text-3xl  leading-display--sm  font-display font-semibold mb-sm tracking-tighter tablet:text-4xl tablet:leading-display text-gray-400 ">
+        <h2 className=" text-4xl  leading-display font-display font-semibold mb-sm tracking-tighter  text-gray-400 tablet:text-3xl tablet:leading-display--tablet">
           Frontend Web Developer
         </h2>
 
-        <p className="hero__subheading max-w-prose mb-md text-lg text-gray-500 ">
+        <p className="max-w-prose mb-md text-xl text-gray-500 tablet:text-lg">
           I make pretty things on the internet
         </p>
 
