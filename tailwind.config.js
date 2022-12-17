@@ -24,6 +24,7 @@ module.exports = {
       'display': 'Noe Display, Arial, sans-serif',
     },
     spacing: {
+      '0': '0',
       'xxs': '0.8rem',
       'xs': '1.6rem',
       'sm': '2.4rem',
