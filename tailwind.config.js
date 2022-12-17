@@ -32,6 +32,10 @@ module.exports = {
       'xl': '7.2rem',
       'xxl':' 12.8rem',
     },
+    container:{
+      center: true,
+      
+    },
     extend: {
       colors: {
         'pink': '#db2777',
@@ -39,7 +43,8 @@ module.exports = {
     },
     lineHeight: {
       'display': '6.1rem',
-      'display--sm': '4.8rem',
+   
+      'display--sm': '4.2rem',
   },
   },
   plugins: [],

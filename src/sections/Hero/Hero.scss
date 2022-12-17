@@ -1,33 +1,15 @@
 @use '/src/sass/abstracts/index' as *;
 
 .hero {
-  &__name {
-    @include media(large-mobile) {
-      margin-bottom: -0.5rem;
-    }
-
-    @media screen and (max-width: 537px) {
-      margin-bottom: 0.2rem;
-    }
-  }
-
-  &__job {
-    color: $color-gray-5;
-
-    @media screen and (max-width: 537px) {
-      line-height: 4.2rem;
-    }
-  }
-
   &__subheading {
-    @include fs-lh(fs(2xl));
-    max-width: 70ch;
+    // @include fs-lh(fs(2xl));
+    // max-width: 70ch;
     font-family: $secondary-font;
     color: $color-gray-5;
 
-    @include media(large-mobile) {
-      @include fs-lh(fs(xl));
-    }
+    // @include media(large-mobile) {
+    //   @include fs-lh(fs(xl));
+    // }
   }
 }
 

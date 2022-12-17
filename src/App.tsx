@@ -17,16 +17,16 @@ function App() {
   };
 
   return (
-    <div className="app bg-zinc-900 flex-center-x">
-      <div className="app__container bg-gray-900 ">
+    <div className="bg-zinc-900 flex-center-x">
+      <div className="w-[120rem] border-x-[1px] border-gray-700 bg-gray-900 large-mobile:mx-sm small-desktop:mx-md">
         <Navigation darkMode={darkMode} toggleDarkMode={handleDarkModeToggle} />
-        <main className="app__content">
+        <main className="app__content mx-xs large-mobile:mx-sm small-desktop:mx-lg">
           <Hero />
-          <div className="about-skills__container gap-10 flex ">
-            <div className="about__cell basis-3/5 self-center">
+          <div className="about-skills__container flex mb-xl flex-col small-desktop:flex-row small-desktop:mb-xxl gap-xs">
+            <div className="basis-3/5 self-center">
               <About />
             </div>
-            <div className="skills__wrapper">
+            <div className="">
               <Skills />
             </div>
           </div>
