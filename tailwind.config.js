@@ -10,17 +10,6 @@ module.exports = {
       'medium-mobile': {'max': '500px'},
       'small-mobile': {'max': '375px'},
     },
-    fontSize:{
-      'xxs': '1rem',
-      'xs': '1.2rem',
-      'sm': '1.6rem',
-      'md': '2rem',
-      'lg': '2.5rem',
-      'xl': '3.1rem',
-      '2xl': '3.9rem',
-      '3xl': '4.8rem',
-      '4xl': '6.1rem',
-    },
     fontFamily: {
       'display': 'Noe Display, Arial, sans-serif',
     },
@@ -39,14 +28,26 @@ module.exports = {
       
     },
     extend: {
+      fontSize:{
+        'xxs': '1rem',
+        'xs': '1.2rem',
+        'sm': '1.6rem',
+        'md': '2rem',
+        'lg': '2.5rem',
+        'xl': '3.1rem',
+        '2xl': '3.9rem',
+        '3xl': '4.8rem',
+        '4xl': '6.1rem',
+      },
       colors: {
         'pink': '#db2777',
       },
+      lineHeight: {
+        'display': '6.1rem',
+        'display--tablet': '4.8rem',
     },
-    lineHeight: {
-      'display': '6.1rem',
-      'display--tablet': '4.8rem',
-  },
+    },
+
   },
   plugins: [],
 };

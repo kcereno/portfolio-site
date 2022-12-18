@@ -8,23 +8,34 @@ interface Props {
 
 function Navigation({ darkMode, toggleDarkMode }: Props) {
   return (
-    <div className="nav__container grid grid-cols-3 pt-md ">
-      <div>{/* Used to help alignment purposes */}</div>
-      <div className="nav__links-cell">
-        <nav className="nav__links  bg-gray-700 p-xxs">
-          <a className="nav__link  mx-xxs" href="#hero">
+    <div className="nav grid grid-cols-3 pt-md large-mobile:grid-cols-1 large-mobile:pt-0 ">
+      <div className="nav__container flex  justify-center col-start-2 large-mobile:col-start-1">
+        <nav className="nav__links flex justify-between items-center  px-xs bg-gray-700 rounded-full  large-mobile:w-full large-mobile:rounded-none  large-mobile:justify-around large-mobile:p-xs">
+          <a
+            className="nav__link leading-[24px] px-xxs text-sm text-gray-100 cursor-pointer no-underline transition-all duration-300 hover:text-gray-500"
+            href="#hero"
+          >
             Home
           </a>
-          <a className="nav__link mx-xxs" href="#about">
+          <a
+            className="nav__link leading-[24px] px-xxs text-sm text-gray-100 cursor-pointer no-underline transition-all duration-300 hover:text-gray-500"
+            href="#about"
+          >
             About
           </a>
-          <a className="nav__link mx-xxs" href="#projects">
+          <a
+            className="nav__link leading-[24px] px-xxs text-sm text-gray-100 cursor-pointer no-underline transition-all duration-300 hover:text-gray-500"
+            href="#projects"
+          >
             Projects
           </a>
-          <a className="nav__link mx-xxs" href="#contact">
+          <a
+            className="nav__link leading-[24px] px-xxs text-sm text-gray-100 cursor-pointer no-underline transition-all duration-300 hover:text-gray-500"
+            href="#contact"
+          >
             Contact
           </a>
-          {/* <div className="nav__link-theme">
+          <div className="nav__link-theme hidden large-mobile:block">
             {darkMode ? (
               <MdOutlineModeNight
                 className="nav__theme-icon"
@@ -36,21 +47,21 @@ function Navigation({ darkMode, toggleDarkMode }: Props) {
                 onClick={toggleDarkMode}
               />
             )}
-          </div> */}
+          </div>
         </nav>
       </div>
 
       {/* Theme Icon */}
-      <div className="theme-icon__cell">
-        <div className="theme-icon-__wrapper mx-md">
+      <div className="theme-icon__cell justify-self-end large-mobile:hidden">
+        <div className="theme-icon-__wrapper mx-md flex justify-center items-center bg-gray-700 rounded-full h-[3.4rem] w-[3.4rem] ">
           {darkMode ? (
             <MdOutlineModeNight
-              className="theme-icon"
+              className="theme-icon justify-end h-[2.1rem] w-[2.1rem] p-[0.3rem] inline-block transition-all duration-500 hover:cursor-pointer hover:fill-gray-500"
               onClick={toggleDarkMode}
             />
           ) : (
             <MdOutlineLightMode
-              className="theme-icon"
+              className="theme-icon justify-end h-[2.1rem] w-[2.1rem] p-[0.3rem] inline-block transition-all duration-500 hover:cursor-pointer hover:fill-gray-500"
               onClick={toggleDarkMode}
             />
           )}
