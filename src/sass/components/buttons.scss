@@ -106,3 +106,40 @@
   right: -20px;
   transition: 0.4s;
 }
+
+.css-button-sliding-to-left--rose {
+  min-width: 130px;
+  height: auto;
+  color: #f9fafb;
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #f9fafb;
+  overflow: hidden;
+  border: 2px solid #db2777;
+  color: #db2777;
+  font-size: fs(lg);
+}
+.css-button-sliding-to-left--rose:hover {
+  color: #f9fafb;
+}
+.css-button-sliding-to-left--rose:hover:after {
+  width: 100%;
+}
+.css-button-sliding-to-left--rose:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #db2777;
+}
