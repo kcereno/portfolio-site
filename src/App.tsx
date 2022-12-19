@@ -22,7 +22,7 @@ function App() {
         <Navigation darkMode={darkMode} toggleDarkMode={handleDarkModeToggle} />
         <main className=" mx-lg tablet:mx-md medium-mobile:mx-sm">
           <Hero />
-          <div className="about-skills__container flex mb-xl flex-col small-desktop:flex-row small-desktop:mb-xxl gap-xs">
+          <div className="about-skill flex gap-sm tablet:flex-col ">
             <div className="basis-3/5 self-center">
               <About />
             </div>

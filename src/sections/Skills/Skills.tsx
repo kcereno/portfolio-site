@@ -32,8 +32,8 @@ function Skills() {
   return (
     <section id="skills">
       <div className="skills__container bordered p-sm">
-        <h2 className="section-title mb-sm text-center">Some Of The Tools</h2>
-        <div className="skill-icon__container">
+        {/* <h2 className="section-title mb-sm text-center">Some Of The Tools</h2> */}
+        <div className="skill-icon__container grid grid-cols-4 justify-center items-center gap-sm p-xs tablet:grid-cols-6 medium-mobile:grid-cols-4 medium-mobile:gap-xxs medium-mobile:p-0">
           {skills.map((skill) => (
             <SkillIcon
               key={skill.tooltip}

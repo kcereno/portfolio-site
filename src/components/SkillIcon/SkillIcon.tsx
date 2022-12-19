@@ -8,7 +8,11 @@ interface Props {
 function SkillIcon({ icon, tooltip }: Props) {
   return (
     <div className="tooltip ">
-      <img className="hvr-grow" src={icon} alt="" />
+      <img
+        className="hvr-grow w-[6rem] h-[6rem] self-center"
+        src={icon}
+        alt=""
+      />
       <span className="tooltiptext">{tooltip}</span>
     </div>
   );

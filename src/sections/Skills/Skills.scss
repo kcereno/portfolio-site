@@ -1,24 +1,24 @@
 @use '/src/sass/abstracts/index' as *;
 
 .skill-icon__container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-items: center;
-  align-items: center;
-  gap: ss(sm);
+  // display: grid;
+  // grid-template-columns: repeat(4, 1fr);
+  // justify-items: center;
+  // align-items: center;
+  // gap: ss(sm);
 
   img {
-    @include icon-size(6rem);
-    align-self: center;
+    // @include icon-size(6rem);
+    // align-self: center;
   }
 
-  @include media(small-desktop) {
-    grid-template-columns: repeat(6, 1fr);
+  // @include media(small-desktop) {
+  //   grid-template-columns: repeat(6, 1fr);
 
-    img {
-      @include icon-size(6.5rem);
-    }
-  }
+  //   img {
+  //     @include icon-size(6.5rem);
+  //   }
+  // }
 
   @include media(tablet) {
     grid-template-columns: repeat(4, 1fr);
