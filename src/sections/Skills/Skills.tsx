@@ -18,6 +18,7 @@ function Skills() {
     { icon: html, tooltip: 'HTML' },
     { icon: css, tooltip: 'CSS' },
     { icon: js, tooltip: 'JavaScript' },
+
     { icon: ts, tooltip: 'TypeScript' },
     { icon: react, tooltip: 'React' },
     { icon: node, tooltip: 'Node.js' },
@@ -31,9 +32,9 @@ function Skills() {
 
   return (
     <section id="skills">
-      <div className="skills__container bordered p-sm">
+      <div className="skills__container bordered p-sm max-w-4/5 mx-auto">
         {/* <h2 className="section-title mb-sm text-center">Some Of The Tools</h2> */}
-        <div className="skill-icon__container grid grid-cols-4 justify-center items-center gap-sm p-xs tablet:grid-cols-6 medium-mobile:grid-cols-4 medium-mobile:gap-xxs medium-mobile:p-0">
+        <div className="skill-icon__container grid grid-cols-6 justify-items-center content-center gap-md items-center tablet:gap-sm large-mobile:grid-cols-4">
           {skills.map((skill) => (
             <SkillIcon
               key={skill.tooltip}

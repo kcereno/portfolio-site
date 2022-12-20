@@ -1,74 +1,8 @@
-@use '../abstracts/index' as *;
-
-.button-8 {
-  background-color: #e1ecf4 !important;
-  border-radius: 3px;
-  border: 1px solid $color-gray-8;
-  box-shadow: rgba(255, 255, 255, 0.7) 0 1px 0 0 inset;
-  box-sizing: border-box;
-  color: #39739d;
-  cursor: pointer;
-  display: inline-block;
-  font-family: -apple-system, system-ui, 'Segoe UI', 'Liberation Sans',
-    sans-serif;
-  font-size: fs(sm);
-  font-weight: 400;
-  line-height: 1.15385;
-  outline: none;
-  padding: 8px 0.8em;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: baseline;
-  white-space: nowrap;
-}
-
-.button-8:hover,
-.button-8:focus {
-  background-color: #b3d3ea;
-  color: #2c5777;
-}
-
-.button-8:focus {
-  box-shadow: 0 0 0 4px rgba(0, 149, 255, 0.15);
-}
-
-.button-8:active {
-  background-color: #a0c7e4;
-  box-shadow: none;
-  color: #2c5777;
-}
-
-.css-button-rounded--rose {
+.css-button-arrow--rose {
   min-width: 130px;
-  height: auto;
-  color: #f9fafb;
-  padding: 5px 30px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  outline: none;
-  border-radius: 5px;
-  border: 2px solid #db2777;
-  background: #db2777 !important;
-  font-size: fs(lg);
-}
-.css-button-rounded--rose:hover {
-  background: transparent !important;
-  color: #db2777;
-}
-
-.button--cta {
-  // min-width: 130px;
-  width: 180px;
-  height: 60px;
-  color: #f9fafb;
-  padding: 5px 10px;
+  // height: 40px;
+  color: #fff;
+  padding: 10px 30px;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -78,68 +12,23 @@
   overflow: hidden;
   border-radius: 5px;
   border: none;
-  background: #db2777 !important;
-  font-size: fs(lg);
-
-  @include media(large-mobile) {
-    font-size: fs(md);
-    width: 150px;
-    height: 50px;
-  }
 }
-.button--cta:hover {
+.css-button-arrow--rose:hover {
   border-radius: 5px;
   padding-right: 50px;
-  padding-left: 8px;
+  padding-left: 10px;
 }
-.button--cta:hover:after {
+.css-button-arrow--rose:hover:after {
   opacity: 1;
-  right: 20px;
+  right: 15px;
 }
-.button--cta:after {
+.css-button-arrow--rose:after {
   content: '👋';
   position: absolute;
   opacity: 0;
   font-size: 20px;
   line-height: 40px;
-  top: 2;
+  top: 8;
   right: -20px;
   transition: 0.4s;
-}
-
-.css-button-sliding-to-left--rose {
-  min-width: 130px;
-  height: auto;
-  color: #f9fafb;
-  padding: 10px 15px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  outline: none;
-  border-radius: 5px;
-  z-index: 0;
-  background: #f9fafb;
-  overflow: hidden;
-  border: 2px solid #db2777;
-  color: #db2777;
-  font-size: fs(lg);
-}
-.css-button-sliding-to-left--rose:hover {
-  color: #f9fafb;
-}
-.css-button-sliding-to-left--rose:hover:after {
-  width: 100%;
-}
-.css-button-sliding-to-left--rose:after {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  transition: all 0.3s ease;
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 100%;
-  background: #db2777;
 }

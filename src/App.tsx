@@ -2,7 +2,7 @@ import './App.scss';
 import { useState } from 'react';
 import Navigation from './sections/Navigation/Navigation';
 import Hero from './sections/Hero/Hero';
-import About from './sections/About/About';
+
 import Skills from './sections/Skills/Skills';
 // import FeatureProjects from './sections/FeaturedProjects/FeaturedProjects';
 // import OtherProjects from './sections/OtherProjects/OtherProjects';
@@ -22,14 +22,9 @@ function App() {
         <Navigation darkMode={darkMode} toggleDarkMode={handleDarkModeToggle} />
         <main className=" mx-lg tablet:mx-md medium-mobile:mx-sm">
           <Hero />
-          <div className="about-skill flex gap-sm tablet:flex-col ">
-            <div className="basis-3/5 self-center">
-              <About />
-            </div>
-            <div className="">
-              <Skills />
-            </div>
-          </div>
+
+          <Skills />
+
           {/* <FeatureProjects /> */}
           {/* <OtherProjects /> */}
           <Contact />

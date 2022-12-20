@@ -27,8 +27,11 @@ function Hero() {
           </p>
         </div>
         <div className="hero__contact-links flex gap-sm items-center">
-          <button className="css-button-sliding-to-left--rose" type="button">
-            <span className="text">Say Hello!</span>
+          <button
+            className="css-button-arrow--rose text-md bg-pink"
+            type="button"
+          >
+            Say Hello!
           </button>
           <div className="">
             <GrLinkedinOption className="h-[3.2rem] w-[3.2rem] hover:text-pink hvr-grow mx-xs" />
