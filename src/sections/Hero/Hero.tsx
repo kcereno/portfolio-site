@@ -14,13 +14,13 @@ function Hero() {
           <h3 className="text-pink text-lg font-black mb-xs tracking-widest uppercase tablet:text-md">
             Hello, My name is
           </h3>
-          <h1 className=" text-4xl leading-display font-display font-semibold tracking-tight tablet:text-3xl tablet:leading-display--tablet">
+          <h1 className=" text-4xl leading-display font-display font-semibold tracking-tight tablet:text-3xl tablet:leading-display--tablet small-mobile:text-2xl">
             Karl Cereno
           </h1>
-          <h2 className=" text-4xl  leading-display font-display font-semibold mb-sm tracking-tighter  text-gray-400 tablet:text-3xl tablet:leading-display--tablet">
+          <h2 className=" text-4xl  leading-display font-display font-semibold mb-sm tracking-tighter  text-gray-400 tablet:text-3xl tablet:leading-display--tablet small-mobile:text-2xl small-mobile:leading-[3.9rem]">
             Frontend Web Developer
           </h2>
-          <p className="max-w-prose mb-md text-lg text-gray-500 tablet:text-lg">
+          <p className="max-w-prose mb-md text-lg text-gray-500 tablet:text-lg small-mobile:text-md">
             This is where I talk a little about my self. Lorem ipsum dolor sit
             amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
             ut labore et dolore magna aliqua.
