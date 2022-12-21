@@ -6,7 +6,7 @@ import Hero from './sections/Hero/Hero';
 import Skills from './sections/Skills/Skills';
 // import FeatureProjects from './sections/FeaturedProjects/FeaturedProjects';
 // import OtherProjects from './sections/OtherProjects/OtherProjects';
-import Contact from './sections/Contact/Contact';
+// import Contact from './sections/Contact/Contact';
 import Footer from './sections/Footer/Footer';
 
 function App() {
@@ -24,9 +24,14 @@ function App() {
           <Hero />
           <Skills />
 
+          <div className=" text-center my-2xl">
+            <h1 className="text-2xl">Currenty Remodeling</h1>
+            <p className="text-xl text-gray-500">Please come back later!</p>
+          </div>
+
           {/* <FeatureProjects /> */}
           {/* <OtherProjects /> */}
-          <Contact />
+          {/* <Contact /> */}
         </main>
         <Footer />
       </div>
