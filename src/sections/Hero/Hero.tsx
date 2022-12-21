@@ -9,7 +9,7 @@ import {
 function Hero() {
   return (
     <section id="hero">
-      <div className="hero__container mb-xl pt-xl fade-in-fwd  ">
+      <div className="hero__container mb-xl pt-xl fade-in-fwd  small-mobile:pt-lg ">
         <div className="hero__text-box">
           <h3 className="text-pink text-lg font-black mb-xs tracking-widest uppercase tablet:text-md">
             Hello, My name is
@@ -17,26 +17,28 @@ function Hero() {
           <h1 className=" text-4xl leading-display font-display font-semibold tracking-tight tablet:text-3xl tablet:leading-display--tablet small-mobile:text-2xl">
             Karl Cereno
           </h1>
-          <h2 className=" text-4xl  leading-display font-display font-semibold mb-sm tracking-tighter  text-gray-400 tablet:text-3xl tablet:leading-display--tablet small-mobile:text-2xl small-mobile:leading-[3.9rem]">
+          <h2 className=" text-4xl leading-display font-display font-semibold mb-md tracking-tighter  text-gray-400 tablet:text-3xl tablet:leading-display--tablet small-mobile:text-2xl small-mobile:leading-[3.9rem]">
             Frontend Web Developer
           </h2>
-          <p className="max-w-prose mb-md text-lg text-gray-500 tablet:text-lg small-mobile:text-md">
-            This is where I talk a little about my self. Lorem ipsum dolor sit
-            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua.
+          <p className="max-w-prose mb-md text-lg  text-gray-500 tablet:text-md  small-mobile:text-md">
+            I make pretty and useful things on the internet. I&apos;m big on
+            design and intuitive user experiences. When I am typing away behind
+            a computer screen, I&apos;m probably picking up heavy stuff, giving
+            my cat belly rubs or in a Mauy Thai battle to the death (or until
+            when one of us gets tired).
           </p>
         </div>
-        <div className="hero__contact-links flex gap-sm items-center">
+        <div className="hero__contact-links flex gap-md items-center medium-mobile:flex-col-reverse">
           <button
-            className="css-button-arrow--rose text-md bg-pink"
+            className="button css-button-arrow--rose text-lg tablet:text-md ripple bg-pink small-mobile:mb-xs "
             type="button"
           >
             Say Hello!
           </button>
-          <div className="">
-            <GrLinkedinOption className="h-[3.2rem] w-[3.2rem] hover:text-pink hvr-grow mx-xs" />
-            <GrGithub className="h-[3.2rem] w-[3.2rem] hover:text-pink hvr-grow mx-xs" />
-            <GrInstagram className="h-[3.2rem] w-[3.2rem] hover:text-pink hvr-grow mx-xs" />
+          <div className="flex w-16 gap-sm medium-mobile:w-full medium-mobile:gap-md medium-mobile:justify-center">
+            <GrLinkedinOption className="h-button--large w-button--large tablet:h-button--small tablet:w-button--small hover:text-pink hvr-grow" />
+            <GrGithub className="h-button--large w-button--large tablet:h-button--small tablet:w-button--small hover:text-pink hvr-grow" />
+            <GrInstagram className="h-button--large w-button--large tablet:h-button--small tablet:w-button--small hover:text-pink hvr-grow" />
             {/* <GrMail className="h-[2.2rem] w-[2.2rem] hover:text-pink mr-md hvr-grow" /> */}
           </div>
         </div>

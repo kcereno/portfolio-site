@@ -22,6 +22,8 @@ module.exports = {
       'lg': '6.4rem',
       'xl': '7.2rem',
       'xxl':' 12.8rem',
+      'button--small': '4rem',
+      'button--large': '4.4rem',
     },
     container:{
       center: true,
@@ -47,6 +49,7 @@ module.exports = {
         'display--tablet': '4.8rem',
     },
     },
+
 
   },
   plugins: [],

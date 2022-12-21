@@ -1,6 +1,6 @@
 .css-button-arrow--rose {
   min-width: 130px;
-  // height: 40px;
+  min-height: 40px;
   color: #fff;
   padding: 10px 30px;
   font-weight: bold;
@@ -12,11 +12,20 @@
   overflow: hidden;
   border-radius: 5px;
   border: none;
+
+  @media (max-width: 500px) {
+    width: 100%;
+  }
 }
 .css-button-arrow--rose:hover {
   border-radius: 5px;
   padding-right: 50px;
   padding-left: 10px;
+
+  @media (max-width: 500px) {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 .css-button-arrow--rose:hover:after {
   opacity: 1;
@@ -31,4 +40,27 @@
   top: 8;
   right: -20px;
   transition: 0.4s;
+
+  @media (max-width: 500px) {
+    display: none;
+    // right: 0;
+  }
+}
+
+//Ripple
+
+.ripple {
+  @media (max-width: 500px) {
+    background-position: center;
+    transition: background 0.5s;
+    &:hover {
+      background: #db2777 radial-gradient(circle, transparent 1%, #db2777 1%)
+        center/15000%;
+    }
+    &:active {
+      background-color: #73153f;
+      background-size: 100%;
+      transition: background 0s;
+    }
+  }
 }
