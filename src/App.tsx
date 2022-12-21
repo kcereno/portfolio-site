@@ -22,7 +22,6 @@ function App() {
         <Navigation darkMode={darkMode} toggleDarkMode={handleDarkModeToggle} />
         <main className=" mx-lg tablet:mx-md medium-mobile:mx-sm">
           <Hero />
-
           <Skills />
 
           {/* <FeatureProjects /> */}
