@@ -28,7 +28,7 @@ function Hero() {
               clean and intuitive web design and even cleaner code
             </span>
             . When I am not behind a computer screen, I&apos;m probably picking
-            up heavy stuff, giving my cat belly rubs or in a Mauy Thai battle to
+            up heavy stuff, giving my cat belly rubs or in a Muay Thai battle to
             the death (or until when one of us gets tired).
           </p>
         </div>
