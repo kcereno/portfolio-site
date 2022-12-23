@@ -30,15 +30,15 @@ function Hero() {
         </div>
         <div className="hero__contact-links flex gap-md items-center medium-mobile:flex-col-reverse">
           <button
-            className="button css-button-arrow--rose text-lg tablet:text-md ripple bg-pink small-mobile:mb-xs "
+            className="button css-button-arrow--rose text-md tablet:text-md ripple bg-pink small-mobile:mb-xs "
             type="button"
           >
             Say Hello!
           </button>
           <div className="flex w-16 gap-sm medium-mobile:w-full medium-mobile:gap-md medium-mobile:justify-center">
-            <GrLinkedinOption className="h-button--large w-button--large tablet:h-button--small tablet:w-button--small hover:text-pink hvr-grow" />
-            <GrGithub className="h-button--large w-button--large tablet:h-button--small tablet:w-button--small hover:text-pink hvr-grow" />
-            <GrInstagram className="h-button--large w-button--large tablet:h-button--small tablet:w-button--small hover:text-pink hvr-grow" />
+            <GrLinkedinOption className="h-button--large w-button--large  hover:text-pink hvr-grow" />
+            <GrGithub className="h-button--large w-button--large tablet:w-button--small hover:text-pink hvr-grow" />
+            <GrInstagram className="h-button--large w-button--large tablet:w-button--small hover:text-pink hvr-grow" />
             {/* <GrMail className="h-[2.2rem] w-[2.2rem] hover:text-pink mr-md hvr-grow" /> */}
           </div>
         </div>

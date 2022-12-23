@@ -23,7 +23,7 @@ module.exports = {
       'xl': '7.2rem',
       '2xl':' 12.8rem',
       'button--small': '4rem',
-      'button--large': '4.4rem',
+      'button--large': '3.2rem',
     },
     container:{
       center: true,
