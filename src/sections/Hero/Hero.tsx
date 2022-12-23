@@ -20,7 +20,7 @@ function Hero() {
           <h2 className=" text-4xl leading-display font-display font-semibold mb-md tracking-tighter  text-gray-400 tablet:text-3xl tablet:leading-display--tablet small-mobile:text-2xl small-mobile:leading-[3.9rem]">
             Frontend Web Developer
           </h2>
-          <p className="max-w-prose mb-md text-lg  text-gray-500 tablet:text-md  small-mobile:text-md">
+          <p className="max-w-prose mb-md text-md  text-gray-500 tablet:text-md  small-mobile:text-md">
             I make pretty and useful things on the internet. I&apos;m big on
             design and intuitive user experiences. When I am typing away behind
             a computer screen, I&apos;m probably picking up heavy stuff, giving
