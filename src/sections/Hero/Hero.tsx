@@ -21,11 +21,11 @@ function Hero() {
             Frontend Web Developer
           </h2>
           <p className="max-w-prose mb-md text-md  text-gray-500 tablet:text-md  small-mobile:text-md">
-            I make pretty and useful things on the internet. I&apos;m big on
-            design and intuitive user experiences. When I am typing away behind
-            a computer screen, I&apos;m probably picking up heavy stuff, giving
-            my cat belly rubs or in a Mauy Thai battle to the death (or until
-            when one of us gets tired).
+            I make pretty and cool things on the internet. I&apos;m passionate
+            about clean and intuitive web design and even cleaner code. When I
+            am not behind a computer screen, I&apos;m probably picking up heavy
+            stuff, giving my cat belly rubs or in a Mauy Thai battle to the
+            death (or until when one of us gets tired).
           </p>
         </div>
         <div className="hero__contact-links flex gap-md items-center medium-mobile:flex-col-reverse">
