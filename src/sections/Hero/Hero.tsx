@@ -18,10 +18,10 @@ function Hero() {
             Karl Cereno
           </h1>
           <h2 className=" text-4xl leading-display font-display font-semibold mb-md tracking-tighter  text-gray-400 tablet:text-3xl tablet:leading-display--tablet small-mobile:text-2xl small-mobile:leading-[3.9rem]">
-            Frontend Web Developer
+            Web Developer
           </h2>
           <p className="max-w-prose mb-md text-md  text-gray-500 tablet:text-md  small-mobile:text-md">
-            I make cool and useful things on the internet. I&apos;m passionate about
+            I make cool and useful things on the internet. I love
             <span className="text-gradient">
               {' '}
               clean and intuitive web design and even cleaner code
