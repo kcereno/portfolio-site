@@ -21,8 +21,7 @@ function Hero() {
             Frontend Web Developer
           </h2>
           <p className="max-w-prose mb-md text-md  text-gray-500 tablet:text-md  small-mobile:text-md">
-            I make pretty and cool things on the internet. I&apos;m passionate
-            about
+            I make cool and useful things on the internet. I&apos;m passionate about
             <span className="text-gradient">
               {' '}
               clean and intuitive web design and even cleaner code
