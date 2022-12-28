@@ -20,7 +20,7 @@ function App() {
     <div className="bg-zinc-900 flex-center-x">
       <div className="w-[120rem] border-x-[1px] border-gray-700 bg-gray-900 mx-lg tablet:mx-md large-mobile:mx-0">
         <Navigation darkMode={darkMode} toggleDarkMode={handleDarkModeToggle} />
-        <main className=" mx-lg tablet:mx-md medium-mobile:mx-sm">
+        <main className=" ">
           <Hero />
           <Skills />
 

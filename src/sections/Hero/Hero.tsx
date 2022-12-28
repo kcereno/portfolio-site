@@ -9,7 +9,7 @@ import {
 function Hero() {
   return (
     <section id="hero">
-      <div className="hero__container pt-xl fade-in-fwd  small-mobile:pt-lg ">
+      <div className="hero__container  mx-lg tablet:mx-md medium-mobile:mx-smpt-xl fade-in-fwd  small-mobile:pt-lg ">
         <div className="hero__text-box">
           <h3 className="text-pink text-lg font-black mb-xs tracking-widest uppercase tablet:text-md">
             Hello, My name is
@@ -39,7 +39,7 @@ function Hero() {
           >
             Say Hello!
           </button>
-          <div className="flex w-16 gap-sm medium-mobile:w-full medium-mobile:gap-md medium-mobile:justify-center">
+          <div className="flex  gap-sm medium-mobile:w-full medium-mobile:gap-md medium-mobile:justify-center">
             <GrLinkedinOption className="h-button--large w-button--large  hover:text-pink hvr-grow" />
             <GrGithub className="h-button--large w-button--large tablet:w-button--small hover:text-pink hvr-grow" />
             <GrInstagram className="h-button--large w-button--large tablet:w-button--small hover:text-pink hvr-grow" />
