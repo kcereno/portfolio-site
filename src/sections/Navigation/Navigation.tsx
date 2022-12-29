@@ -10,7 +10,7 @@ interface Props {
 
 function Navigation({ darkMode, toggleDarkMode }: Props) {
   return (
-    <div className="nav grid grid-cols-3 pt-md large-mobile:grid-cols-1 large-mobile:pt-0 ">
+    <div className="nav grid grid-cols-3 pt-md mb-xl large-mobile:grid-cols-1 large-mobile:pt-0 ">
       <div className="nav__container flex  justify-center col-start-2 large-mobile:col-start-1">
         <nav className="nav__links flex justify-between items-center py-xxs px-xs gap-xs bg-gray-800 rounded-full  large-mobile:w-full large-mobile:rounded-none  large-mobile:justify-around large-mobile:p-xs">
           <a
