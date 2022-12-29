@@ -9,7 +9,7 @@ import {
 function Hero() {
   return (
     <section id="hero">
-      <div className="hero__container  mx-lg tablet:mx-md medium-mobile:mx-smpt-xl fade-in-fwd  small-mobile:pt-lg ">
+      <div className="hero__container mx-lg fade-in-fwd tablet:mx-md large-mobile:mx-sm pt-xl large-mobile:pt-lg ">
         <div className="hero__text-box">
           <h3 className="text-pink text-lg font-black mb-xs tracking-widest uppercase tablet:text-md">
             Hello, My name is
