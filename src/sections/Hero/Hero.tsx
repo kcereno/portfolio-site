@@ -1,18 +1,13 @@
 import './Hero.scss';
-import {
-  GrLinkedinOption,
-  GrGithub,
-  GrInstagram,
-  // GrMail,
-} from 'react-icons/gr';
+import { GrLinkedinOption, GrGithub, GrInstagram } from 'react-icons/gr';
 
 function Hero() {
   return (
     <section id="hero">
-      <div className="hero__container pt-xl fade-in-fwd  small-mobile:pt-lg ">
+      <div className="hero__container mx-lg pt-xl fade-in-fwd tablet:mx-md large-mobile:mx-sm  large-mobile:pt-lg ">
         <div className="hero__text-box">
           <h3 className="text-pink text-lg font-black mb-xs tracking-widest uppercase tablet:text-md">
-            Hello, My name is
+            Hey there, My name is
           </h3>
           <h1 className=" text-4xl leading-display font-display font-semibold tracking-tight tablet:text-3xl tablet:leading-display--tablet small-mobile:text-2xl">
             Karl Cereno
@@ -21,12 +16,13 @@ function Hero() {
             Web Developer
           </h2>
           <p className="max-w-prose mb-md text-md  text-gray-500 tablet:text-md  small-mobile:text-md">
-            I make cool and useful things on the internet. I love
+            I make pretty things on the internet. I love
             <span className="text-gradient">
-              {' '}
-              clean and intuitive web design and even cleaner code
+              &nbsp; clean and intuitive web design&nbsp;
             </span>
-            . When I am not behind a computer screen, I&apos;m probably picking
+            and even
+            <span className="text-gradient">&nbsp;cleaner code&nbsp;</span>
+            .When I am not behind a computer screen, I&apos;m probably picking
             up heavy stuff, giving my cat belly rubs or in a Muay Thai battle to
             the death (or until when one of us gets tired).
           </p>
@@ -38,7 +34,7 @@ function Hero() {
           >
             Say Hello!
           </button>
-          <div className="flex w-16 gap-sm medium-mobile:w-full medium-mobile:gap-md medium-mobile:justify-center">
+          <div className="flex  gap-sm medium-mobile:w-full medium-mobile:gap-md medium-mobile:justify-center">
             <GrLinkedinOption className="h-button--large w-button--large  hover:text-pink hvr-grow" />
             <GrGithub className="h-button--large w-button--large tablet:w-button--small hover:text-pink hvr-grow" />
             <GrInstagram className="h-button--large w-button--large tablet:w-button--small hover:text-pink hvr-grow" />

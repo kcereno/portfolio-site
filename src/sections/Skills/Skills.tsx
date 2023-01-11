@@ -1,3 +1,4 @@
+import Marquee from 'react-fast-marquee';
 import './Skills.scss';
 import bootstrap from '../../assets/images/tech-icons/bootstrap.svg';
 import css from '../../assets/images/tech-icons/css.svg';
@@ -18,7 +19,6 @@ function Skills() {
     { icon: html, tooltip: 'HTML' },
     { icon: css, tooltip: 'CSS' },
     { icon: js, tooltip: 'JavaScript' },
-
     { icon: ts, tooltip: 'TypeScript' },
     { icon: react, tooltip: 'React' },
     { icon: node, tooltip: 'Node.js' },
@@ -32,18 +32,21 @@ function Skills() {
 
   return (
     <section id="skills">
-      <div className="skills__container bordered p-md max-w-4/5 mx-auto mt-xl small-mobile:mt-lg">
-        {/* <h2 className="section-title mb-sm text-center font-thin uppercase ">
-          Some Of The Tools
+      <div className="skills__container bg-gray-800 mt-xl py-md">
+        {/* <h2 className="section-title mb-sm  text-center font-thin uppercase text-md ">
+          I Work With
         </h2> */}
-        <div className="skill-icon__container grid grid-cols-6 justify-items-center content-center gap-md items-center tablet:gap-sm large-mobile:grid-cols-4 small-mobile:grid-cols-3">
-          {skills.map((skill) => (
-            <SkillIcon
-              key={skill.tooltip}
-              icon={skill.icon}
-              tooltip={skill.tooltip}
-            />
-          ))}
+
+        <div className="tablet:w-screen">
+          <Marquee gradient={false} speed={30}>
+            {skills.map((skill) => (
+              <SkillIcon
+                key={skill.tooltip}
+                icon={skill.icon}
+                tooltip={skill.tooltip}
+              />
+            ))}
+          </Marquee>
         </div>
       </div>
     </section>

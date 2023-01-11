@@ -13,18 +13,7 @@ module.exports = {
     fontFamily: {
       'display': 'Noe Display, Arial, sans-serif',
     },
-    spacing: {
-      '0': '0',
-      'xxs': '0.8rem',
-      'xs': '1.6rem',
-      'sm': '2.4rem',
-      'md': '3.2rem',
-      'lg': '6.4rem',
-      'xl': '7.2rem',
-      '2xl':' 12.8rem',
-      'button--small': '4rem',
-      'button--large': '3.2rem',
-    },
+
     container:{
       center: true,
       
@@ -47,6 +36,18 @@ module.exports = {
       lineHeight: {
         'display': '6.1rem',
         'display--tablet': '4.8rem',
+    },
+    spacing: {
+      '0': '0',
+      'xxs': '0.8rem',
+      'xs': '1.6rem',
+      'sm': '2.4rem',
+      'md': '3.2rem',
+      'lg': '6.4rem',
+      'xl': '7.2rem',
+      '2xl':' 12.8rem',
+      'button--small': '4rem',
+      'button--large': '3.2rem',
     },
     },
 
