@@ -1,15 +1,10 @@
 import './Hero.scss';
-import {
-  GrLinkedinOption,
-  GrGithub,
-  GrInstagram,
-  // GrMail,
-} from 'react-icons/gr';
+import { GrLinkedinOption, GrGithub, GrInstagram } from 'react-icons/gr';
 
 function Hero() {
   return (
     <section id="hero">
-      <div className="hero__container mx-lg fade-in-fwd tablet:mx-md large-mobile:mx-sm pt-xl large-mobile:pt-lg ">
+      <div className="hero__container mx-lg pt-xl fade-in-fwd tablet:mx-md large-mobile:mx-sm  large-mobile:pt-lg ">
         <div className="hero__text-box">
           <h3 className="text-pink text-lg font-black mb-xs tracking-widest uppercase tablet:text-md">
             Hello, My name is

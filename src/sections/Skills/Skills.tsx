@@ -19,7 +19,6 @@ function Skills() {
     { icon: html, tooltip: 'HTML' },
     { icon: css, tooltip: 'CSS' },
     { icon: js, tooltip: 'JavaScript' },
-
     { icon: ts, tooltip: 'TypeScript' },
     { icon: react, tooltip: 'React' },
     { icon: node, tooltip: 'Node.js' },
@@ -33,7 +32,7 @@ function Skills() {
 
   return (
     <section id="skills">
-      <div className="skills__container bg-gray-800 mt-xl py-md ">
+      <div className="skills__container bg-gray-800 mt-xl py-md">
         {/* <h2 className="section-title mb-sm  text-center font-thin uppercase text-md ">
           I Work With
         </h2> */}
