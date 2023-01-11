@@ -19,10 +19,10 @@ function Navigation({ darkMode, toggleDarkMode }: Props) {
               className="nav__link leading-[24px] px-xxs text-sm large-mobile:text-md  small-mobile:text-sm text-gray-100 cursor-pointer no-underline transition-all duration-300 hover:text-gray-500 flex flex-col"
               href="#hero"
             >
-              <GrHomeRounded
+              {/* <GrHomeRounded
                 className="nav__theme-icon hidden   mx-auto large-mobile:block"
                 color="blue"
-              />
+              /> */}
               Home
             </a>
           </div>
