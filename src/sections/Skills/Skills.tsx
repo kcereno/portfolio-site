@@ -43,7 +43,7 @@ function Skills() {
               <SkillIcon
                 key={skill.tooltip}
                 icon={skill.icon}
-                tooltip={skill.tooltip}
+                // tooltip={skill.tooltip}
               />
             ))}
           </Marquee>

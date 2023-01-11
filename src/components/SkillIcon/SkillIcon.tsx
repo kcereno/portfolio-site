@@ -2,14 +2,14 @@ import './SkillIcon.scss';
 
 interface Props {
   icon: string;
-  tooltip: string;
+  // tooltip: string;
 }
 
-function SkillIcon({ icon, tooltip }: Props) {
+function SkillIcon({ icon }: Props) {
   return (
     <div className="mx-md">
       <img className="mx-auto w-[6rem] h-[6rem] mb-xxs" src={icon} alt="" />
-      <p className="text-center">{tooltip}</p>
+      {/* <p className="text-center">{tooltip}</p> */}
     </div>
   );
 }
