@@ -34,12 +34,12 @@ function Skills() {
     <section id="skills">
       <div className="skills__container bg-gray-800 mt-xl py-md">
         <div className="tablet:w-screen">
-          <Marquee gradient={false} speed={30} direction="right">
+          <Marquee gradient={false} speed={30} direction="right" pauseOnHover>
             {skills.map((skill) => (
               <SkillIcon
                 key={skill.tooltip}
                 icon={skill.icon}
-                // tooltip={skill.tooltip}
+                tooltip={skill.tooltip}
               />
             ))}
           </Marquee>
