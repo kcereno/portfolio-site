@@ -5,8 +5,10 @@ import barbellCalc from '../../assets/images/project-screenshots/barbell-calc-sc
 function FeatureProjects() {
   return (
     <section id="projects">
-      <div className="featured-projects__container mt-xl">
-        <h1 className="text-center section-title ">Some Noteworthy Projects</h1>
+      <div className="featured-projects__container mt-xl mx-xl">
+        <h1 className="text-center section-title text-xl">
+          <span className="underline-gradient">Some Cool Stuff</span>
+        </h1>
         <div className="featured-projects">
           <FeaturedProject
             title="Barbell Calculator"

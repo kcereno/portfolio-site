@@ -7,7 +7,7 @@ function Hero() {
       <div className="hero__container mx-lg pt-xl fade-in-fwd tablet:mx-md large-mobile:mx-sm  large-mobile:pt-lg ">
         <div className="hero__text-box">
           <h3 className="text-primary text-lg font-black mb-xs tracking-widest uppercase tablet:text-md">
-            Hey there, My name is
+            Hello! My name is
           </h3>
           <h1 className=" text-4xl leading-display font-display font-semibold tracking-tight tablet:text-3xl tablet:leading-display--tablet small-mobile:text-2xl">
             Karl Cereno

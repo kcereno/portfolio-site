@@ -25,3 +25,10 @@
     }
   }
 }
+
+.underline-gradient {
+  background: linear-gradient(to left, #0891b2, #083cb2 100%);
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  background-repeat: repeat-x;
+}
