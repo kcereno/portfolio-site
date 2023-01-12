@@ -4,7 +4,7 @@ import barbellCalc from '../../assets/images/project-screenshots/barbell-calc-sc
 
 function FeatureProjects() {
   return (
-    <section id="featured-projects">
+    <section id="projects">
       <div className="featured-projects__container mt-xl">
         <h1 className="text-center section-title ">Some Noteworthy Projects</h1>
         <div className="featured-projects">
