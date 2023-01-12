@@ -31,7 +31,8 @@ module.exports = {
         '4xl': '6.1rem',
       },
       colors: {
-        'pink': '#db2777',
+        'primary': '#db2777',
+        'secondary': '#0891b2',
       },
       lineHeight: {
         'display': '6.1rem',

@@ -19,7 +19,7 @@ function FeaturedProject({
   image,
 }: Props) {
   return (
-    <div className="featured-project__container mt-md mx-10">
+    <div className="featured-project__container mt-md">
       <div className="featured-project__img-cell">
         <img
           className="feautured-project__img object-scale-down  rounded-xl"
@@ -29,11 +29,13 @@ function FeaturedProject({
       </div>
 
       <div className="featured-project__description-cell">
-        <h1 className="mb-xxs featured-project__title">{title}</h1>
-        <p className="mb-sm featured-project__description">{description}</p>
+        <h1 className="mb-xxs featured-project__title text-xl">{title}</h1>
+        <p className="mb-sm featured-project__description text-sm text-gray-400">
+          {description}
+        </p>
         <ul className="flex gap-5 mb-md featured-project__tech-stack ">
           {techStack.map((tech) => (
-            <li className="uppercase text-xs text-grey-100">{tech}</li>
+            <li className="uppercase text-xs text-gray-500">{tech}</li>
           ))}
         </ul>
         <div className="btn-group">
