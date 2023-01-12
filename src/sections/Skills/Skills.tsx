@@ -33,12 +33,8 @@ function Skills() {
   return (
     <section id="skills">
       <div className="skills__container bg-gray-800 mt-xl py-md">
-        {/* <h2 className="section-title mb-sm  text-center font-thin uppercase text-md ">
-          I Work With
-        </h2> */}
-
         <div className="tablet:w-screen">
-          <Marquee gradient={false} speed={30}>
+          <Marquee gradient={false} speed={30} direction="right">
             {skills.map((skill) => (
               <SkillIcon
                 key={skill.tooltip}

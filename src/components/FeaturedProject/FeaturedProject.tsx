@@ -33,7 +33,7 @@ function FeaturedProject({
         <p className="mb-sm featured-project__description">{description}</p>
         <ul className="flex gap-5 mb-md featured-project__tech-stack ">
           {techStack.map((tech) => (
-            <li className="uppercase text-xs">{tech}</li>
+            <li className="uppercase text-xs text-grey-100">{tech}</li>
           ))}
         </ul>
         <div className="btn-group">

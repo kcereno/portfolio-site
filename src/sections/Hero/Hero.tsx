@@ -18,7 +18,7 @@ function Hero() {
           <p className="max-w-prose mb-md text-md  text-gray-500 tablet:text-md  small-mobile:text-md">
             I make pretty things on the internet. I love
             <span className="text-gradient">
-              &nbsp; clean and intuitive web design&nbsp;
+              &nbsp;clean and intuitive web design&nbsp;
             </span>
             and even
             <span className="text-gradient">&nbsp;cleaner code&nbsp;</span>
@@ -35,9 +35,27 @@ function Hero() {
             Say Hello!
           </button>
           <div className="flex  gap-sm medium-mobile:w-full medium-mobile:gap-md medium-mobile:justify-center">
-            <GrLinkedinOption className="h-button--large w-button--large  hover:text-pink hvr-grow" />
-            <GrGithub className="h-button--large w-button--large tablet:w-button--small hover:text-pink hvr-grow" />
-            <GrInstagram className="h-button--large w-button--large tablet:w-button--small hover:text-pink hvr-grow" />
+            <a
+              href="https://www.linkedin.com/in/karlanthonycereno/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GrLinkedinOption className="h-button--large w-button--large  hover:text-pink hvr-grow" />
+            </a>
+            <a
+              href="https://github.com/kcereno"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GrGithub className="h-button--large w-button--large tablet:w-button--small hover:text-pink hvr-grow" />
+            </a>
+            <a
+              href="https://www.instagram.com/_karlospeligroso/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GrInstagram className="h-button--large w-button--large tablet:w-button--small hover:text-pink hvr-grow" />
+            </a>
             {/* <GrMail className="h-[2.2rem] w-[2.2rem] hover:text-pink mr-md hvr-grow" /> */}
           </div>
         </div>
