@@ -6,7 +6,7 @@ function Hero() {
     <section id="hero">
       <div className="hero__container mx-lg pt-xl fade-in-fwd tablet:mx-md large-mobile:mx-sm  large-mobile:pt-lg ">
         <div className="hero__text-box">
-          <h3 className="text-pink text-lg font-black mb-xs tracking-widest uppercase tablet:text-md">
+          <h3 className="text-primary text-lg font-black mb-xs tracking-widest uppercase tablet:text-md">
             Hey there, My name is
           </h3>
           <h1 className=" text-4xl leading-display font-display font-semibold tracking-tight tablet:text-3xl tablet:leading-display--tablet small-mobile:text-2xl">
@@ -29,7 +29,7 @@ function Hero() {
         </div>
         <div className="hero__contact-links flex gap-md items-center medium-mobile:flex-col-reverse">
           <button
-            className="button css-button-arrow--rose text-md tablet:text-md ripple bg-pink small-mobile:mb-xs "
+            className="button css-button-arrow--rose text-md tablet:text-md ripple bg-primary small-mobile:mb-xs "
             type="button"
           >
             Say Hello!
@@ -40,23 +40,23 @@ function Hero() {
               target="_blank"
               rel="noreferrer"
             >
-              <GrLinkedinOption className="h-button--large w-button--large  hover:text-pink hvr-grow" />
+              <GrLinkedinOption className="h-button--large w-button--large  hover:text-primary hvr-grow" />
             </a>
             <a
               href="https://github.com/kcereno"
               target="_blank"
               rel="noreferrer"
             >
-              <GrGithub className="h-button--large w-button--large tablet:w-button--small hover:text-pink hvr-grow" />
+              <GrGithub className="h-button--large w-button--large tablet:w-button--small hover:text-primary hvr-grow" />
             </a>
             <a
               href="https://www.instagram.com/_karlospeligroso/"
               target="_blank"
               rel="noreferrer"
             >
-              <GrInstagram className="h-button--large w-button--large tablet:w-button--small hover:text-pink hvr-grow" />
+              <GrInstagram className="h-button--large w-button--large tablet:w-button--small hover:text-primary hvr-grow" />
             </a>
-            {/* <GrMail className="h-[2.2rem] w-[2.2rem] hover:text-pink mr-md hvr-grow" /> */}
+            {/* <GrMail className="h-[2.2rem] w-[2.2rem] hover:text-primary mr-md hvr-grow" /> */}
           </div>
         </div>
       </div>
