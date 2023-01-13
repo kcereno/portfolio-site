@@ -11,7 +11,8 @@ module.exports = {
       'small-mobile': {'max': '375px'},
     },
     fontFamily: {
-      'display': 'Noe Display, Arial, sans-serif',
+      'display': 'Noe Display,serif',
+      'body': 'Quattrocento Sans, sans-serif',
     },
 
     container:{
@@ -32,7 +33,10 @@ module.exports = {
       },
       colors: {
         'primary': '#db2777',
-        'secondary': '#0891b2',
+        'primary-offset': '#ff2957',
+        'secondary': '#43a9a3',
+        'secondary-offset': '#0e7c9c',
+        'bg': '#0e141b',
       },
       lineHeight: {
         'display': '6.1rem',

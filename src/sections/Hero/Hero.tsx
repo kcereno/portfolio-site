@@ -6,7 +6,10 @@ function Hero() {
     <section id="hero">
       <div className="hero__container mx-lg pt-xl fade-in-fwd tablet:mx-md large-mobile:mx-sm  large-mobile:pt-lg ">
         <div className="hero__text-box">
-          <div className=" text-3xl text-white font-display font-semibold leading-display  tracking-tighter mb-md">
+          <h3 className="text-primary text-md  font-bold tracking-widest mb-sm uppercase b">
+            Hello there! My name is
+          </h3>
+          <div className=" text-4xl text-white font-display font-bold  mb-md leading-[6rem]">
             <h1 className=" tracking-tight tablet:text-3xl tablet:leading-display--tablet small-mobile:text-2xl">
               Karl Cereno
             </h1>
@@ -15,15 +18,17 @@ function Hero() {
             </h1>
           </div>
 
-          <p className="max-w-prose mb-md text-md  text-gray-500 tablet:text-md  small-mobile:text-md">
+          <p className=" mb-md text-lg  tablet:text-md  small-mobile:text-md">
             I make pretty things on the internet. I love
             <span className="text-gradient">
               &nbsp;clean and intuitive web design&nbsp;
             </span>
             and even
-            <span className="text-gradient">&nbsp;cleaner code&nbsp;</span>
-            .When I am not behind a computer screen, I&apos;m probably picking
-            up heavy stuff, giving my cat belly rubs or in a Muay Thai battle to
+            <span className="text-gradient">&nbsp;cleaner code</span>
+            .&nbsp;
+            <br />
+            When I am not behind a computer screen, I&apos;m probably picking up
+            heavy stuff, giving my cat belly rubs or in a Muay Thai battle to
             the death (or until when one of us gets tired).
           </p>
         </div>
