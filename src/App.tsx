@@ -17,8 +17,8 @@ function App() {
   };
 
   return (
-    <div className="bg-zinc-900 flex-center-x">
-      <div className="w-[120rem] border-x-[1px] border-gray-700 bg-gray-900 mx-lg tablet:mx-md large-mobile:mx-0">
+    <div className="bg-black flex-center-x">
+      <div className="w-[120rem] border-x-[1px] border-gray-700 bg-zinc-900 mx-lg tablet:mx-md large-mobile:mx-0">
         <Navigation darkMode={darkMode} toggleDarkMode={handleDarkModeToggle} />
         <main className=" ">
           <Hero />

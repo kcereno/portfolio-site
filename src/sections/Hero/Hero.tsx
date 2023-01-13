@@ -6,15 +6,15 @@ function Hero() {
     <section id="hero">
       <div className="hero__container mx-lg pt-xl fade-in-fwd tablet:mx-md large-mobile:mx-sm  large-mobile:pt-lg ">
         <div className="hero__text-box">
-          <h3 className="text-primary text-lg font-black mb-xs tracking-widest uppercase tablet:text-md">
-            Hello! My name is
-          </h3>
-          <h1 className=" text-4xl leading-display font-display font-semibold tracking-tight tablet:text-3xl tablet:leading-display--tablet small-mobile:text-2xl">
-            Karl Cereno
-          </h1>
-          <h2 className=" text-4xl leading-display font-display font-semibold mb-md tracking-tighter  text-gray-400 tablet:text-3xl tablet:leading-display--tablet small-mobile:text-2xl small-mobile:leading-[3.9rem]">
-            Frontend Web Developer
-          </h2>
+          <div className=" text-3xl text-white font-display font-semibold leading-display  tracking-tighter mb-md">
+            <h1 className=" tracking-tight tablet:text-3xl tablet:leading-display--tablet small-mobile:text-2xl">
+              Karl Cereno
+            </h1>
+            <h1 className="tablet:text-3xl tablet:leading-display--tablet small-mobile:text-2xl small-mobile:leading-[3.9rem]">
+              Frontend Web Developer
+            </h1>
+          </div>
+
           <p className="max-w-prose mb-md text-md  text-gray-500 tablet:text-md  small-mobile:text-md">
             I make pretty things on the internet. I love
             <span className="text-gradient">
