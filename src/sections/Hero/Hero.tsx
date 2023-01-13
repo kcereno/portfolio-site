@@ -4,7 +4,7 @@ import { GrLinkedinOption, GrGithub, GrInstagram } from 'react-icons/gr';
 function Hero() {
   return (
     <section id="hero">
-      <div className="hero__container mx-lg pt-xl fade-in-fwd tablet:mx-md large-mobile:mx-sm  large-mobile:pt-lg ">
+      <div className="hero__container pt-xl fade-in-fwd tablet:mx-md large-mobile:mx-sm  large-mobile:pt-lg ">
         <div className="hero__text-box">
           <h3 className="text-primary text-md  font-bold tracking-widest mb-sm uppercase b">
             Hello there! My name is Karl and
