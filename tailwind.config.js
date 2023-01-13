@@ -30,6 +30,7 @@ module.exports = {
         '2xl': '3.9rem',
         '3xl': '4.8rem',
         '4xl': '6.1rem',
+        '5xl': '7.6rem',
       },
       colors: {
         'primary': '#db2777',

@@ -7,19 +7,16 @@ function Hero() {
       <div className="hero__container mx-lg pt-xl fade-in-fwd tablet:mx-md large-mobile:mx-sm  large-mobile:pt-lg ">
         <div className="hero__text-box">
           <h3 className="text-primary text-md  font-bold tracking-widest mb-sm uppercase b">
-            Hello there! My name is
+            Hello there! My name is Karl and
           </h3>
           <div className=" text-4xl text-white font-display font-bold  mb-md leading-[6rem]">
             <h1 className=" tracking-tight tablet:text-3xl tablet:leading-display--tablet small-mobile:text-2xl">
-              Karl Cereno
-            </h1>
-            <h1 className="tablet:text-3xl tablet:leading-display--tablet small-mobile:text-2xl small-mobile:leading-[3.9rem]">
-              Frontend Web Developer
+              I make pretty things on the internet.
             </h1>
           </div>
 
           <p className=" mb-md text-lg  tablet:text-md  small-mobile:text-md">
-            I make pretty things on the internet. I love
+            I am a frontend web developer based in NYC. I love
             <span className="text-gradient">
               &nbsp;clean and intuitive web design&nbsp;
             </span>
