@@ -1,5 +1,6 @@
+/* eslint-disable no-restricted-globals */
 import './App.scss';
-import { useState } from 'react';
+
 import Navigation from './sections/Navigation/Navigation';
 import Hero from './sections/Hero/Hero';
 
@@ -10,16 +11,10 @@ import Hero from './sections/Hero/Hero';
 // import Footer from './sections/Footer/Footer';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
-
-  const handleDarkModeToggle = () => {
-    setDarkMode((prevValue) => !prevValue);
-  };
-
   return (
     <div className="bg-bg flex-center-x">
       <div className="w-[130rem] mx-lg tablet:mx-md">
-        <Navigation darkMode={darkMode} toggleDarkMode={handleDarkModeToggle} />
+        <Navigation />
         <main className=" ">
           <Hero />
           {/* <Skills /> */}

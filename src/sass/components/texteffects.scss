@@ -26,13 +26,7 @@
   }
 }
 
-.underline-gradient {
-  background: linear-gradient(to left, #0891b2, #083cb2 100%);
-  background-position: 0 100%;
-  background-size: 100% 2px;
-  background-repeat: repeat-x;
-}
-
+//
 .underline-effect {
   text-decoration: none;
   position: relative;
@@ -54,4 +48,37 @@
   background-color: #0891b2;
   bottom: 0;
   height: 100%;
+}
+
+//
+.hover-left-right {
+  background-image: linear-gradient(to right, #0891b2, #0891b2 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  background-clip: var(--color-one);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.hover-left-right::before {
+  content: '';
+  background: #0891b2;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+.hover-left-right:hover {
+  background-position: 0;
+}
+
+.hover-left-right:hover::before {
+  width: 100%;
 }
