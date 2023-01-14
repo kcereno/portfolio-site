@@ -4,7 +4,7 @@ import { GrLinkedinOption, GrGithub, GrInstagram } from 'react-icons/gr';
 function Hero() {
   return (
     <section id="hero">
-      <div className="hero__container pt-xl fade-in-fwd tablet:mx-md large-mobile:mx-sm  large-mobile:pt-lg ">
+      <div className="hero__container py-xl fade-in-fwd tablet:mx-md large-mobile:mx-sm  large-mobile:pt-lg ">
         <div className="hero__text-box">
           <h3 className="text-primary text-md  font-bold tracking-widest mb-sm uppercase b">
             Hello there! My name is Karl and
@@ -15,18 +15,19 @@ function Hero() {
             </h1>
           </div>
 
-          <p className=" mb-md text-lg  tablet:text-md  small-mobile:text-md">
-            I am a frontend web developer based in NYC. I love
+          <p className="mb-lg text-md  tablet:text-md  max-w-prose small-mobile:text-md">
+            I am a frontend web developer based in NYC. I especially love
+            working on projects that
             <span className="text-gradient">
-              &nbsp;clean and intuitive web design&nbsp;
+              &nbsp;solves real world problems&nbsp;
             </span>
-            and even
-            <span className="text-gradient">&nbsp;cleaner code</span>
-            .&nbsp;
-            <br />
-            When I am not behind a computer screen, I&apos;m probably picking up
-            heavy stuff, giving my cat belly rubs or in a Muay Thai battle to
-            the death (or until when one of us gets tired).
+            and
+            <span className="text-gradient">
+              &nbsp;improves people lives&nbsp;
+            </span>
+            . When I am not behind a computer screen, I&apos;m probably picking
+            up heavy stuff, giving my cat belly rubs or in a Muay Thai battle
+            fighting for honor.
           </p>
         </div>
         <div className="hero__contact-links flex gap-md items-center medium-mobile:flex-col-reverse">

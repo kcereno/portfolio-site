@@ -4,7 +4,7 @@ import Navigation from './sections/Navigation/Navigation';
 import Hero from './sections/Hero/Hero';
 
 // import Skills from './sections/Skills/Skills';
-// import FeatureProjects from './sections/FeaturedProjects/FeaturedProjects';
+import FeatureProjects from './sections/FeaturedProjects/FeaturedProjects';
 // import OtherProjects from './sections/OtherProjects/OtherProjects';
 // import Contact from './sections/Contact/Contact';
 // import Footer from './sections/Footer/Footer';
@@ -24,7 +24,7 @@ function App() {
           <Hero />
           {/* <Skills /> */}
 
-          {/* <FeatureProjects /> */}
+          <FeatureProjects />
           {/* <OtherProjects /> */}
           {/* <Contact /> */}
         </main>
