@@ -33,10 +33,10 @@ module.exports = {
         '5xl': '7.6rem',
       },
       colors: {
-        'primary': '#db2777',
-        'primary-offset': '#ff2957',
-        'secondary': '#43a9a3',
-        'secondary-offset': '#0e7c9c',
+        'primary': '#db2777',//pink-600
+        'primary-offset': '#e11d48', // rose-600
+        'secondary': '#0891b2', //cyan-600
+        'secondary-offset': '#2563eb', //blue-600
         'bg': '#0e141b',
       },
       lineHeight: {

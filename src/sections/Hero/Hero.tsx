@@ -26,8 +26,9 @@ function Hero() {
               &nbsp;improves people lives&nbsp;
             </span>
             . When I am not behind a computer screen, I&apos;m probably picking
-            up heavy stuff, giving my cat belly rubs or in a Muay Thai battle
-            fighting for honor.
+            up heavy stuff,&nbsp;
+            <span className="underline-effect">giving my cat belly rubs</span>
+            &nbsp; or in a Muay Thai battle fighting for honor.
           </p>
         </div>
         <div className="hero__contact-links flex gap-md items-center medium-mobile:flex-col-reverse">
