@@ -12,7 +12,7 @@ module.exports = {
     },
     fontFamily: {
       'display': 'Noe Display,serif',
-      'body': 'Quattrocento Sans, sans-serif',
+      'body': 'Roboto, sans-serif',
     },
 
     container:{

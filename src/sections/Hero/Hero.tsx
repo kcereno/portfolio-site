@@ -4,18 +4,18 @@ import { GrLinkedinOption, GrGithub, GrInstagram } from 'react-icons/gr';
 function Hero() {
   return (
     <section id="hero">
-      <div className="hero__container py-xl fade-in-fwd tablet:mx-md large-mobile:mx-sm  large-mobile:pt-lg ">
+      <div className="hero__container py-xl fade-in-fwd">
         <div className="hero__text-box">
-          <h3 className="text-primary text-md  font-bold tracking-widest mb-sm uppercase b">
+          <h3 className="text-primary font-body text-md small-mobile:text-sm font-bold tracking-widest mb-sm uppercase">
             Hello there! My name is Karl and
           </h3>
-          <div className=" text-4xl text-white font-display font-bold  mb-md leading-[6rem]">
-            <h1 className=" tracking-tight tablet:text-3xl tablet:leading-display--tablet small-mobile:text-2xl">
+          <div className=" text-4xl large-mobile:text-3xl large-mobile:leading-[4.8rem] small-mobile:text-2xl small-mobile:leading-[3.9rem] text-white font-display font-bold  mb-md leading-[6.1rem]">
+            <h1 className="tracking-tight">
               I make pretty things on the internet.
             </h1>
           </div>
 
-          <p className="mb-lg text-md  tablet:text-md  max-w-prose small-mobile:text-md">
+          <p className="mb-lg text-md max-w-prose font-body small-mobile:text-sm">
             I am a frontend web developer based in NYC. I especially love
             working on projects that
             <span className="text-gradient">
@@ -28,7 +28,7 @@ function Hero() {
             . When I am not behind a computer screen, I&apos;m probably picking
             up heavy stuff,&nbsp;
             <span className="underline-effect">giving my cat belly rubs</span>
-            &nbsp; or in a Muay Thai battle fighting for honor.
+            &nbsp;or fighting for honor in a Muay Thai battle to the death.
           </p>
         </div>
         <div className="hero__contact-links flex gap-md items-center medium-mobile:flex-col-reverse">
