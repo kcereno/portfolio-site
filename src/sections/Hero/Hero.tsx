@@ -5,17 +5,17 @@ function Hero() {
   return (
     <section id="home">
       <div className="hero__container pt-xl fade-in-fwd">
-        <div className="hero__text-box">
-          <h3 className="text-primary font-body text-md small-mobile:text-sm font-bold tracking-widest mb-xs uppercase">
+        <div className="hero__text-box mb-lg">
+          <h3 className="text-primary font-body text-md small-mobile:text-sm font-bold tracking-widest mb-md uppercase">
             Hello there! My name is Karl
           </h3>
-          <div className=" text-4xl large-mobile:text-3xl large-mobile:leading-[4.8rem] small-mobile:text-2xl small-mobile:leading-[3.9rem] text-white font-display font-bold  mb-sm leading-[6.1rem]">
-            <h1 className="tracking-tight">
+          <div className="mb-md">
+            <h1 className="text-4xl tablet:leading-[4.8rem] small-mobile:text-2xl small-mobile:leading-[3.9rem] text-white font-display font-bold leading-[6.1rem] tablet:text-3xl tracking-tight">
               I make pretty things on the internet.
             </h1>
           </div>
 
-          <p className="mb-md text-md max-w-prose font-body small-mobile:text-sm">
+          <p className="text-md max-w-prose font-body small-mobile:text-sm">
             I am a frontend web developer based in NYC. I especially love
             working on projects that
             <span className="text-gradient">
@@ -27,7 +27,15 @@ function Hero() {
             </span>
             . When I am not behind a computer screen, I&apos;m probably picking
             up heavy stuff,&nbsp;
-            <span className="underline-effect">giving my cat belly rubs</span>
+            <span className="underline-effect">
+              <a
+                href="https://www.instagram.com/lillybugchronicles/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                giving my cat belly rubs
+              </a>
+            </span>
             &nbsp;or fighting for honor in a Muay Thai battle to the death.
           </p>
         </div>
@@ -60,7 +68,6 @@ function Hero() {
             >
               <GrInstagram className="h-button--large w-button--large tablet:w-button--small hover:text-primary hvr-grow" />
             </a>
-            {/* <GrMail className="h-[2.2rem] w-[2.2rem] hover:text-primary mr-md hvr-grow" /> */}
           </div>
         </div>
       </div>
