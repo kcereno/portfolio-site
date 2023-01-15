@@ -3,28 +3,32 @@ import { GrLinkedinOption, GrGithub, GrInstagram } from 'react-icons/gr';
 
 function Hero() {
   return (
-    <section id="hero">
-      <div className="hero__container mx-lg pt-xl fade-in-fwd tablet:mx-md large-mobile:mx-sm  large-mobile:pt-lg ">
+    <section id="home">
+      <div className="hero__container pt-xl fade-in-fwd">
         <div className="hero__text-box">
-          <h3 className="text-primary text-lg font-black mb-xs tracking-widest uppercase tablet:text-md">
-            Hello! My name is
+          <h3 className="text-primary font-body text-md small-mobile:text-sm font-bold tracking-widest mb-xs uppercase">
+            Hello there! My name is Karl
           </h3>
-          <h1 className=" text-4xl leading-display font-display font-semibold tracking-tight tablet:text-3xl tablet:leading-display--tablet small-mobile:text-2xl">
-            Karl Cereno
-          </h1>
-          <h2 className=" text-4xl leading-display font-display font-semibold mb-md tracking-tighter  text-gray-400 tablet:text-3xl tablet:leading-display--tablet small-mobile:text-2xl small-mobile:leading-[3.9rem]">
-            Web Developer
-          </h2>
-          <p className="max-w-prose mb-md text-md  text-gray-500 tablet:text-md  small-mobile:text-md">
-            I make pretty things on the internet. I love
+          <div className=" text-4xl large-mobile:text-3xl large-mobile:leading-[4.8rem] small-mobile:text-2xl small-mobile:leading-[3.9rem] text-white font-display font-bold  mb-sm leading-[6.1rem]">
+            <h1 className="tracking-tight">
+              I make pretty things on the internet.
+            </h1>
+          </div>
+
+          <p className="mb-md text-md max-w-prose font-body small-mobile:text-sm">
+            I am a frontend web developer based in NYC. I especially love
+            working on projects that
             <span className="text-gradient">
-              &nbsp;clean and intuitive web design&nbsp;
+              &nbsp;solves real world problems&nbsp;
             </span>
-            and even
-            <span className="text-gradient">&nbsp;cleaner code&nbsp;</span>
-            .When I am not behind a computer screen, I&apos;m probably picking
-            up heavy stuff, giving my cat belly rubs or in a Muay Thai battle to
-            the death (or until when one of us gets tired).
+            and
+            <span className="text-gradient">
+              &nbsp;improves people lives&nbsp;
+            </span>
+            . When I am not behind a computer screen, I&apos;m probably picking
+            up heavy stuff,&nbsp;
+            <span className="underline-effect">giving my cat belly rubs</span>
+            &nbsp;or fighting for honor in a Muay Thai battle to the death.
           </p>
         </div>
         <div className="hero__contact-links flex gap-md items-center medium-mobile:flex-col-reverse">

@@ -11,7 +11,8 @@ module.exports = {
       'small-mobile': {'max': '375px'},
     },
     fontFamily: {
-      'display': 'Noe Display, Arial, sans-serif',
+      'display': 'Noe Display,serif',
+      'body': 'Roboto, sans-serif',
     },
 
     container:{
@@ -29,10 +30,15 @@ module.exports = {
         '2xl': '3.9rem',
         '3xl': '4.8rem',
         '4xl': '6.1rem',
+        '5xl': '7.6rem',
       },
       colors: {
-        'primary': '#db2777',
-        'secondary': '#0891b2',
+        'primary': '#db2777',//pink-600
+        'primary-offset': '#e11d48', // rose-600
+        'secondary': '#0891b2', //cyan-600
+        'secondary-offset': '#2563eb', //blue-600
+        'dark': '#0e141b',
+        'dark-offset': '#252526',
       },
       lineHeight: {
         'display': '6.1rem',
