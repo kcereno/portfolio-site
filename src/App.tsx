@@ -12,7 +12,7 @@ import FeatureProjects from './sections/FeaturedProjects/FeaturedProjects';
 
 function App() {
   return (
-    <div className="bg-bg flex-center-x">
+    <div className="bg-dark flex-center-x">
       <div className="w-[120rem] mx-lg tablet:mx-md">
         <Navigation />
         <main className=" ">

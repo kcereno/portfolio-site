@@ -37,7 +37,8 @@ module.exports = {
         'primary-offset': '#e11d48', // rose-600
         'secondary': '#0891b2', //cyan-600
         'secondary-offset': '#2563eb', //blue-600
-        'bg': '#0e141b',
+        'dark': '#0e141b',
+        'dark-offset': '#252526',
       },
       lineHeight: {
         'display': '6.1rem',

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable react/require-default-props */
 import './FeaturedProject.scss';
 
@@ -18,39 +19,30 @@ function FeaturedProject({
   code,
   image,
 }: Props) {
+  // eslint-disable-next-line react/self-closing-comp
   return (
-    <div className="featured-project__container mt-md">
-      <div className="featured-project__img-cell">
-        <img
-          className="feautured-project__img object-scale-down  rounded-xl"
-          src={image}
-          alt=""
-        />
-      </div>
-
-      <div className="featured-project__description-cell w-4/5">
-        <h1 className="mb-xxs featured-project__title text-xl ">{title}</h1>
-        <p className="mb-sm featured-project__description text-sm text-gray-400 max-w-prose">
-          {description}
-        </p>
-        <ul className="flex gap-5 mb-md featured-project__tech-stack ">
+    <div className="rounded-lg w-[40rem] drop-shadow-lg border border-slate-600 large-mobile:w-full">
+      <a href={liveSite}>
+        <img src={image} alt={title} className="rounded-t-lg" />
+      </a>
+      <div className="p-sm">
+        <h2 className="text-xl font-display mb-xs">{title}</h2>
+        <p className="text-sm mb-sm">{description}</p>
+        <ul className="flex gap-sm text-gray-500 mb-md">
           {techStack.map((tech) => (
-            <li className="uppercase text-xs text-gray-500">{tech}</li>
+            <li className="text-xs">{tech}</li>
           ))}
         </ul>
-        <div className="btn-group">
+        <div className="flex gap-xxs ">
           <a href={liveSite}>
-            <button
-              type="button"
-              className="css-button-rounded--rose mr-xxs text-sm"
-            >
+            <button type="submit" className="css-button-rounded--rose text-xs">
               View Site
             </button>
           </a>
           <a href={code}>
             <button
-              type="button"
-              className="css-button-sliding-to-left--rose text-sm"
+              type="submit"
+              className="css-button-sliding-to-left--rose text-xs"
             >
               See Code
             </button>
