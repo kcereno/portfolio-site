@@ -28,9 +28,9 @@ function FeaturedProject({
         />
       </div>
 
-      <div className="featured-project__description-cell">
-        <h1 className="mb-xxs featured-project__title text-xl">{title}</h1>
-        <p className="mb-sm featured-project__description text-sm text-gray-400">
+      <div className="featured-project__description-cell w-4/5">
+        <h1 className="mb-xxs featured-project__title text-xl ">{title}</h1>
+        <p className="mb-sm featured-project__description text-sm text-gray-400 max-w-prose">
           {description}
         </p>
         <ul className="flex gap-5 mb-md featured-project__tech-stack ">
