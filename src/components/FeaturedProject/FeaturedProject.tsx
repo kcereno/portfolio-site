@@ -35,14 +35,14 @@ function FeaturedProject({
         </ul>
         <div className="flex gap-xxs ">
           <a href={liveSite}>
-            <button type="submit" className="css-button-rounded--rose text-xs">
+            <button type="submit" className="css-button-rounded--rose text-sm">
               View Site
             </button>
           </a>
           <a href={code}>
             <button
               type="submit"
-              className="css-button-sliding-to-left--rose text-xs"
+              className="css-button-sliding-to-left--rose text-sm"
             >
               See Code
             </button>

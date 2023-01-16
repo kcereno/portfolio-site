@@ -1,13 +1,13 @@
 /* eslint-disable no-restricted-globals */
 import './App.scss';
 
-import Navigation from './sections/Navigation/Navigation';
+// import Navigation from './sections/Navigation/Navigation';
 import Hero from './sections/Hero/Hero';
 
 // import Skills from './sections/Skills/Skills';
 import FeatureProjects from './sections/FeaturedProjects/FeaturedProjects';
 // import OtherProjects from './sections/OtherProjects/OtherProjects';
-import Contact from './sections/Contact/Contact';
+// import Contact from './sections/Contact/Contact';
 import Footer from './sections/Footer/Footer';
 
 function App() {
@@ -15,14 +15,14 @@ function App() {
     <div className="bg-dark">
       <div className="flex justify-center">
         <div className="w-[120rem] mx-lg tablet:mx-md">
-          <Navigation />
+          {/* <Navigation /> */}
           <main className=" ">
             <Hero />
             {/* <Skills /> */}
 
             <FeatureProjects />
             {/* <OtherProjects /> */}
-            <Contact />
+            {/* <Contact /> */}
           </main>
         </div>
       </div>
