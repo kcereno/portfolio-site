@@ -3,9 +3,8 @@ import './Footer.scss';
 function Footer() {
   const currentYear = new Date().getFullYear();
   return (
-    <div className="">
-      <hr className="footer__divider" />
-      <p className="text-center my-lg">{`${currentYear} Karl Cereno`}</p>
+    <div className="py-md border-t border-slate-700">
+      <p className="text-center ">{`${currentYear} Karl Cereno`}</p>
     </div>
   );
 }
