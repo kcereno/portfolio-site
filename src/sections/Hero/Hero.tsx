@@ -28,7 +28,7 @@ function Hero() {
             constantly learning and tinkering with new technologies, practices,
             concepts and what not.
           </p>
-          <p className="text-lg  large-mobile:text-md max-w-prose font-body small-mobile:text-sm leading-relaxed">
+          <p className="text-lg  large-mobile:text-md max-w-prose font-body leading-relaxed">
             When I am not behind a computer screen, I&apos;m probably picking up
             heavy stuff,&nbsp;
             <span className="underline-effect">
