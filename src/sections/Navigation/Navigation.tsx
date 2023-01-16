@@ -20,8 +20,8 @@ function Navigation() {
             </a>
           </li>
           <li>
-            <a href="#contacts" className="hover-left-right">
-              contacts
+            <a href="#contact" className="hover-left-right">
+              contact
             </a>
           </li>
         </ul>
