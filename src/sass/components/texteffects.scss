@@ -1,7 +1,7 @@
 .text-gradient {
   --bg-size: 400%;
-  --color-one: #43a9a3;
-  --color-two: #0891b2;
+  --color-one: hsl(15 90% 55%);
+  --color-two: hsl(40 95% 55%);
   background: linear-gradient(
       90deg,
       var(--color-one),

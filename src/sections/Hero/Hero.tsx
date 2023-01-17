@@ -19,28 +19,17 @@ function Hero() {
         <div>
           <p className="text-lg large-mobile:text-md max-w-prose font-body  mb-sm leading-relaxed">
             I am a frontend web developer based in NYC. I especially love
-            working on projects that can
+            working on projects that
             <span className="text-gradient">
-              &nbsp;makes people easier by simplifying or automating every day
-              problems
+              &nbsp;make life easier by automating, simplifying, or, better yet,
+              eliminating everyday problems
             </span>
-            . There is always a better way to do things, thus I&apos;m
-            constantly learning and tinkering with new technologies, practices,
-            concepts and what not.
+            .
           </p>
           <p className="text-lg  large-mobile:text-md max-w-prose font-body leading-relaxed">
             When I am not behind a computer screen, I&apos;m probably picking up
-            heavy stuff,&nbsp;
-            <span className="underline-effect">
-              <a
-                href="https://www.instagram.com/lillybugchronicles/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                giving my cat belly rubs
-              </a>
-            </span>
-            &nbsp;or fighting for honor in a Muay Thai battle to the death.
+            heavy stuff, giving my cat belly rubs, or fighting for honor in a
+            Muay Thai battle to the death.
           </p>
         </div>
       </div>
