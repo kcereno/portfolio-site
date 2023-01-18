@@ -33,7 +33,7 @@ function FeaturedProject({
             <li className="text-xs">{tech}</li>
           ))}
         </ul>
-        <div className="flex gap-xxs small-mobile:gap-0">
+        <div className="flex gap-xxs small-mobile:gap-0 justify-center">
           <a href={liveSite}>
             <button type="submit" className="css-button-rounded--rose text-sm">
               Demo

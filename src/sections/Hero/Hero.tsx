@@ -10,7 +10,7 @@ function Hero() {
         </h3>
         <div className="mb-lg">
           <h1 className="text-5xl leading-[7.6rem] tablet:text-4xl tablet:leading-[6.1rem] large-mobile:text-3xl large-mobile:leading-[4.8rem] text-white font-display font-bold  tracking-tight">
-            I make neat things on the internet.
+            I make cool things on the internet.
           </h1>
         </div>
         <div>
@@ -18,20 +18,20 @@ function Hero() {
             I am a frontend web developer based in NYC. I especially love
             working on projects that
             <span className="text-gradient">
-              &nbsp;make life easier by either automating, simplifying, or,
-              better yet, eliminating everyday problems
+              &nbsp;make life easier by automating, simplifying, or, better yet,
+              eliminating everyday problems
             </span>
             .
           </p>
           <p className="text-lg  large-mobile:text-md max-w-prose font-body leading">
             When I am not behind a computer screen, I&apos;m probably picking up
-            heavy stuff,
+            heavy stuff or giving my
             <span className="link-highlight">
               <a href="https://www.instagram.com/lillybugchronicles/">
-                &nbsp;giving my cat belly rubs
+                &nbsp;cat&nbsp;
               </a>
             </span>
-            , or fighting for honor in a Muay Thai battle to the death.
+            belly rubs.
           </p>
         </div>
       </div>
