@@ -1,7 +1,7 @@
 .text-gradient {
   --bg-size: 400%;
-  --color-one: hsl(15 90% 55%);
-  --color-two: hsl(40 95% 55%);
+  --color-one: #f97316;
+  --color-two: #f59e0b;
   background: linear-gradient(
       90deg,
       var(--color-one),
@@ -27,28 +27,6 @@
 }
 
 //
-.underline-effect {
-  text-decoration: none;
-  position: relative;
-}
-
-.underline-effect::before {
-  content: '';
-  background-color: #43a9a3;
-  position: absolute;
-  left: 0;
-  bottom: 3px;
-  width: 100%;
-  height: 8px;
-  z-index: -1;
-  transition: all 0.3s ease-in-out;
-}
-
-.underline-effect:hover::before {
-  background-color: #43a9a3;
-  bottom: 0;
-  height: 100%;
-}
 
 //
 .hover-left-right {
@@ -81,4 +59,28 @@
 
 .hover-left-right:hover::before {
   width: 100%;
+}
+
+.link-highlight {
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  color: #06b6d4;
+  &::after {
+    content: '';
+    background: rgba(#06b6d4, 0.25);
+    position: absolute;
+    left: 12px;
+    bottom: -6px;
+    width: calc(100% - 8px);
+    height: calc(100% - 8px);
+    z-index: -1;
+    transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
+  }
+  &:hover:after {
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 100%;
+  }
 }

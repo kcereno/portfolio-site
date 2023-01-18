@@ -11,9 +11,9 @@ function App() {
   return (
     <div className="bg-dark">
       <div className="flex justify-center">
-        <div className="w-[120rem] mx-lg tablet:mx-md">
+        <div className="w-[120rem] mx-lg tablet:mx-md small-mobile:mx-xs">
           {/* <Navigation /> */}
-          <main className=" ">
+          <main className="">
             <Hero />
             {/* <Skills /> */}
 

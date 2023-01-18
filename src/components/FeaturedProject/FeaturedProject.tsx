@@ -21,7 +21,7 @@ function FeaturedProject({
 }: Props) {
   // eslint-disable-next-line react/self-closing-comp
   return (
-    <div className="rounded-lg w-[40rem] drop-shadow-lg border border-slate-600 large-mobile:w-full">
+    <div className="rounded-lg max-w-[40rem] drop-shadow-lg border border-slate-600">
       <a href={liveSite}>
         <img src={image} alt={title} className="rounded-t-lg" />
       </a>
@@ -33,10 +33,10 @@ function FeaturedProject({
             <li className="text-xs">{tech}</li>
           ))}
         </ul>
-        <div className="flex gap-xxs ">
+        <div className="flex gap-xxs small-mobile:gap-0">
           <a href={liveSite}>
             <button type="submit" className="css-button-rounded--rose text-sm">
-              View Site
+              Demo
             </button>
           </a>
           <a href={code}>
@@ -44,7 +44,7 @@ function FeaturedProject({
               type="submit"
               className="css-button-sliding-to-left--rose text-sm"
             >
-              See Code
+              GitHub
             </button>
           </a>
         </div>

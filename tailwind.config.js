@@ -32,8 +32,8 @@ module.exports = {
         '5xl': '7.6rem',
       },
       colors: {
-        'primary': '#ff5277',//pink-600
-        'primary-offset': '#ff2957', // rose-600
+        'primary': '#f43f5e',//pink-600
+        'primary-offset': '#e11d48', // rose-600
         'secondary': '#43a9a3', 
 
         'dark': '#0e141b',
