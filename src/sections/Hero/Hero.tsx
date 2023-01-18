@@ -27,7 +27,9 @@ function Hero() {
             When I am not behind a computer screen, I&apos;m probably picking up
             heavy stuff,
             <span className="link-highlight">
-              &nbsp;giving my cat belly rubs
+              <a href="https://www.instagram.com/lillybugchronicles/">
+                &nbsp;giving my cat belly rubs
+              </a>
             </span>
             , or fighting for honor in a Muay Thai battle to the death.
           </p>
