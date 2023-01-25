@@ -6,26 +6,30 @@ function Hero() {
     <section id="home" className="pb-xl pt-2xl fade-in-fwd medium-mobile:pt-xl">
       <div className="hero__text-box mb-lg">
         <h3 className="text-primary font-body text-md small-mobile:text-sm font-bold tracking-widest mb-md uppercase">
-          Hello there! My name is Karl
+          Hello there!
         </h3>
-        <div className="mb-lg">
-          <h1 className="text-5xl leading-[7.6rem] tablet:text-4xl tablet:leading-[6.1rem] large-mobile:text-3xl large-mobile:leading-[4.8rem] text-white font-display font-bold  tracking-tight">
+        <div className="mb-md">
+          <h1 className="text-4xl leading-[6.1rem] tablet:text-4xl tablet:leading-[6.1rem] large-mobile:text-3xl large-mobile:leading-[4.8rem] text-white font-display font-bold  tracking-tight">
+            I&apos;m&nbsp;
+            <span className="decoration-solid underline decoration-primary decoration-from-font underline-offset-8">
+              Karl Cereno
+            </span>
+            <span>.</span>
+          </h1>
+          <h1 className="text-4xl leading-[6.1rem] tablet:text-4xl tablet:leading-[6.1rem] large-mobile:text-3xl large-mobile:leading-[4.8rem] text-white font-display font-bold  tracking-tight">
             I make cool things on the internet.
           </h1>
         </div>
         <div>
-          <p className="text-lg large-mobile:text-md max-w-prose font-body mb-sm leading">
+          <p className="text-md large-mobile:text-md max-w-prose font-body leading">
             I am a frontend web developer based in NYC. I especially love
             working on projects that
             <span className="text-gradient">
               &nbsp;make life easier by automating, simplifying, or, better yet,
               eliminating everyday problems
             </span>
-            .
-          </p>
-          <p className="text-lg  large-mobile:text-md max-w-prose font-body leading">
-            When I am not behind a computer screen, I&apos;m probably picking up
-            heavy stuff or giving my
+            . When I am not behind a computer screen, I&apos;m probably picking
+            up heavy stuff or giving my
             <span className="link-highlight">
               <a href="https://www.instagram.com/lillybugchronicles/">
                 &nbsp;cat&nbsp;
