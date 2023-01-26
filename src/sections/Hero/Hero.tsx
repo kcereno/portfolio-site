@@ -6,15 +6,11 @@ function Hero() {
     <section id="home" className="pb-xl pt-2xl fade-in-fwd medium-mobile:pt-xl">
       <div className="hero__text-box mb-lg">
         <h3 className="text-primary font-body text-md small-mobile:text-sm font-bold tracking-widest mb-md uppercase">
-          Hello there!
+          Hello! Nice to meet you!
         </h3>
         <div className="mb-md">
           <h1 className="text-4xl leading-[6.1rem] tablet:text-4xl tablet:leading-[6.1rem] large-mobile:text-3xl large-mobile:leading-[4.8rem] text-white font-display font-bold  tracking-tight">
-            I&apos;m&nbsp;
-            <span className="decoration-solid underline decoration-primary decoration-from-font underline-offset-8">
-              Karl Cereno
-            </span>
-            <span>.</span>
+            My name is Karl
           </h1>
           <h1 className="text-4xl leading-[6.1rem] tablet:text-4xl tablet:leading-[6.1rem] large-mobile:text-3xl large-mobile:leading-[4.8rem] text-white font-display font-bold  tracking-tight">
             I make cool things on the internet.
