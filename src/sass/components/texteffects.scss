@@ -1,7 +1,7 @@
 .text-gradient {
   --bg-size: 400%;
-  --color-one: #ef4444;
-  --color-two: #f59e0b;
+  --color-one: #3ff4d5;
+  --color-two: #0c96da;
   background: linear-gradient(
       90deg,
       var(--color-one),
@@ -65,10 +65,10 @@
   position: relative;
   overflow: hidden;
   text-decoration: none;
-  color: #06b6d4;
+  // color: #06b6d4;
   &::after {
     content: '';
-    background: rgba(#06b6d4, 0.25);
+    background: rgba(#f43f5e, 1);
     position: absolute;
     left: 4px;
     bottom: -6px;

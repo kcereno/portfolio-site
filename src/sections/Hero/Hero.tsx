@@ -5,24 +5,23 @@ function Hero() {
   return (
     <section id="home" className="pb-xl pt-2xl fade-in-fwd medium-mobile:pt-xl">
       <div className="hero__text-box mb-lg">
-        <h3 className="text-primary font-body text-md small-mobile:text-sm font-bold tracking-widest mb-md uppercase">
-          Hello! Nice to meet you!
-        </h3>
         <div className="mb-md">
           <h1 className="text-4xl leading-[6.1rem] tablet:text-4xl tablet:leading-[6.1rem] large-mobile:text-3xl large-mobile:leading-[4.8rem] text-white font-display font-bold  tracking-tight">
-            My name is Karl
+            Karl Cereno
           </h1>
           <h1 className="text-4xl leading-[6.1rem] tablet:text-4xl tablet:leading-[6.1rem] large-mobile:text-3xl large-mobile:leading-[4.8rem] text-white font-display font-bold  tracking-tight">
-            I make cool things on the internet.
+            Frontend Web Developer
           </h1>
         </div>
-        <div>
+        <div className="text-gray-300">
           <p className="text-md large-mobile:text-md max-w-prose font-body leading">
-            I am a frontend web developer based in NYC. I especially love
-            working on projects that
+            I design and develop
             <span className="text-gradient">
-              &nbsp;make life easier by automating, simplifying, or, better yet,
-              eliminating everyday problems
+              &nbsp;user-friendly, intuitive and responsive&nbsp;
+            </span>
+            web things that provide
+            <span className="text-gradient">
+              &nbsp;solutions for everyday problems
             </span>
             . When I am not behind a computer screen, I&apos;m probably picking
             up heavy stuff or giving my

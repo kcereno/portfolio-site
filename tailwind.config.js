@@ -34,7 +34,7 @@ module.exports = {
       colors: {
         'primary': '#f43f5e',//pink-600
         'primary-offset': '#e11d48', // rose-600
-        'secondary': '#43a9a3', 
+        'secondary': '#3ff4d5', 
 
         'dark': '#0e141b',
         'dark-offset': '#252526',

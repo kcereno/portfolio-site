@@ -21,18 +21,33 @@ function FeaturedProject({
 }: Props) {
   // eslint-disable-next-line react/self-closing-comp
   return (
-    <div className="rounded-lg max-w-[40rem] drop-shadow-lg border border-slate-600 relative">
+    <div className="rounded-lg w-[36rem] drop-shadow-lg border-slate-600 tablet:w-full ">
       <a href={liveSite}>
-        <img src={image} alt={title} className="rounded-t-lg" />
+        <img src={image} alt={title} className="rounded-t-lg " />
       </a>
-      <div className="px-11 py-5">
-        <h2 className="text-xl mb-xs font-display">{title}</h2>
+      <div className="px-11 py-5 border-x border-b rounded-b-lg border-gray-600 ">
+        <h2 className="text-xl mb-xxs font-display">{title}</h2>
         <p className="mb-sm">{description}</p>
-        <ul className="flex gap-sm text-gray-500 mb-md">
+        <ul className="flex gap-xs text-gray-500 mb-md">
           {techStack.map((tech) => (
             <li className="text-sm">{tech}</li>
           ))}
         </ul>
+        <div className="flex gap-xxs  mb-sm">
+          <a href={liveSite}>
+            <button type="submit" className="css-button-rounded--rose text-sm">
+              Demo
+            </button>
+          </a>
+          <a href={code}>
+            <button
+              type="submit"
+              className="css-button-sliding-to-left--rose text-sm"
+            >
+              Code
+            </button>
+          </a>
+        </div>
       </div>
       {/* <div className="p-sm">
         <h2 className="text-xl font-display mb-xs">{title}</h2>

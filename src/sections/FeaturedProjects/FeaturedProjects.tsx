@@ -8,12 +8,12 @@ import './FeaturedProjects.scss';
 function FeatureProjects() {
   return (
     <section id="projects">
-      <div className="featured-projects__container mt-xl ">
+      <div className="featured-projects__container mt-xl">
         <h1 className="section-title text-3xl font-display mb-md">Projects</h1>
-        <div className="featured-projects flex gap-md">
+        <div className="featured-projects flex flex-wrap gap-md ">
           <FeaturedProject
             title="Barbell Calculator"
-            description="Calculate your barbell loadout with ease. Features include kilogram and pound mode and ability to add/remove plates from your loadout."
+            description="Easily calculate the barbell loadout with this web app. Features lb/kg mode, barbell weight, and plate weight customization."
             techStack={['React', 'TailwindCSS', 'MaterialUI']}
             liveSite="https://barbell-calc.vercel.app/"
             code="https://github.com/kcereno/updated-barbell-calc"
@@ -21,7 +21,7 @@ function FeatureProjects() {
           />
           <FeaturedProject
             title="Glass Calculator"
-            description="Simply stylized calculator inspired by stained glass windows and the glassmorphism design trend, Glass Calculator is a fun project I made to practice my CSS skills. "
+            description="Stylized calculator inspired by stained glass windows, Glass Calculator is a fun project I made to practice my CSS skills. "
             techStack={['React', 'Vanilla CSS']}
             liveSite="https://barbell-calc.vercel.app/"
             code="https://github.com/kcereno/updated-barbell-calc"
