@@ -8,6 +8,9 @@ module.exports = {
       'large-mobile': {'max': '560px'},
       'medium-mobile': {'max': '500px'},
       'small-mobile': {'max': '375px'},
+      "hero1":{'max': '620px'},
+      "hero2":{'max': '500px'},
+      "hero3":{'max': '415px'},
     },
     fontFamily: {
       'display': 'Noe Display,serif',

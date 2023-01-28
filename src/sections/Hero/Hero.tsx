@@ -6,13 +6,13 @@ function Hero() {
     <section id="home" className="pb-xl pt-2xl fade-in-fwd medium-mobile:pt-xl">
       <div className="hero__text-box mb-lg">
         <div className="mb-md">
-          <h3 className="uppercase text-md tracking-widest font-bold text-primary-offset mb-xs">
+          <h3 className="uppercase text-md tracking-widest font-bold hero2:text-sm text-primary-offset mb-xs">
             Hey there, my name is
           </h3>
-          <h1 className="text-4xl leading-[6.1rem] tablet:text-4xl tablet:leading-[6.1rem] large-mobile:text-3xl large-mobile:leading-[4.8rem] text-white font-display font-bold  tracking-tight">
+          <h1 className="text-4xl leading-[6.1rem] hero1:text-3xl hero1:leading-[4.8rem] hero2:text-2xl hero2:leading-3.9 hero3:text-xl hero3:leading-[3.1rem] text-white font-display font-bold  tracking-tight">
             Karl Anthony Cereno
           </h1>
-          <h1 className="text-4xl leading-[6.1rem] tablet:text-4xl tablet:leading-[6.1rem] large-mobile:text-3xl large-mobile:leading-[4.8rem] text-white font-display font-bold  tracking-tight">
+          <h1 className="text-4xl leading-[6.1rem] hero1:text-3xl hero1:leading-[4.8rem] hero2:text-2xl hero2:leading-3.9 hero3:text-xl hero3:leading-[3.1rem]  text-white font-display font-bold  tracking-tight">
             Frontend Web Developer
           </h1>
         </div>
