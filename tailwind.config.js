@@ -11,6 +11,7 @@ module.exports = {
       "hero1":{'max': '620px'},
       "hero2":{'max': '500px'},
       "hero3":{'max': '415px'},
+      'project1': {'max': '880px'},
     },
     fontFamily: {
       'display': 'Noe Display,serif',

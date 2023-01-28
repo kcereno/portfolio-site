@@ -21,13 +21,13 @@ function FeaturedProject({
 }: Props) {
   // eslint-disable-next-line react/self-closing-comp
   return (
-    <div className="rounded-lg w-[36rem] drop-shadow-lg border-slate-600 tablet:w-full ">
+    <div className="rounded-lg w-2/5 min-w-[36rem] project1:w-full  rop-shadow-lg border-slate-600 tablet:w-full ">
       <a href={liveSite}>
         <img src={image} alt={title} className="rounded-t-lg " />
       </a>
-      <div className="px-11 py-5 border-x border-b rounded-b-lg border-gray-600 ">
-        <h2 className="text-xl mb-xxs font-display">{title}</h2>
-        <p className="mb-sm">{description}</p>
+      <div className="p-md border-x border-b rounded-b-lg border-gray-600 ">
+        <h2 className="text-xl mb-xs font-display">{title}</h2>
+        <p className="mb-sm text-gray-300">{description}</p>
         <ul className="flex gap-xs text-gray-500 mb-md">
           {techStack.map((tech) => (
             <li className="text-sm">{tech}</li>
