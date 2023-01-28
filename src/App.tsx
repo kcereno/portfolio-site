@@ -16,7 +16,6 @@ function App() {
           <main className="">
             <Hero />
             {/* <Skills /> */}
-            <hr className="border-gray-600" />
             <FeatureProjects />
             {/* <OtherProjects /> */}
             {/* <Contact /> */}

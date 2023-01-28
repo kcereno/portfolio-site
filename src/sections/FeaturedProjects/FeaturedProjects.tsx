@@ -9,7 +9,9 @@ function FeatureProjects() {
   return (
     <section id="projects">
       <div className="featured-projects__container mt-xl">
-        <h1 className="section-title text-3xl font-display mb-md">Projects</h1>
+        <h1 className="section-title text-4xl font-display mb-md tracking-tight">
+          Projects
+        </h1>
         <div className="featured-projects flex flex-wrap gap-md ">
           <FeaturedProject
             title="Barbell Calculator"
