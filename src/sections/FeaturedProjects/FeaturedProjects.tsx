@@ -1,5 +1,4 @@
 import FeaturedProject from '../../components/FeaturedProject/FeaturedProject';
-// import barbellCalc from '../../assets/images/project-screenshots/barbell-calc-screenshot.png';
 import glassCalcScreenshot from '../../assets/images/project-screenshots/screenshot-glassCalc.png';
 import barbellCalcScreenshot from '../../assets/images/project-screenshots/screenshot-barbellCalc.png';
 
