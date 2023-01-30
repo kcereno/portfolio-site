@@ -24,8 +24,8 @@ function FeatureProjects() {
             title="Glass Calculator"
             description="Stylized calculator inspired by stained glass windows, Glass Calculator is a fun project I made to practice my CSS skills. "
             techStack={['React', 'Vanilla CSS']}
-            liveSite="https://barbell-calc.vercel.app/"
-            code="https://github.com/kcereno/updated-barbell-calc"
+            liveSite="https://glass-calc-kcereno.vercel.app/"
+            code="https://github.com/kcereno/glass-calc"
             image={glassCalcScreenshot}
           />
         </div>
