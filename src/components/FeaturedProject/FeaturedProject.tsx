@@ -21,7 +21,7 @@ function FeaturedProject({
 }: Props) {
   // eslint-disable-next-line react/self-closing-comp
   return (
-    <div className="rounded-lg w-2/5 min-w-[30rem] project1:w-full  rop-shadow-lg border-slate-600 tablet:w-full ">
+    <div className="rounded-lg w-[56rem] project1:w-2/5  project2:w-full  drop-shadow-lg border-slate-600 tablet:w-full ">
       <a href={liveSite}>
         <img src={image} alt={title} className="rounded-t-lg " />
       </a>

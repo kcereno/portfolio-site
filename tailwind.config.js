@@ -2,17 +2,7 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    screens: {
-      'small-desktop': {'max': '990px'},
-      'tablet': {'max': '800px'},
-      'large-mobile': {'max': '560px'},
-      'medium-mobile': {'max': '500px'},
-      'small-mobile': {'max': '375px'},
-      "hero1":{'max': '620px'},
-      "hero2":{'max': '500px'},
-      "hero3":{'max': '415px'},
-      'project1': {'max': '880px'},
-    },
+
     fontFamily: {
       'display': 'Noe Display,serif',
       'body': 'Roboto, sans-serif',
@@ -23,6 +13,18 @@ module.exports = {
       
     },
     extend: {
+      screens: {
+        'small-desktop': {'max': '990px'},
+        'tablet': {'max': '800px'},
+        'large-mobile': {'max': '560px'},
+        'medium-mobile': {'max': '500px'},
+        'small-mobile': {'max': '375px'},
+        "hero1":{'max': '620px'},
+        "hero2":{'max': '500px'},
+        "hero3":{'max': '415px'},
+        'project1': {'max': '1275px'},
+        'project2': {'max': '1100px'},
+      },
       fontSize:{
         'xxs': '1rem',
         'xs': '1.2rem',
