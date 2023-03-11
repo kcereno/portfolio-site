@@ -17,17 +17,13 @@ function Hero() {
           </h1>
         </div>
         <div className="text-gray-300">
-          <p className="text-md large-mobile:text-md max-w-prose font-body leading">
+          <p className="text-lg large-mobile:text-md max-w-prose font-body leading">
             I design and develop
             <span className="text-gradient">
-              &nbsp;user-friendly, intuitive and responsive&nbsp;
+              &nbsp;modern, responsive and intuitive&nbsp;
             </span>
-            web things that provide
-            <span className="text-gradient">
-              &nbsp;solutions for everyday problems
-            </span>
-            . When I am not behind a computer screen, I&apos;m probably picking
-            up heavy stuff or giving my
+            web things. When I am not behind a computer screen, I&apos;m
+            probably picking up heavy stuff or giving my
             <span className="link-highlight">
               <a href="https://www.instagram.com/lillybugchronicles/">
                 &nbsp;cat&nbsp;

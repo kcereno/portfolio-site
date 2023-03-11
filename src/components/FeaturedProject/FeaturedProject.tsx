@@ -28,7 +28,7 @@ function FeaturedProject({
       <div className="p-md project1:p-sm border-x border-b rounded-b-lg border-gray-600 ">
         <h2 className="text-xl mb-xs font-display">{title}</h2>
         <p className="mb-sm text-gray-300">{description}</p>
-        <ul className="flex gap-xs text-gray-500 mb-md">
+        <ul className="flex gap-4 text-gray-500 mb-md">
           {techStack.map((tech) => (
             <li className="text-sm">{tech}</li>
           ))}
